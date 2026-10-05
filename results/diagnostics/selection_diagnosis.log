@@ -1,0 +1,10 @@
+diagnosed training SPY
+diagnosed training QQQ
+diagnosed training AAPL
+diagnosed GLD_10 GLD
+diagnosed SPY_QQQ_5 SPY
+diagnosed SPY_QQQ_5 QQQ
+summary {'cases': 72, 'categories': {'candidate_generation': 31, 'ranking': 22, 'match': 19}, 'fixed_all_fields_match': 72, 'same_year_dominated_cases': 58, 'groups': {'training': {'cases': 36, 'categories': {'candidate_generation': 12, 'ranking': 11, 'match': 13}}, 'GLD_10': {'cases': 12, 'categories': {'candidate_generation': 12}}, 'SPY_QQQ_5': {'cases': 24, 'categories': {'candidate_generation': 7, 'ranking': 11, 'match': 6}}}}
+independent 13140 mismatches 0 numeric max 1.3877787807814457e-17
+selected trade disagreement 0
+cache disagreement 0

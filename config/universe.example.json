@@ -1,0 +1,9 @@
+{
+  "description": "Pipeline example only. This is not an exhaustive universe or an investment recommendation.",
+  "assets": {
+    "SPY": {"kind": "etf", "listing_country": "US", "leverage": 1, "inverse": false},
+    "QQQ": {"kind": "etf", "listing_country": "US", "leverage": 1, "inverse": false},
+    "GLD": {"kind": "etf", "listing_country": "US", "leverage": 1, "inverse": false},
+    "AAPL": {"kind": "stock", "listing_country": "US"}
+  }
+}

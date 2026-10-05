@@ -1,0 +1,413 @@
+{
+  "hypothesis": "Uniform cross-year exit index correction; diagnostic only",
+  "trials": [
+    {
+      "cross_year_exit_session_shift": -5,
+      "matches": 0,
+      "details": [
+        {
+          "ticker": "SPY",
+          "month": 12,
+          "mean_difference": -0.009144638212083613,
+          "matches": false
+        },
+        {
+          "ticker": "QQQ",
+          "month": 11,
+          "mean_difference": -0.010101298986236707,
+          "matches": false
+        },
+        {
+          "ticker": "QQQ",
+          "month": 12,
+          "mean_difference": -0.011328856069860026,
+          "matches": false
+        },
+        {
+          "ticker": "GLD",
+          "month": 11,
+          "mean_difference": -0.009461759506324517,
+          "matches": false
+        },
+        {
+          "ticker": "GLD",
+          "month": 12,
+          "mean_difference": -0.010867545451235194,
+          "matches": false
+        }
+      ]
+    },
+    {
+      "cross_year_exit_session_shift": -4,
+      "matches": 0,
+      "details": [
+        {
+          "ticker": "SPY",
+          "month": 12,
+          "mean_difference": -0.0060319897134141105,
+          "matches": false
+        },
+        {
+          "ticker": "QQQ",
+          "month": 11,
+          "mean_difference": -0.016790366650458122,
+          "matches": false
+        },
+        {
+          "ticker": "QQQ",
+          "month": 12,
+          "mean_difference": -0.012615145007578321,
+          "matches": false
+        },
+        {
+          "ticker": "GLD",
+          "month": 11,
+          "mean_difference": -0.006367384115435082,
+          "matches": false
+        },
+        {
+          "ticker": "GLD",
+          "month": 12,
+          "mean_difference": -0.0077998806228475465,
+          "matches": false
+        }
+      ]
+    },
+    {
+      "cross_year_exit_session_shift": -3,
+      "matches": 0,
+      "details": [
+        {
+          "ticker": "SPY",
+          "month": 12,
+          "mean_difference": -0.005832521880862997,
+          "matches": false
+        },
+        {
+          "ticker": "QQQ",
+          "month": 11,
+          "mean_difference": -0.009196185501037414,
+          "matches": false
+        },
+        {
+          "ticker": "QQQ",
+          "month": 12,
+          "mean_difference": -0.010047907578474801,
+          "matches": false
+        },
+        {
+          "ticker": "GLD",
+          "month": 11,
+          "mean_difference": -0.011729617673629643,
+          "matches": false
+        },
+        {
+          "ticker": "GLD",
+          "month": 12,
+          "mean_difference": -0.0046099639889344846,
+          "matches": false
+        }
+      ]
+    },
+    {
+      "cross_year_exit_session_shift": -2,
+      "matches": 0,
+      "details": [
+        {
+          "ticker": "SPY",
+          "month": 12,
+          "mean_difference": -0.0036239932486297546,
+          "matches": false
+        },
+        {
+          "ticker": "QQQ",
+          "month": 11,
+          "mean_difference": -0.006135442430619465,
+          "matches": false
+        },
+        {
+          "ticker": "QQQ",
+          "month": 12,
+          "mean_difference": -0.009944052433968575,
+          "matches": false
+        },
+        {
+          "ticker": "GLD",
+          "month": 11,
+          "mean_difference": -0.00845175601808057,
+          "matches": false
+        },
+        {
+          "ticker": "GLD",
+          "month": 12,
+          "mean_difference": -0.0031612216559428474,
+          "matches": false
+        }
+      ]
+    },
+    {
+      "cross_year_exit_session_shift": -1,
+      "matches": 0,
+      "details": [
+        {
+          "ticker": "SPY",
+          "month": 12,
+          "mean_difference": -0.0021684384410872865,
+          "matches": false
+        },
+        {
+          "ticker": "QQQ",
+          "month": 11,
+          "mean_difference": -0.005158628928687282,
+          "matches": false
+        },
+        {
+          "ticker": "QQQ",
+          "month": 12,
+          "mean_difference": -0.003986263901738292,
+          "matches": false
+        },
+        {
+          "ticker": "GLD",
+          "month": 11,
+          "mean_difference": -0.006763242771707541,
+          "matches": false
+        },
+        {
+          "ticker": "GLD",
+          "month": 12,
+          "mean_difference": -0.001075676597741479,
+          "matches": false
+        }
+      ]
+    },
+    {
+      "cross_year_exit_session_shift": 0,
+      "matches": 0,
+      "details": [
+        {
+          "ticker": "SPY",
+          "month": 12,
+          "mean_difference": 0.0005542756025510576,
+          "matches": false
+        },
+        {
+          "ticker": "QQQ",
+          "month": 11,
+          "mean_difference": 0.00020262761288477454,
+          "matches": false
+        },
+        {
+          "ticker": "QQQ",
+          "month": 12,
+          "mean_difference": 0.0008857948068308405,
+          "matches": false
+        },
+        {
+          "ticker": "GLD",
+          "month": 11,
+          "mean_difference": -0.0006463655683184161,
+          "matches": false
+        },
+        {
+          "ticker": "GLD",
+          "month": 12,
+          "mean_difference": -0.00016797890974131618,
+          "matches": false
+        }
+      ]
+    },
+    {
+      "cross_year_exit_session_shift": 1,
+      "matches": 0,
+      "details": [
+        {
+          "ticker": "SPY",
+          "month": 12,
+          "mean_difference": 0.00045330035254101744,
+          "matches": false
+        },
+        {
+          "ticker": "QQQ",
+          "month": 11,
+          "mean_difference": 0.001585804132739465,
+          "matches": false
+        },
+        {
+          "ticker": "QQQ",
+          "month": 12,
+          "mean_difference": -0.0026934354641876546,
+          "matches": false
+        },
+        {
+          "ticker": "GLD",
+          "month": 11,
+          "mean_difference": 0.0014393948024085668,
+          "matches": false
+        },
+        {
+          "ticker": "GLD",
+          "month": 12,
+          "mean_difference": -0.011043335507073926,
+          "matches": false
+        }
+      ]
+    },
+    {
+      "cross_year_exit_session_shift": 2,
+      "matches": 0,
+      "details": [
+        {
+          "ticker": "SPY",
+          "month": 12,
+          "mean_difference": 0.0005410184151209418,
+          "matches": false
+        },
+        {
+          "ticker": "QQQ",
+          "month": 11,
+          "mean_difference": 0.003483005341327016,
+          "matches": false
+        },
+        {
+          "ticker": "QQQ",
+          "month": 12,
+          "mean_difference": -0.004246888163488734,
+          "matches": false
+        },
+        {
+          "ticker": "GLD",
+          "month": 11,
+          "mean_difference": -0.003960184423406066,
+          "matches": false
+        },
+        {
+          "ticker": "GLD",
+          "month": 12,
+          "mean_difference": -0.010182504340368229,
+          "matches": false
+        }
+      ]
+    },
+    {
+      "cross_year_exit_session_shift": 3,
+      "matches": 0,
+      "details": [
+        {
+          "ticker": "SPY",
+          "month": 12,
+          "mean_difference": 0.0009007760276430118,
+          "matches": false
+        },
+        {
+          "ticker": "QQQ",
+          "month": 11,
+          "mean_difference": 0.004801151739053256,
+          "matches": false
+        },
+        {
+          "ticker": "QQQ",
+          "month": 12,
+          "mean_difference": 0.00048569482837809014,
+          "matches": false
+        },
+        {
+          "ticker": "GLD",
+          "month": 11,
+          "mean_difference": 0.0032368337702088287,
+          "matches": false
+        },
+        {
+          "ticker": "GLD",
+          "month": 12,
+          "mean_difference": -0.010199087381018011,
+          "matches": false
+        }
+      ]
+    },
+    {
+      "cross_year_exit_session_shift": 4,
+      "matches": 0,
+      "details": [
+        {
+          "ticker": "SPY",
+          "month": 12,
+          "mean_difference": 0.004105241768132026,
+          "matches": false
+        },
+        {
+          "ticker": "QQQ",
+          "month": 11,
+          "mean_difference": 0.009309624356800262,
+          "matches": false
+        },
+        {
+          "ticker": "QQQ",
+          "month": 12,
+          "mean_difference": -0.0016327606876493789,
+          "matches": false
+        },
+        {
+          "ticker": "GLD",
+          "month": 11,
+          "mean_difference": 0.009025998538539318,
+          "matches": false
+        },
+        {
+          "ticker": "GLD",
+          "month": 12,
+          "mean_difference": -0.011336550883203733,
+          "matches": false
+        }
+      ]
+    },
+    {
+      "cross_year_exit_session_shift": 5,
+      "matches": 0,
+      "details": [
+        {
+          "ticker": "SPY",
+          "month": 12,
+          "mean_difference": 0.006669149217754078,
+          "matches": false
+        },
+        {
+          "ticker": "QQQ",
+          "month": 11,
+          "mean_difference": 0.008047010403681488,
+          "matches": false
+        },
+        {
+          "ticker": "QQQ",
+          "month": 12,
+          "mean_difference": -0.002509317409412258,
+          "matches": false
+        },
+        {
+          "ticker": "GLD",
+          "month": 11,
+          "mean_difference": 0.011775890204915679,
+          "matches": false
+        },
+        {
+          "ticker": "GLD",
+          "month": 12,
+          "mean_difference": -0.017251390598010063,
+          "matches": false
+        }
+      ]
+    }
+  ],
+  "independent_quote_checks": [
+    {
+      "ticker": "GLD",
+      "date": "2026-01-29",
+      "provider_Close": 495.9,
+      "website_Close": 495.9,
+      "source": "https://ca.finance.yahoo.com/quote/GLD/history/",
+      "retrieved": "2026-10-05"
+    }
+  ],
+  "production_changed": false,
+  "replication_complete": false
+}

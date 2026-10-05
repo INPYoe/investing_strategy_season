@@ -1,0 +1,24 @@
+{
+  "captured_on": "2026-10-05",
+  "source": "https://fanding.kr/en/%40kangcfa/post/209655/",
+  "source_role": "public guide by platform creator; not an API response",
+  "benchmark": {
+    "ticker": "SPY",
+    "start_year": 2006,
+    "end_year": 2025,
+    "month": 6,
+    "entry_md": "06-17",
+    "exit_md": "07-16",
+    "hold_days": 20,
+    "displayed_average_percent": 1.7,
+    "displayed_win_percent": 90
+  },
+  "precision": "screen presentation only; no exact mean or sample count supplied",
+  "training_policy": "additional external example retained for validation; not used to choose rules",
+  "pending_hypothesis": "Optimize over completed calendar years; report current-window statistics separately",
+  "access_checks": {
+    "project_file_reads": "head README.md and two research/action file reads failed Operation not permitted; metadata ls succeeded",
+    "browser": "admin-enforced policy could not be verified; access not granted; no bypass attempted"
+  },
+  "replication_complete": false
+}

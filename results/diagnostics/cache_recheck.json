@@ -1,0 +1,8 @@
+{
+  "before_fix_log": "results/diagnostics/cache_before_fix.log",
+  "fixed": "research_selection_vintage.report_for_choice key now includes cutoff and frozen price object identity; prevents cross-input memo reuse",
+  "current_frozen_study_affected": false,
+  "whole_1280_trial_output_identical": true,
+  "latest72_cold_warm_checks": true,
+  "scope": "A research cache correctness fix; not evidence for the remaining website selection mismatch."
+}

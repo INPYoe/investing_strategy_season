@@ -1,0 +1,4 @@
+risk hypotheses 66 winner {'rule': {'entry_step': 7, 'risk_field': 'worst_intrahold_from_entry', 'risk_cap': 0.15, 'objective': 'win_mean'}, 'training': {'cases': 36, 'full': 13, 'windows': 13, 'fields': 114}}
+held {'GLD_10': {'cases': 12, 'full': 0, 'windows': 0, 'fields': 21}, 'SPY_QQQ_5': {'cases': 24, 'full': 6, 'windows': 6, 'fields': 68}}
+dominance {'mean_win': 58, 'plus_final_worst_return': 51, 'plus_worst_path_drawdown': 48, 'plus_drawdown_daily_volatility': 38, 'all_audited_risk_metrics': 29}
+minimum cap to retain training references 0.33717289200673795

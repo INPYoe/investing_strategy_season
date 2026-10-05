@@ -1,0 +1,26 @@
+{
+  "captured_at_utc": "2026-10-05T02:35:56.436977+00:00",
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?period1=1790568000&period2=1791000000&interval=1d&events=div%2Csplits",
+  "method": "GET",
+  "request_headers": {
+    "User-agent": "SeasonalityLab/0.1",
+    "Content-type": "application/json"
+  },
+  "attempts": 1,
+  "follow_redirects": false,
+  "automatic_retry": false,
+  "adapter": "lab.download default yahoo; shared URL and request builders",
+  "kind": "dns_error",
+  "error_type": "URLError",
+  "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+  "reason_type": "gaierror",
+  "errno": 8,
+  "http_status": null,
+  "http_response_received": false,
+  "retry_after": {
+    "raw": null,
+    "valid": false,
+    "not_before_utc": null,
+    "delay_seconds": null
+  }
+}

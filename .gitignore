@@ -1,0 +1,9 @@
+__pycache__/
+.venv/
+data/
+*.pyc
+.DS_Store
+._*
+/log.txt
+/auto-codex-last-message.txt
+/commit-preparation/

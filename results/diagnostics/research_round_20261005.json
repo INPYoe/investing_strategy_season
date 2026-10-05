@@ -1,0 +1,239 @@
+{
+  "run_at_utc": "2026-10-05T04:01:12.641597+00:00",
+  "scope": "Existing price files only; stage diagnosis, implementation verification, research cache fix, new risk hypotheses",
+  "tests": 92,
+  "tests_passed": 92,
+  "test_log": "results/diagnostics/unittest.log",
+  "selection_summary": {
+    "cases": 72,
+    "categories": {
+      "candidate_generation": 31,
+      "ranking": 22,
+      "match": 19
+    },
+    "fixed_all_fields_match": 72,
+    "same_year_dominated_cases": 58,
+    "groups": {
+      "training": {
+        "cases": 36,
+        "categories": {
+          "candidate_generation": 12,
+          "ranking": 11,
+          "match": 13
+        }
+      },
+      "GLD_10": {
+        "cases": 12,
+        "categories": {
+          "candidate_generation": 12
+        }
+      },
+      "SPY_QQQ_5": {
+        "cases": 24,
+        "categories": {
+          "candidate_generation": 7,
+          "ranking": 11,
+          "match": 6
+        }
+      }
+    }
+  },
+  "independent_existing_candidate_checks": 13140,
+  "independent_existing_max_numeric_difference": 1.3877787807814457e-17,
+  "independent_existing_disagreements": 0,
+  "independent_existing_selection_checks": 72,
+  "cold_warm_repeat_identical": true,
+  "report_cache_fix_1280_trial_output_identical": true,
+  "new_holding_risk_hypotheses": 66,
+  "holding_risk_winner": {
+    "rule": {
+      "entry_step": 7,
+      "risk_field": "worst_intrahold_from_entry",
+      "risk_cap": 0.15,
+      "objective": "win_mean"
+    },
+    "training": {
+      "cases": 36,
+      "full": 13,
+      "windows": 13,
+      "fields": 114
+    }
+  },
+  "new_ticker_candidate_checks": 70080,
+  "new_ticker_max_numeric_difference": 5.551115123125783e-17,
+  "new_ticker_selection_checks": 384,
+  "default_investment_10_year": {
+    "windows_checked": 17520,
+    "available_windows": 0
+  },
+  "parquet_date_survey": {
+    "files": 7255,
+    "failures": [],
+    "first_year_counts": {
+      "2023": 6409,
+      "2026": 137,
+      "2025": 395,
+      "2024": 314
+    },
+    "ten_calendar_year_span_count": 0,
+    "ten_year_non_numeric_filenames": []
+  },
+  "csv_date_survey": {
+    "files": 518,
+    "failures": [],
+    "first_year_counts": {
+      "2024": 498,
+      "2023": 18,
+      "2025": 2
+    },
+    "ten_calendar_year_span_count": 0,
+    "ten_year_non_numeric_filenames": []
+  },
+  "evidence_hash_checks": [
+    {
+      "file": "AAPL_chart.json",
+      "expected_sha256": "ea6794bf89d215ffe5c32fac49b8b938959e99dfde49dd5f5caa8689d008fc0c",
+      "actual_sha256": "ea6794bf89d215ffe5c32fac49b8b938959e99dfde49dd5f5caa8689d008fc0c"
+    },
+    {
+      "file": "AAPL_optimal_10.json",
+      "expected_sha256": "138d8f14038ec23a5c22195c0f834cef55bd0ce76729b40ca8484209e9bc4388",
+      "actual_sha256": "138d8f14038ec23a5c22195c0f834cef55bd0ce76729b40ca8484209e9bc4388"
+    },
+    {
+      "file": "GLD_chart.json",
+      "expected_sha256": "1f764a6aa8107579e501298af78766ef86242437c3358316c0b0d4fe8cf967e8",
+      "actual_sha256": "1f764a6aa8107579e501298af78766ef86242437c3358316c0b0d4fe8cf967e8"
+    },
+    {
+      "file": "GLD_optimal_10.json",
+      "expected_sha256": "bd1871bd81a220f2678e1ecdc82b3867272bb4d0e9616ae38c417fca891fe60c",
+      "actual_sha256": "bd1871bd81a220f2678e1ecdc82b3867272bb4d0e9616ae38c417fca891fe60c"
+    },
+    {
+      "file": "QQQ_chart.json",
+      "expected_sha256": "550bd252d4a34de498892799987e95c49eb2270eaf31b642db1615cf1bc81fa3",
+      "actual_sha256": "550bd252d4a34de498892799987e95c49eb2270eaf31b642db1615cf1bc81fa3"
+    },
+    {
+      "file": "QQQ_optimal_10.json",
+      "expected_sha256": "1f8744649f725d885820076a5307813580b7929b8096c4c23585662e7499f8d6",
+      "actual_sha256": "1f8744649f725d885820076a5307813580b7929b8096c4c23585662e7499f8d6"
+    },
+    {
+      "file": "QQQ_optimal_5.json",
+      "expected_sha256": "91de62c8f6db268c23de5a5ea25a1dac11ac4c000693f530e86790626d96e9dd",
+      "actual_sha256": "91de62c8f6db268c23de5a5ea25a1dac11ac4c000693f530e86790626d96e9dd"
+    },
+    {
+      "file": "SPY_calc.json",
+      "expected_sha256": "79d74d732de8c3dc3b03be4a17db9881a62405aa1a065dbac3182f2620d9bf62",
+      "actual_sha256": "79d74d732de8c3dc3b03be4a17db9881a62405aa1a065dbac3182f2620d9bf62"
+    },
+    {
+      "file": "SPY_chart.json",
+      "expected_sha256": "32b11304d15d33aec4198587436a1ada93f64b25f0b413cb7f81dcbd0569496a",
+      "actual_sha256": "32b11304d15d33aec4198587436a1ada93f64b25f0b413cb7f81dcbd0569496a"
+    },
+    {
+      "file": "SPY_daily.json",
+      "expected_sha256": "e1bab49ff63a02e5f180d13f28bf0bd4794ff38046751f738dbc0556ec675940",
+      "actual_sha256": "e1bab49ff63a02e5f180d13f28bf0bd4794ff38046751f738dbc0556ec675940"
+    },
+    {
+      "file": "SPY_monthly.json",
+      "expected_sha256": "ccbdf15ae0e450e1403b1e65960f815bee119ffa8c5159ebec7ef068ef2f860f",
+      "actual_sha256": "ccbdf15ae0e450e1403b1e65960f815bee119ffa8c5159ebec7ef068ef2f860f"
+    },
+    {
+      "file": "SPY_optimal_10.json",
+      "expected_sha256": "5e40d551e0595a6c5ddd9f49a1c8ec81b1e448133504a03fcfbabd611edf92f5",
+      "actual_sha256": "5e40d551e0595a6c5ddd9f49a1c8ec81b1e448133504a03fcfbabd611edf92f5"
+    },
+    {
+      "file": "SPY_optimal_5.json",
+      "expected_sha256": "8ac671d0d54a22eff03c7c08ada7aa0bb970caf6453164ce80414625a9ef292f",
+      "actual_sha256": "8ac671d0d54a22eff03c7c08ada7aa0bb970caf6453164ce80414625a9ef292f"
+    }
+  ],
+  "parent_selected_hash_checks": [
+    {
+      "path": "/Volumes/Extreme SSD/Investing_Researcher/data/cache/prices/daily/SPY.parquet",
+      "expected_sha256": "f5dcee437c355aa862f3809c46fc8648f7a6e412fa067eb46b847d04b43b8e81",
+      "actual_sha256": "f5dcee437c355aa862f3809c46fc8648f7a6e412fa067eb46b847d04b43b8e81"
+    },
+    {
+      "path": "/Volumes/Extreme SSD/Investing_Researcher/market_detector/data/cache/prices/SPY.csv",
+      "expected_sha256": "5645f2bb5781b1d776a9985d2522c49f842afda4c8a7f699c2b47c2d17557623",
+      "actual_sha256": "5645f2bb5781b1d776a9985d2522c49f842afda4c8a7f699c2b47c2d17557623"
+    },
+    {
+      "path": "/Volumes/Extreme SSD/Investing_Researcher/market_detector/data/cache/prices/QQQ.csv",
+      "expected_sha256": "6e0895fb9a83bdc8fb4a668be7c926d610aeab22d2cda8b24e00addd1220137f",
+      "actual_sha256": "6e0895fb9a83bdc8fb4a668be7c926d610aeab22d2cda8b24e00addd1220137f"
+    },
+    {
+      "path": "/Volumes/Extreme SSD/Investing_Researcher/data/cache/prices/daily/AAPL.parquet",
+      "expected_sha256": "5546153b0af2e6efc42486b48665905e5ac496d6066126424b411c888593dd4b",
+      "actual_sha256": "5546153b0af2e6efc42486b48665905e5ac496d6066126424b411c888593dd4b"
+    },
+    {
+      "path": "/Volumes/Extreme SSD/Investing_Researcher/market_detector/data/cache/prices/AAPL.csv",
+      "expected_sha256": "cd0b5f503eafecaade67867426404652eeccdf8d4bf7cdb8d1036a10c8d7c7bd",
+      "actual_sha256": "cd0b5f503eafecaade67867426404652eeccdf8d4bf7cdb8d1036a10c8d7c7bd"
+    },
+    {
+      "path": "/Volumes/Extreme SSD/Investing_Researcher/data/cache/prices/daily/MSFT.parquet",
+      "expected_sha256": "b4d51beaa565d43bf70e902db4640a99c1820299aa8614f1f358145902a5b0b7",
+      "actual_sha256": "b4d51beaa565d43bf70e902db4640a99c1820299aa8614f1f358145902a5b0b7"
+    },
+    {
+      "path": "/Volumes/Extreme SSD/Investing_Researcher/market_detector/data/cache/prices/MSFT.csv",
+      "expected_sha256": "78919633375790476270da9f5f66392ff8ea7968663118678ce3965005795450",
+      "actual_sha256": "78919633375790476270da9f5f66392ff8ea7968663118678ce3965005795450"
+    },
+    {
+      "path": "/Volumes/Extreme SSD/Investing_Researcher/data/cache/prices/daily/NVDA.parquet",
+      "expected_sha256": "29b18256d72eaae5b44fb6d396b09bf27ed11408df82b333a79bbe2916a934f6",
+      "actual_sha256": "29b18256d72eaae5b44fb6d396b09bf27ed11408df82b333a79bbe2916a934f6"
+    },
+    {
+      "path": "/Volumes/Extreme SSD/Investing_Researcher/market_detector/data/cache/prices/NVDA.csv",
+      "expected_sha256": "096833d957c55831b3b0300848039dd3b7ca69b1ccbb41b091f41f1353dc35c4",
+      "actual_sha256": "096833d957c55831b3b0300848039dd3b7ca69b1ccbb41b091f41f1353dc35c4"
+    },
+    {
+      "path": "/Volumes/Extreme SSD/Investing_Researcher/data/cache/prices/daily/KO.parquet",
+      "expected_sha256": "f1099336276be99346cdc0a8da65e000db4868c6834dd236f80b63244251f189",
+      "actual_sha256": "f1099336276be99346cdc0a8da65e000db4868c6834dd236f80b63244251f189"
+    },
+    {
+      "path": "/Volumes/Extreme SSD/Investing_Researcher/market_detector/data/cache/prices/KO.csv",
+      "expected_sha256": "5db40e332345dcfa0bf370bc347a3576dbfda3dff29c4ed10ab057d61eb802e6",
+      "actual_sha256": "5db40e332345dcfa0bf370bc347a3576dbfda3dff29c4ed10ab057d61eb802e6"
+    },
+    {
+      "path": "/Volumes/Extreme SSD/Investing_Researcher/data/cache/prices/daily/JPM.parquet",
+      "expected_sha256": "f1d83f2289fca7dc0b9e0a987a0b7126faa14c6186e5af23e4af5629ee95b82c",
+      "actual_sha256": "f1d83f2289fca7dc0b9e0a987a0b7126faa14c6186e5af23e4af5629ee95b82c"
+    },
+    {
+      "path": "/Volumes/Extreme SSD/Investing_Researcher/market_detector/data/cache/prices/JPM.csv",
+      "expected_sha256": "7cc5c4d34579e3c70be2a95a6c903bf0b187ff1b8b9e845e8b255cac72ffdd85",
+      "actual_sha256": "7cc5c4d34579e3c70be2a95a6c903bf0b187ff1b8b9e845e8b255cac72ffdd85"
+    }
+  ],
+  "external_price_requests_this_round": 0,
+  "production_changed_this_round": false,
+  "site_replica_and_investment_modes_separate": true,
+  "original_references_or_tolerances_changed": false,
+  "fresh_site_parity_validated": false,
+  "replication_complete": false,
+  "remaining": [
+    "Unpublished candidate generation and ranking/constraints",
+    "Full independent long-history price verification",
+    "New website ticker/period references for unused parity validation"
+  ],
+  "public_description_check_artifact": "results/diagnostics/public_description_check.json",
+  "public_candidate_or_score_formula_confirmed": false
+}

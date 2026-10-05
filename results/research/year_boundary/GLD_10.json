@@ -1,0 +1,773 @@
+{
+  "profile": {
+    "date_mode": "doy",
+    "roll": "next",
+    "hold_offset": 0,
+    "entry_step": 7,
+    "entry_offset": 0,
+    "objective": "win_mean",
+    "selection_history": "inclusive",
+    "holds": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30
+    ],
+    "cross_year_alignment": "leap_after_first_year"
+  },
+  "mode": "replica",
+  "cases": 12,
+  "field_matches": {
+    "entry_day": 0,
+    "exit_day": 0,
+    "hold_days": 3,
+    "avg_return": 0,
+    "win_rate": 5,
+    "sample_count": 12
+  },
+  "price_inputs": [
+    {
+      "ticker": "GLD",
+      "source": "easyinvesting public chart snapshot; calibration only",
+      "price_field": "Close",
+      "sha256": "1f764a6aa8107579e501298af78766ef86242437c3358316c0b0d4fe8cf967e8",
+      "cutoff_exclusive": "2026-10-01"
+    }
+  ],
+  "window_matching_cases": 0,
+  "fully_matching_cases": 0,
+  "fixed_window_formula": {
+    "cases": 12,
+    "average_matches": 12,
+    "displayed_average_matches": 12,
+    "win_matches": 12,
+    "sample_matches": 12,
+    "details": [
+      {
+        "ticker": "GLD",
+        "month": 1,
+        "expected": {
+          "entry_day": 2,
+          "exit_day": 17,
+          "hold_days": 10,
+          "avg_return": 0.010760438949657957,
+          "win_rate": 0.8181818181818182,
+          "sample_count": 11
+        },
+        "actual": {
+          "entry_day": 2,
+          "exit_day": 17,
+          "hold_days": 10,
+          "avg_return": 0.010760436019845636,
+          "win_rate": 0.8181818181818182,
+          "sample_count": 11
+        },
+        "checks": {
+          "entry_day": true,
+          "exit_day": true,
+          "hold_days": true,
+          "avg_return": true,
+          "win_rate": true,
+          "sample_count": true
+        },
+        "displayed_average_match": true,
+        "all_match": true
+      },
+      {
+        "ticker": "GLD",
+        "month": 2,
+        "expected": {
+          "entry_day": 33,
+          "exit_day": 55,
+          "hold_days": 15,
+          "avg_return": 0.026183983041021704,
+          "win_rate": 0.7272727272727273,
+          "sample_count": 11
+        },
+        "actual": {
+          "entry_day": 33,
+          "exit_day": 55,
+          "hold_days": 15,
+          "avg_return": 0.026183977983827232,
+          "win_rate": 0.7272727272727273,
+          "sample_count": 11
+        },
+        "checks": {
+          "entry_day": true,
+          "exit_day": true,
+          "hold_days": true,
+          "avg_return": true,
+          "win_rate": true,
+          "sample_count": true
+        },
+        "displayed_average_match": true,
+        "all_match": true
+      },
+      {
+        "ticker": "GLD",
+        "month": 3,
+        "expected": {
+          "entry_day": 60,
+          "exit_day": 103,
+          "hold_days": 30,
+          "avg_return": 0.040708911260375014,
+          "win_rate": 0.8181818181818182,
+          "sample_count": 11
+        },
+        "actual": {
+          "entry_day": 60,
+          "exit_day": 103,
+          "hold_days": 30,
+          "avg_return": 0.04070889836193516,
+          "win_rate": 0.8181818181818182,
+          "sample_count": 11
+        },
+        "checks": {
+          "entry_day": true,
+          "exit_day": true,
+          "hold_days": true,
+          "avg_return": true,
+          "win_rate": true,
+          "sample_count": true
+        },
+        "displayed_average_match": true,
+        "all_match": true
+      },
+      {
+        "ticker": "GLD",
+        "month": 4,
+        "expected": {
+          "entry_day": 95,
+          "exit_day": 102,
+          "hold_days": 5,
+          "avg_return": 0.02479434883471857,
+          "win_rate": 0.9090909090909091,
+          "sample_count": 11
+        },
+        "actual": {
+          "entry_day": 95,
+          "exit_day": 102,
+          "hold_days": 5,
+          "avg_return": 0.024794360570124893,
+          "win_rate": 0.9090909090909091,
+          "sample_count": 11
+        },
+        "checks": {
+          "entry_day": true,
+          "exit_day": true,
+          "hold_days": true,
+          "avg_return": true,
+          "win_rate": true,
+          "sample_count": true
+        },
+        "displayed_average_match": true,
+        "all_match": true
+      },
+      {
+        "ticker": "GLD",
+        "month": 5,
+        "expected": {
+          "entry_day": 151,
+          "exit_day": 158,
+          "hold_days": 5,
+          "avg_return": -0.00020889599816314492,
+          "win_rate": 0.45454545454545453,
+          "sample_count": 11
+        },
+        "actual": {
+          "entry_day": 151,
+          "exit_day": 158,
+          "hold_days": 5,
+          "avg_return": -0.00020887534224660204,
+          "win_rate": 0.45454545454545453,
+          "sample_count": 11
+        },
+        "checks": {
+          "entry_day": true,
+          "exit_day": true,
+          "hold_days": true,
+          "avg_return": true,
+          "win_rate": true,
+          "sample_count": true
+        },
+        "displayed_average_match": true,
+        "all_match": true
+      },
+      {
+        "ticker": "GLD",
+        "month": 6,
+        "expected": {
+          "entry_day": 180,
+          "exit_day": 216,
+          "hold_days": 25,
+          "avg_return": 0.02851075656356796,
+          "win_rate": 0.8181818181818182,
+          "sample_count": 11
+        },
+        "actual": {
+          "entry_day": 180,
+          "exit_day": 216,
+          "hold_days": 25,
+          "avg_return": 0.028510750334392158,
+          "win_rate": 0.8181818181818182,
+          "sample_count": 11
+        },
+        "checks": {
+          "entry_day": true,
+          "exit_day": true,
+          "hold_days": true,
+          "avg_return": true,
+          "win_rate": true,
+          "sample_count": true
+        },
+        "displayed_average_match": true,
+        "all_match": true
+      },
+      {
+        "ticker": "GLD",
+        "month": 7,
+        "expected": {
+          "entry_day": 186,
+          "exit_day": 215,
+          "hold_days": 20,
+          "avg_return": 0.013904008059919508,
+          "win_rate": 0.7272727272727273,
+          "sample_count": 11
+        },
+        "actual": {
+          "entry_day": 186,
+          "exit_day": 215,
+          "hold_days": 20,
+          "avg_return": 0.01390399131891235,
+          "win_rate": 0.7272727272727273,
+          "sample_count": 11
+        },
+        "checks": {
+          "entry_day": true,
+          "exit_day": true,
+          "hold_days": true,
+          "avg_return": true,
+          "win_rate": true,
+          "sample_count": true
+        },
+        "displayed_average_match": true,
+        "all_match": true
+      },
+      {
+        "ticker": "GLD",
+        "month": 8,
+        "expected": {
+          "entry_day": 215,
+          "exit_day": 243,
+          "hold_days": 20,
+          "avg_return": 0.01718342419681551,
+          "win_rate": 0.6363636363636364,
+          "sample_count": 11
+        },
+        "actual": {
+          "entry_day": 215,
+          "exit_day": 243,
+          "hold_days": 20,
+          "avg_return": 0.017183406136235903,
+          "win_rate": 0.6363636363636364,
+          "sample_count": 11
+        },
+        "checks": {
+          "entry_day": true,
+          "exit_day": true,
+          "hold_days": true,
+          "avg_return": true,
+          "win_rate": true,
+          "sample_count": true
+        },
+        "displayed_average_match": true,
+        "all_match": true
+      },
+      {
+        "ticker": "GLD",
+        "month": 9,
+        "expected": {
+          "entry_day": 271,
+          "exit_day": 285,
+          "hold_days": 10,
+          "avg_return": 0.010510071207299765,
+          "win_rate": 0.9,
+          "sample_count": 10
+        },
+        "actual": {
+          "entry_day": 271,
+          "exit_day": 285,
+          "hold_days": 10,
+          "avg_return": 0.01051006632993794,
+          "win_rate": 0.9,
+          "sample_count": 10
+        },
+        "checks": {
+          "entry_day": true,
+          "exit_day": true,
+          "hold_days": true,
+          "avg_return": true,
+          "win_rate": true,
+          "sample_count": true
+        },
+        "displayed_average_match": true,
+        "all_match": true
+      },
+      {
+        "ticker": "GLD",
+        "month": 10,
+        "expected": {
+          "entry_day": 278,
+          "exit_day": 306,
+          "hold_days": 20,
+          "avg_return": 0.014948291985670503,
+          "win_rate": 0.8,
+          "sample_count": 10
+        },
+        "actual": {
+          "entry_day": 278,
+          "exit_day": 306,
+          "hold_days": 20,
+          "avg_return": 0.014948292598716263,
+          "win_rate": 0.8,
+          "sample_count": 10
+        },
+        "checks": {
+          "entry_day": true,
+          "exit_day": true,
+          "hold_days": true,
+          "avg_return": true,
+          "win_rate": true,
+          "sample_count": true
+        },
+        "displayed_average_match": true,
+        "all_match": true
+      },
+      {
+        "ticker": "GLD",
+        "month": 11,
+        "expected": {
+          "entry_day": 333,
+          "exit_day": 13,
+          "hold_days": 30,
+          "avg_return": 0.040884078332926385,
+          "win_rate": 0.9,
+          "sample_count": 10
+        },
+        "actual": {
+          "entry_day": 333,
+          "exit_day": 13,
+          "hold_days": 30,
+          "avg_return": 0.04088406809353786,
+          "win_rate": 0.9,
+          "sample_count": 10
+        },
+        "checks": {
+          "entry_day": true,
+          "exit_day": true,
+          "hold_days": true,
+          "avg_return": true,
+          "win_rate": true,
+          "sample_count": true
+        },
+        "displayed_average_match": true,
+        "all_match": true
+      },
+      {
+        "ticker": "GLD",
+        "month": 12,
+        "expected": {
+          "entry_day": 348,
+          "exit_day": 30,
+          "hold_days": 30,
+          "avg_return": 0.06199860055571482,
+          "win_rate": 0.9,
+          "sample_count": 10
+        },
+        "actual": {
+          "entry_day": 348,
+          "exit_day": 30,
+          "hold_days": 30,
+          "avg_return": 0.06199858310428934,
+          "win_rate": 0.9,
+          "sample_count": 10
+        },
+        "checks": {
+          "entry_day": true,
+          "exit_day": true,
+          "hold_days": true,
+          "avg_return": true,
+          "win_rate": true,
+          "sample_count": true
+        },
+        "displayed_average_match": true,
+        "all_match": true
+      }
+    ]
+  },
+  "details": [
+    {
+      "ticker": "GLD",
+      "month": 1,
+      "expected": {
+        "entry_day": 2,
+        "exit_day": 17,
+        "hold_days": 10,
+        "avg_return": 0.010760438949657957,
+        "win_rate": 0.8181818181818182,
+        "sample_count": 11
+      },
+      "actual": {
+        "entry_day": 7,
+        "exit_day": 30,
+        "hold_days": 15,
+        "avg_return": 0.03006608143280277,
+        "win_rate": 0.9090909090909091,
+        "sample_count": 11
+      },
+      "checks": {
+        "entry_day": false,
+        "exit_day": false,
+        "hold_days": false,
+        "avg_return": false,
+        "win_rate": false,
+        "sample_count": true
+      },
+      "displayed_average_match": false,
+      "all_match": false
+    },
+    {
+      "ticker": "GLD",
+      "month": 2,
+      "expected": {
+        "entry_day": 33,
+        "exit_day": 55,
+        "hold_days": 15,
+        "avg_return": 0.026183983041021704,
+        "win_rate": 0.7272727272727273,
+        "sample_count": 11
+      },
+      "actual": {
+        "entry_day": 56,
+        "exit_day": 99,
+        "hold_days": 30,
+        "avg_return": 0.020753481564650813,
+        "win_rate": 0.7272727272727273,
+        "sample_count": 11
+      },
+      "checks": {
+        "entry_day": false,
+        "exit_day": false,
+        "hold_days": false,
+        "avg_return": false,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": false,
+      "all_match": false
+    },
+    {
+      "ticker": "GLD",
+      "month": 3,
+      "expected": {
+        "entry_day": 60,
+        "exit_day": 103,
+        "hold_days": 30,
+        "avg_return": 0.040708911260375014,
+        "win_rate": 0.8181818181818182,
+        "sample_count": 11
+      },
+      "actual": {
+        "entry_day": 63,
+        "exit_day": 70,
+        "hold_days": 5,
+        "avg_return": 0.009244486943221865,
+        "win_rate": 0.9090909090909091,
+        "sample_count": 11
+      },
+      "checks": {
+        "entry_day": false,
+        "exit_day": false,
+        "hold_days": false,
+        "avg_return": false,
+        "win_rate": false,
+        "sample_count": true
+      },
+      "displayed_average_match": false,
+      "all_match": false
+    },
+    {
+      "ticker": "GLD",
+      "month": 4,
+      "expected": {
+        "entry_day": 95,
+        "exit_day": 102,
+        "hold_days": 5,
+        "avg_return": 0.02479434883471857,
+        "win_rate": 0.9090909090909091,
+        "sample_count": 11
+      },
+      "actual": {
+        "entry_day": 91,
+        "exit_day": 106,
+        "hold_days": 10,
+        "avg_return": 0.026347541743743944,
+        "win_rate": 0.9090909090909091,
+        "sample_count": 11
+      },
+      "checks": {
+        "entry_day": false,
+        "exit_day": false,
+        "hold_days": false,
+        "avg_return": false,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": false,
+      "all_match": false
+    },
+    {
+      "ticker": "GLD",
+      "month": 5,
+      "expected": {
+        "entry_day": 151,
+        "exit_day": 158,
+        "hold_days": 5,
+        "avg_return": -0.00020889599816314492,
+        "win_rate": 0.45454545454545453,
+        "sample_count": 11
+      },
+      "actual": {
+        "entry_day": 133,
+        "exit_day": 162,
+        "hold_days": 20,
+        "avg_return": -0.0020145789871069257,
+        "win_rate": 0.6363636363636364,
+        "sample_count": 11
+      },
+      "checks": {
+        "entry_day": false,
+        "exit_day": false,
+        "hold_days": false,
+        "avg_return": false,
+        "win_rate": false,
+        "sample_count": true
+      },
+      "displayed_average_match": false,
+      "all_match": false
+    },
+    {
+      "ticker": "GLD",
+      "month": 6,
+      "expected": {
+        "entry_day": 180,
+        "exit_day": 216,
+        "hold_days": 25,
+        "avg_return": 0.02851075656356796,
+        "win_rate": 0.8181818181818182,
+        "sample_count": 11
+      },
+      "actual": {
+        "entry_day": 175,
+        "exit_day": 218,
+        "hold_days": 30,
+        "avg_return": 0.0265184965965233,
+        "win_rate": 0.7272727272727273,
+        "sample_count": 11
+      },
+      "checks": {
+        "entry_day": false,
+        "exit_day": false,
+        "hold_days": false,
+        "avg_return": false,
+        "win_rate": false,
+        "sample_count": true
+      },
+      "displayed_average_match": false,
+      "all_match": false
+    },
+    {
+      "ticker": "GLD",
+      "month": 7,
+      "expected": {
+        "entry_day": 186,
+        "exit_day": 215,
+        "hold_days": 20,
+        "avg_return": 0.013904008059919508,
+        "win_rate": 0.7272727272727273,
+        "sample_count": 11
+      },
+      "actual": {
+        "entry_day": 189,
+        "exit_day": 217,
+        "hold_days": 20,
+        "avg_return": 0.025010660877354738,
+        "win_rate": 0.9090909090909091,
+        "sample_count": 11
+      },
+      "checks": {
+        "entry_day": false,
+        "exit_day": false,
+        "hold_days": true,
+        "avg_return": false,
+        "win_rate": false,
+        "sample_count": true
+      },
+      "displayed_average_match": false,
+      "all_match": false
+    },
+    {
+      "ticker": "GLD",
+      "month": 8,
+      "expected": {
+        "entry_day": 215,
+        "exit_day": 243,
+        "hold_days": 20,
+        "avg_return": 0.01718342419681551,
+        "win_rate": 0.6363636363636364,
+        "sample_count": 11
+      },
+      "actual": {
+        "entry_day": 224,
+        "exit_day": 238,
+        "hold_days": 10,
+        "avg_return": 0.009782000567456312,
+        "win_rate": 0.8181818181818182,
+        "sample_count": 11
+      },
+      "checks": {
+        "entry_day": false,
+        "exit_day": false,
+        "hold_days": false,
+        "avg_return": false,
+        "win_rate": false,
+        "sample_count": true
+      },
+      "displayed_average_match": false,
+      "all_match": false
+    },
+    {
+      "ticker": "GLD",
+      "month": 9,
+      "expected": {
+        "entry_day": 271,
+        "exit_day": 285,
+        "hold_days": 10,
+        "avg_return": 0.010510071207299765,
+        "win_rate": 0.9,
+        "sample_count": 10
+      },
+      "actual": {
+        "entry_day": 273,
+        "exit_day": 308,
+        "hold_days": 25,
+        "avg_return": 0.02274643836913327,
+        "win_rate": 0.9,
+        "sample_count": 10
+      },
+      "checks": {
+        "entry_day": false,
+        "exit_day": false,
+        "hold_days": false,
+        "avg_return": false,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": false,
+      "all_match": false
+    },
+    {
+      "ticker": "GLD",
+      "month": 10,
+      "expected": {
+        "entry_day": 278,
+        "exit_day": 306,
+        "hold_days": 20,
+        "avg_return": 0.014948291985670503,
+        "win_rate": 0.8,
+        "sample_count": 10
+      },
+      "actual": {
+        "entry_day": 280,
+        "exit_day": 287,
+        "hold_days": 5,
+        "avg_return": 0.010823984271386766,
+        "win_rate": 0.8,
+        "sample_count": 10
+      },
+      "checks": {
+        "entry_day": false,
+        "exit_day": false,
+        "hold_days": false,
+        "avg_return": false,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": false,
+      "all_match": false
+    },
+    {
+      "ticker": "GLD",
+      "month": 11,
+      "expected": {
+        "entry_day": 333,
+        "exit_day": 13,
+        "hold_days": 30,
+        "avg_return": 0.040884078332926385,
+        "win_rate": 0.9,
+        "sample_count": 10
+      },
+      "actual": {
+        "entry_day": 329,
+        "exit_day": 10,
+        "hold_days": 30,
+        "avg_return": 0.0346420888469785,
+        "win_rate": 1.0,
+        "sample_count": 10
+      },
+      "checks": {
+        "entry_day": false,
+        "exit_day": false,
+        "hold_days": true,
+        "avg_return": false,
+        "win_rate": false,
+        "sample_count": true
+      },
+      "displayed_average_match": false,
+      "all_match": false
+    },
+    {
+      "ticker": "GLD",
+      "month": 12,
+      "expected": {
+        "entry_day": 348,
+        "exit_day": 30,
+        "hold_days": 30,
+        "avg_return": 0.06199860055571482,
+        "win_rate": 0.9,
+        "sample_count": 10
+      },
+      "actual": {
+        "entry_day": 350,
+        "exit_day": 31,
+        "hold_days": 30,
+        "avg_return": 0.05618499292342584,
+        "win_rate": 0.9,
+        "sample_count": 10
+      },
+      "checks": {
+        "entry_day": false,
+        "exit_day": false,
+        "hold_days": true,
+        "avg_return": false,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": false,
+      "all_match": false
+    }
+  ],
+  "replication_complete": false
+}

@@ -1,0 +1,7 @@
+checked existing CSV MSFT
+checked existing CSV NVDA
+checked existing CSV KO
+checked existing CSV JPM
+candidates 70080 disagreements 0 max numeric difference 5.551115123125783e-17
+selection checks 384 disagreements 0
+default investment 10-year {'windows_checked': 17520, 'available_windows': 0}

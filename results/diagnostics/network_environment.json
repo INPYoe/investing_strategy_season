@@ -1,0 +1,36 @@
+{
+  "documented_at_utc": "2026-10-05T02:47:07.906333+00:00",
+  "host": "query1.finance.yahoo.com",
+  "ordinary_terminal": {
+    "source": "user report, not independently rerun",
+    "dns": "successful",
+    "curl_http_status": 429,
+    "curl_protocol": "HTTP/2",
+    "exact_command": null,
+    "request_path": null,
+    "retry_after": null,
+    "headers_supplied": false
+  },
+  "codex_getaddrinfo": {
+    "python": "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "result": "gaierror(8, nodename nor servname provided, or not known)",
+    "errno": 8,
+    "http_request": false,
+    "python_expression": "socket.getaddrinfo('query1.finance.yahoo.com', 443, type=socket.SOCK_STREAM)"
+  },
+  "codex_dig": {
+    "command": "/usr/bin/dig +time=2 +tries=1 query1.finance.yahoo.com A",
+    "exit_code": 10,
+    "stderr": "/AppleInternal/Library/BuildRoots/4~CVRiugDI44V3jsHDuyT7Myn-9SiEthTiHRz9_I8/Library/Caches/com.apple.xbs/TemporaryDirectory.We9FHq/Sources/bind9/bind9/lib/isc/unix/socket.c:5580: bind: Operation not permitted\ndig: isc_socket_bind: unexpected error",
+    "dns_response_received": false
+  },
+  "single_price_get_artifact": "price_api_probe.json",
+  "conclusions": [
+    "Ordinary-terminal and Codex outcomes differ; not evidence of global Yahoo DNS failure.",
+    "dig was denied socket bind before a DNS answer; this is not an NXDOMAIN response.",
+    "The chart GET failed before HTTP; 429 and Retry-After are unobservable in this request.",
+    "No additional live Yahoo HTTP requests after the single probe; subsequent tests use fake responses."
+  ],
+  "cause_scope": "Environment-specific restrictions supported by bind denial; exact resolver cause not established"
+}

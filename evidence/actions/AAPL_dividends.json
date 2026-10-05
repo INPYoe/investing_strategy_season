@@ -1,0 +1,314 @@
+{
+  "ticker": "AAPL",
+  "source": "https://investor.apple.com/dividend-history/default.aspx",
+  "source_rules": [
+    "https://www.finra.org/rules-guidance/rulebooks/finra-rules/11140",
+    "https://www.finra.org/investors/insights/understanding-settlement-cycles",
+    "https://www.federalreserve.gov/aboutthefed/k8.htm"
+  ],
+  "split_share_basis": "Declared amounts before 2020-08-31 divided by independently reported 4-for-1 split",
+  "source_read_on": "2026-10-05",
+  "dividends": [
+    {
+      "record_date": "2016-02-08",
+      "declared_cash_per_share": 0.52,
+      "cash_per_price_share": 0.13,
+      "ex_date": "2016-02-04",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    },
+    {
+      "record_date": "2016-05-09",
+      "declared_cash_per_share": 0.57,
+      "cash_per_price_share": 0.1425,
+      "ex_date": "2016-05-05",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    },
+    {
+      "record_date": "2016-08-08",
+      "declared_cash_per_share": 0.57,
+      "cash_per_price_share": 0.1425,
+      "ex_date": "2016-08-04",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    },
+    {
+      "record_date": "2016-11-07",
+      "declared_cash_per_share": 0.57,
+      "cash_per_price_share": 0.1425,
+      "ex_date": "2016-11-03",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    },
+    {
+      "record_date": "2017-02-13",
+      "declared_cash_per_share": 0.57,
+      "cash_per_price_share": 0.1425,
+      "ex_date": "2017-02-09",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    },
+    {
+      "record_date": "2017-05-15",
+      "declared_cash_per_share": 0.63,
+      "cash_per_price_share": 0.1575,
+      "ex_date": "2017-05-11",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    },
+    {
+      "record_date": "2017-08-14",
+      "declared_cash_per_share": 0.63,
+      "cash_per_price_share": 0.1575,
+      "ex_date": "2017-08-10",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    },
+    {
+      "record_date": "2017-11-13",
+      "declared_cash_per_share": 0.63,
+      "cash_per_price_share": 0.1575,
+      "ex_date": "2017-11-10",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    },
+    {
+      "record_date": "2018-02-12",
+      "declared_cash_per_share": 0.63,
+      "cash_per_price_share": 0.1575,
+      "ex_date": "2018-02-09",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    },
+    {
+      "record_date": "2018-05-14",
+      "declared_cash_per_share": 0.73,
+      "cash_per_price_share": 0.1825,
+      "ex_date": "2018-05-11",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    },
+    {
+      "record_date": "2018-08-13",
+      "declared_cash_per_share": 0.73,
+      "cash_per_price_share": 0.1825,
+      "ex_date": "2018-08-10",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    },
+    {
+      "record_date": "2018-11-12",
+      "declared_cash_per_share": 0.73,
+      "cash_per_price_share": 0.1825,
+      "ex_date": "2018-11-08",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    },
+    {
+      "record_date": "2019-02-11",
+      "declared_cash_per_share": 0.73,
+      "cash_per_price_share": 0.1825,
+      "ex_date": "2019-02-08",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    },
+    {
+      "record_date": "2019-05-13",
+      "declared_cash_per_share": 0.77,
+      "cash_per_price_share": 0.1925,
+      "ex_date": "2019-05-10",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    },
+    {
+      "record_date": "2019-08-12",
+      "declared_cash_per_share": 0.77,
+      "cash_per_price_share": 0.1925,
+      "ex_date": "2019-08-09",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    },
+    {
+      "record_date": "2019-11-11",
+      "declared_cash_per_share": 0.77,
+      "cash_per_price_share": 0.1925,
+      "ex_date": "2019-11-07",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    },
+    {
+      "record_date": "2020-02-10",
+      "declared_cash_per_share": 0.77,
+      "cash_per_price_share": 0.1925,
+      "ex_date": "2020-02-07",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    },
+    {
+      "record_date": "2020-05-11",
+      "declared_cash_per_share": 0.82,
+      "cash_per_price_share": 0.205,
+      "ex_date": "2020-05-08",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    },
+    {
+      "record_date": "2020-08-10",
+      "declared_cash_per_share": 0.82,
+      "cash_per_price_share": 0.205,
+      "ex_date": "2020-08-07",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    },
+    {
+      "record_date": "2020-11-09",
+      "declared_cash_per_share": 0.205,
+      "cash_per_price_share": 0.205,
+      "ex_date": "2020-11-06",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    },
+    {
+      "record_date": "2021-02-08",
+      "declared_cash_per_share": 0.205,
+      "cash_per_price_share": 0.205,
+      "ex_date": "2021-02-05",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    },
+    {
+      "record_date": "2021-05-10",
+      "declared_cash_per_share": 0.22,
+      "cash_per_price_share": 0.22,
+      "ex_date": "2021-05-07",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    },
+    {
+      "record_date": "2021-08-09",
+      "declared_cash_per_share": 0.22,
+      "cash_per_price_share": 0.22,
+      "ex_date": "2021-08-06",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    },
+    {
+      "record_date": "2021-11-08",
+      "declared_cash_per_share": 0.22,
+      "cash_per_price_share": 0.22,
+      "ex_date": "2021-11-05",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    },
+    {
+      "record_date": "2022-02-07",
+      "declared_cash_per_share": 0.22,
+      "cash_per_price_share": 0.22,
+      "ex_date": "2022-02-04",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    },
+    {
+      "record_date": "2022-05-09",
+      "declared_cash_per_share": 0.23,
+      "cash_per_price_share": 0.23,
+      "ex_date": "2022-05-06",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    },
+    {
+      "record_date": "2022-08-08",
+      "declared_cash_per_share": 0.23,
+      "cash_per_price_share": 0.23,
+      "ex_date": "2022-08-05",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    },
+    {
+      "record_date": "2022-11-07",
+      "declared_cash_per_share": 0.23,
+      "cash_per_price_share": 0.23,
+      "ex_date": "2022-11-04",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    },
+    {
+      "record_date": "2023-02-13",
+      "declared_cash_per_share": 0.23,
+      "cash_per_price_share": 0.23,
+      "ex_date": "2023-02-10",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    },
+    {
+      "record_date": "2023-05-15",
+      "declared_cash_per_share": 0.24,
+      "cash_per_price_share": 0.24,
+      "ex_date": "2023-05-12",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    },
+    {
+      "record_date": "2023-08-14",
+      "declared_cash_per_share": 0.24,
+      "cash_per_price_share": 0.24,
+      "ex_date": "2023-08-11",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    },
+    {
+      "record_date": "2023-11-13",
+      "declared_cash_per_share": 0.24,
+      "cash_per_price_share": 0.24,
+      "ex_date": "2023-11-10",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    },
+    {
+      "record_date": "2024-02-12",
+      "declared_cash_per_share": 0.24,
+      "cash_per_price_share": 0.24,
+      "ex_date": "2024-02-09",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    },
+    {
+      "record_date": "2024-05-13",
+      "declared_cash_per_share": 0.25,
+      "cash_per_price_share": 0.25,
+      "ex_date": "2024-05-10",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    },
+    {
+      "record_date": "2024-08-12",
+      "declared_cash_per_share": 0.25,
+      "cash_per_price_share": 0.25,
+      "ex_date": "2024-08-12",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    },
+    {
+      "record_date": "2024-11-11",
+      "declared_cash_per_share": 0.25,
+      "cash_per_price_share": 0.25,
+      "ex_date": "2024-11-08",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    },
+    {
+      "record_date": "2025-02-10",
+      "declared_cash_per_share": 0.25,
+      "cash_per_price_share": 0.25,
+      "ex_date": "2025-02-10",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    },
+    {
+      "record_date": "2025-05-12",
+      "declared_cash_per_share": 0.26,
+      "cash_per_price_share": 0.26,
+      "ex_date": "2025-05-12",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    },
+    {
+      "record_date": "2025-08-11",
+      "declared_cash_per_share": 0.26,
+      "cash_per_price_share": 0.26,
+      "ex_date": "2025-08-11",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    },
+    {
+      "record_date": "2025-11-10",
+      "declared_cash_per_share": 0.26,
+      "cash_per_price_share": 0.26,
+      "ex_date": "2025-11-10",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    },
+    {
+      "record_date": "2026-02-09",
+      "declared_cash_per_share": 0.26,
+      "cash_per_price_share": 0.26,
+      "ex_date": "2026-02-09",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    },
+    {
+      "record_date": "2026-05-11",
+      "declared_cash_per_share": 0.27,
+      "cash_per_price_share": 0.27,
+      "ex_date": "2026-05-11",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    },
+    {
+      "record_date": "2026-08-10",
+      "declared_cash_per_share": 0.27,
+      "cash_per_price_share": 0.27,
+      "ex_date": "2026-08-10",
+      "ex_date_status": "inferred from record date and settlement calendar; validate against exchange data"
+    }
+  ]
+}

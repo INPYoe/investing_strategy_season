@@ -1,0 +1,562 @@
+{
+  "selected_file_quality": [
+    {
+      "ticker": "SPY",
+      "cache": "daily_parquet",
+      "path": "/Volumes/Extreme SSD/Investing_Researcher/data/cache/prices/daily/SPY.parquet",
+      "exists": true,
+      "file_sha256": "f5dcee437c355aa862f3809c46fc8648f7a6e412fa067eb46b847d04b43b8e81",
+      "file_modified_at_utc": "2026-05-15T13:31:01.320000+00:00",
+      "provider_and_actual_collection_time": "not verified per file",
+      "records": 754,
+      "columns": [
+        "date",
+        "open",
+        "high",
+        "low",
+        "close",
+        "volume",
+        "amount"
+      ],
+      "first_date": "2023-05-15",
+      "last_date": "2026-05-15",
+      "has_adjusted_close_column": false,
+      "duplicate_dates": [],
+      "weekend_dates": [],
+      "quality_failures": [
+        {
+          "row": 754,
+          "date": "2026-05-15",
+          "kind": "invalid_ohlc",
+          "values": {
+            "open": 743.6500244140625,
+            "high": 741.9199829101562,
+            "low": 740.8200073242188,
+            "close": 740.8200073242188
+          }
+        }
+      ],
+      "within_file_missing_sessions": [],
+      "unexpected_exchange_dates": [],
+      "requested_start": "2016-01-01",
+      "cutoff_exclusive": "2026-10-01",
+      "requested_missing_session_count": 1947,
+      "covers_requested_sessions": false,
+      "inferred_adjusted_close_values": false
+    },
+    {
+      "ticker": "SPY",
+      "cache": "market_csv",
+      "path": "/Volumes/Extreme SSD/Investing_Researcher/market_detector/data/cache/prices/SPY.csv",
+      "exists": true,
+      "file_sha256": "5645f2bb5781b1d776a9985d2522c49f842afda4c8a7f699c2b47c2d17557623",
+      "file_modified_at_utc": "2026-05-21T03:06:08.200000+00:00",
+      "provider_and_actual_collection_time": "not verified per file",
+      "records": 759,
+      "columns": [
+        "date",
+        "open",
+        "high",
+        "low",
+        "close",
+        "adj_close",
+        "volume"
+      ],
+      "first_date": "2023-05-11",
+      "last_date": "2026-05-20",
+      "has_adjusted_close_column": true,
+      "duplicate_dates": [],
+      "weekend_dates": [],
+      "quality_failures": [],
+      "within_file_missing_sessions": [],
+      "unexpected_exchange_dates": [],
+      "requested_start": "2016-01-01",
+      "cutoff_exclusive": "2026-10-01",
+      "requested_missing_session_count": 1942,
+      "covers_requested_sessions": false,
+      "inferred_adjusted_close_values": false
+    },
+    {
+      "ticker": "QQQ",
+      "cache": "daily_parquet",
+      "path": "/Volumes/Extreme SSD/Investing_Researcher/data/cache/prices/daily/QQQ.parquet",
+      "exists": false
+    },
+    {
+      "ticker": "QQQ",
+      "cache": "market_csv",
+      "path": "/Volumes/Extreme SSD/Investing_Researcher/market_detector/data/cache/prices/QQQ.csv",
+      "exists": true,
+      "file_sha256": "6e0895fb9a83bdc8fb4a668be7c926d610aeab22d2cda8b24e00addd1220137f",
+      "file_modified_at_utc": "2026-05-21T03:06:10.890000+00:00",
+      "provider_and_actual_collection_time": "not verified per file",
+      "records": 759,
+      "columns": [
+        "date",
+        "open",
+        "high",
+        "low",
+        "close",
+        "adj_close",
+        "volume"
+      ],
+      "first_date": "2023-05-11",
+      "last_date": "2026-05-20",
+      "has_adjusted_close_column": true,
+      "duplicate_dates": [],
+      "weekend_dates": [],
+      "quality_failures": [],
+      "within_file_missing_sessions": [],
+      "unexpected_exchange_dates": [],
+      "requested_start": "2016-01-01",
+      "cutoff_exclusive": "2026-10-01",
+      "requested_missing_session_count": 1942,
+      "covers_requested_sessions": false,
+      "inferred_adjusted_close_values": false
+    },
+    {
+      "ticker": "GLD",
+      "cache": "daily_parquet",
+      "path": "/Volumes/Extreme SSD/Investing_Researcher/data/cache/prices/daily/GLD.parquet",
+      "exists": false
+    },
+    {
+      "ticker": "GLD",
+      "cache": "market_csv",
+      "path": "/Volumes/Extreme SSD/Investing_Researcher/market_detector/data/cache/prices/GLD.csv",
+      "exists": false
+    },
+    {
+      "ticker": "AAPL",
+      "cache": "daily_parquet",
+      "path": "/Volumes/Extreme SSD/Investing_Researcher/data/cache/prices/daily/AAPL.parquet",
+      "exists": true,
+      "file_sha256": "5546153b0af2e6efc42486b48665905e5ac496d6066126424b411c888593dd4b",
+      "file_modified_at_utc": "2026-05-15T13:30:56.550000+00:00",
+      "provider_and_actual_collection_time": "not verified per file",
+      "records": 754,
+      "columns": [
+        "date",
+        "open",
+        "high",
+        "low",
+        "close",
+        "volume",
+        "amount"
+      ],
+      "first_date": "2023-05-15",
+      "last_date": "2026-05-15",
+      "has_adjusted_close_column": false,
+      "duplicate_dates": [],
+      "weekend_dates": [],
+      "quality_failures": [],
+      "within_file_missing_sessions": [],
+      "unexpected_exchange_dates": [],
+      "requested_start": "2016-01-01",
+      "cutoff_exclusive": "2026-10-01",
+      "requested_missing_session_count": 1947,
+      "covers_requested_sessions": false,
+      "inferred_adjusted_close_values": false
+    },
+    {
+      "ticker": "AAPL",
+      "cache": "market_csv",
+      "path": "/Volumes/Extreme SSD/Investing_Researcher/market_detector/data/cache/prices/AAPL.csv",
+      "exists": true,
+      "file_sha256": "cd0b5f503eafecaade67867426404652eeccdf8d4bf7cdb8d1036a10c8d7c7bd",
+      "file_modified_at_utc": "2026-05-21T03:28:21.830000+00:00",
+      "provider_and_actual_collection_time": "not verified per file",
+      "records": 598,
+      "columns": [
+        "date",
+        "open",
+        "high",
+        "low",
+        "close",
+        "adj_close",
+        "volume"
+      ],
+      "first_date": "2024-01-02",
+      "last_date": "2026-05-20",
+      "has_adjusted_close_column": true,
+      "duplicate_dates": [],
+      "weekend_dates": [],
+      "quality_failures": [],
+      "within_file_missing_sessions": [],
+      "unexpected_exchange_dates": [],
+      "requested_start": "2016-01-01",
+      "cutoff_exclusive": "2026-10-01",
+      "requested_missing_session_count": 2103,
+      "covers_requested_sessions": false,
+      "inferred_adjusted_close_values": false
+    },
+    {
+      "ticker": "MSFT",
+      "cache": "daily_parquet",
+      "path": "/Volumes/Extreme SSD/Investing_Researcher/data/cache/prices/daily/MSFT.parquet",
+      "exists": true,
+      "file_sha256": "b4d51beaa565d43bf70e902db4640a99c1820299aa8614f1f358145902a5b0b7",
+      "file_modified_at_utc": "2026-05-15T14:47:18.400000+00:00",
+      "provider_and_actual_collection_time": "not verified per file",
+      "records": 754,
+      "columns": [
+        "date",
+        "open",
+        "high",
+        "low",
+        "close",
+        "volume",
+        "amount"
+      ],
+      "first_date": "2023-05-15",
+      "last_date": "2026-05-15",
+      "has_adjusted_close_column": false,
+      "duplicate_dates": [],
+      "weekend_dates": [],
+      "quality_failures": [],
+      "within_file_missing_sessions": [],
+      "unexpected_exchange_dates": [],
+      "requested_start": "2016-01-01",
+      "cutoff_exclusive": "2026-10-01",
+      "requested_missing_session_count": 1947,
+      "covers_requested_sessions": false,
+      "inferred_adjusted_close_values": false
+    },
+    {
+      "ticker": "MSFT",
+      "cache": "market_csv",
+      "path": "/Volumes/Extreme SSD/Investing_Researcher/market_detector/data/cache/prices/MSFT.csv",
+      "exists": true,
+      "file_sha256": "78919633375790476270da9f5f66392ff8ea7968663118678ce3965005795450",
+      "file_modified_at_utc": "2026-05-21T03:28:21.850000+00:00",
+      "provider_and_actual_collection_time": "not verified per file",
+      "records": 598,
+      "columns": [
+        "date",
+        "open",
+        "high",
+        "low",
+        "close",
+        "adj_close",
+        "volume"
+      ],
+      "first_date": "2024-01-02",
+      "last_date": "2026-05-20",
+      "has_adjusted_close_column": true,
+      "duplicate_dates": [],
+      "weekend_dates": [],
+      "quality_failures": [],
+      "within_file_missing_sessions": [],
+      "unexpected_exchange_dates": [],
+      "requested_start": "2016-01-01",
+      "cutoff_exclusive": "2026-10-01",
+      "requested_missing_session_count": 2103,
+      "covers_requested_sessions": false,
+      "inferred_adjusted_close_values": false
+    },
+    {
+      "ticker": "NVDA",
+      "cache": "daily_parquet",
+      "path": "/Volumes/Extreme SSD/Investing_Researcher/data/cache/prices/daily/NVDA.parquet",
+      "exists": true,
+      "file_sha256": "29b18256d72eaae5b44fb6d396b09bf27ed11408df82b333a79bbe2916a934f6",
+      "file_modified_at_utc": "2026-05-15T14:49:17.970000+00:00",
+      "provider_and_actual_collection_time": "not verified per file",
+      "records": 754,
+      "columns": [
+        "date",
+        "open",
+        "high",
+        "low",
+        "close",
+        "volume",
+        "amount"
+      ],
+      "first_date": "2023-05-15",
+      "last_date": "2026-05-15",
+      "has_adjusted_close_column": false,
+      "duplicate_dates": [],
+      "weekend_dates": [],
+      "quality_failures": [],
+      "within_file_missing_sessions": [],
+      "unexpected_exchange_dates": [],
+      "requested_start": "2016-01-01",
+      "cutoff_exclusive": "2026-10-01",
+      "requested_missing_session_count": 1947,
+      "covers_requested_sessions": false,
+      "inferred_adjusted_close_values": false
+    },
+    {
+      "ticker": "NVDA",
+      "cache": "market_csv",
+      "path": "/Volumes/Extreme SSD/Investing_Researcher/market_detector/data/cache/prices/NVDA.csv",
+      "exists": true,
+      "file_sha256": "096833d957c55831b3b0300848039dd3b7ca69b1ccbb41b091f41f1353dc35c4",
+      "file_modified_at_utc": "2026-05-21T03:06:07.820000+00:00",
+      "provider_and_actual_collection_time": "not verified per file",
+      "records": 759,
+      "columns": [
+        "date",
+        "open",
+        "high",
+        "low",
+        "close",
+        "adj_close",
+        "volume"
+      ],
+      "first_date": "2023-05-11",
+      "last_date": "2026-05-20",
+      "has_adjusted_close_column": true,
+      "duplicate_dates": [],
+      "weekend_dates": [],
+      "quality_failures": [],
+      "within_file_missing_sessions": [],
+      "unexpected_exchange_dates": [],
+      "requested_start": "2016-01-01",
+      "cutoff_exclusive": "2026-10-01",
+      "requested_missing_session_count": 1942,
+      "covers_requested_sessions": false,
+      "inferred_adjusted_close_values": false
+    },
+    {
+      "ticker": "KO",
+      "cache": "daily_parquet",
+      "path": "/Volumes/Extreme SSD/Investing_Researcher/data/cache/prices/daily/KO.parquet",
+      "exists": true,
+      "file_sha256": "f1099336276be99346cdc0a8da65e000db4868c6834dd236f80b63244251f189",
+      "file_modified_at_utc": "2026-05-15T14:43:21.620000+00:00",
+      "provider_and_actual_collection_time": "not verified per file",
+      "records": 754,
+      "columns": [
+        "date",
+        "open",
+        "high",
+        "low",
+        "close",
+        "volume",
+        "amount"
+      ],
+      "first_date": "2023-05-15",
+      "last_date": "2026-05-15",
+      "has_adjusted_close_column": false,
+      "duplicate_dates": [],
+      "weekend_dates": [],
+      "quality_failures": [
+        {
+          "row": 754,
+          "date": "2026-05-15",
+          "kind": "invalid_ohlc",
+          "values": {
+            "open": 81.36000061035156,
+            "high": 81.32499694824219,
+            "low": 80.77999877929688,
+            "close": 80.98999786376953
+          }
+        }
+      ],
+      "within_file_missing_sessions": [],
+      "unexpected_exchange_dates": [],
+      "requested_start": "2016-01-01",
+      "cutoff_exclusive": "2026-10-01",
+      "requested_missing_session_count": 1947,
+      "covers_requested_sessions": false,
+      "inferred_adjusted_close_values": false
+    },
+    {
+      "ticker": "KO",
+      "cache": "market_csv",
+      "path": "/Volumes/Extreme SSD/Investing_Researcher/market_detector/data/cache/prices/KO.csv",
+      "exists": true,
+      "file_sha256": "5db40e332345dcfa0bf370bc347a3576dbfda3dff29c4ed10ab057d61eb802e6",
+      "file_modified_at_utc": "2026-05-21T03:28:22.110000+00:00",
+      "provider_and_actual_collection_time": "not verified per file",
+      "records": 598,
+      "columns": [
+        "date",
+        "open",
+        "high",
+        "low",
+        "close",
+        "adj_close",
+        "volume"
+      ],
+      "first_date": "2024-01-02",
+      "last_date": "2026-05-20",
+      "has_adjusted_close_column": true,
+      "duplicate_dates": [],
+      "weekend_dates": [],
+      "quality_failures": [],
+      "within_file_missing_sessions": [],
+      "unexpected_exchange_dates": [],
+      "requested_start": "2016-01-01",
+      "cutoff_exclusive": "2026-10-01",
+      "requested_missing_session_count": 2103,
+      "covers_requested_sessions": false,
+      "inferred_adjusted_close_values": false
+    },
+    {
+      "ticker": "JPM",
+      "cache": "daily_parquet",
+      "path": "/Volumes/Extreme SSD/Investing_Researcher/data/cache/prices/daily/JPM.parquet",
+      "exists": true,
+      "file_sha256": "f1d83f2289fca7dc0b9e0a987a0b7126faa14c6186e5af23e4af5629ee95b82c",
+      "file_modified_at_utc": "2026-05-15T14:42:41.520000+00:00",
+      "provider_and_actual_collection_time": "not verified per file",
+      "records": 754,
+      "columns": [
+        "date",
+        "open",
+        "high",
+        "low",
+        "close",
+        "volume",
+        "amount"
+      ],
+      "first_date": "2023-05-15",
+      "last_date": "2026-05-15",
+      "has_adjusted_close_column": false,
+      "duplicate_dates": [],
+      "weekend_dates": [],
+      "quality_failures": [],
+      "within_file_missing_sessions": [],
+      "unexpected_exchange_dates": [],
+      "requested_start": "2016-01-01",
+      "cutoff_exclusive": "2026-10-01",
+      "requested_missing_session_count": 1947,
+      "covers_requested_sessions": false,
+      "inferred_adjusted_close_values": false
+    },
+    {
+      "ticker": "JPM",
+      "cache": "market_csv",
+      "path": "/Volumes/Extreme SSD/Investing_Researcher/market_detector/data/cache/prices/JPM.csv",
+      "exists": true,
+      "file_sha256": "7cc5c4d34579e3c70be2a95a6c903bf0b187ff1b8b9e845e8b255cac72ffdd85",
+      "file_modified_at_utc": "2026-05-21T03:28:21.930000+00:00",
+      "provider_and_actual_collection_time": "not verified per file",
+      "records": 598,
+      "columns": [
+        "date",
+        "open",
+        "high",
+        "low",
+        "close",
+        "adj_close",
+        "volume"
+      ],
+      "first_date": "2024-01-02",
+      "last_date": "2026-05-20",
+      "has_adjusted_close_column": true,
+      "duplicate_dates": [],
+      "weekend_dates": [],
+      "quality_failures": [],
+      "within_file_missing_sessions": [],
+      "unexpected_exchange_dates": [],
+      "requested_start": "2016-01-01",
+      "cutoff_exclusive": "2026-10-01",
+      "requested_missing_session_count": 2103,
+      "covers_requested_sessions": false,
+      "inferred_adjusted_close_values": false
+    }
+  ],
+  "close_comparisons": [
+    {
+      "ticker": "SPY",
+      "overlapping_prices": 754,
+      "exactly_different_prices": [
+        {
+          "date": "2026-05-15",
+          "daily_parquet_close": 740.8200073242188,
+          "market_csv_close": 739.1699829101562,
+          "absolute_difference": 1.6500244140625
+        }
+      ]
+    },
+    {
+      "ticker": "AAPL",
+      "overlapping_prices": 595,
+      "exactly_different_prices": [
+        {
+          "date": "2026-05-15",
+          "daily_parquet_close": 297.5799865722656,
+          "market_csv_close": 300.2300109863281,
+          "absolute_difference": 2.6500244140625
+        }
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "overlapping_prices": 595,
+      "exactly_different_prices": [
+        {
+          "date": "2026-05-15",
+          "daily_parquet_close": 422.5450134277344,
+          "market_csv_close": 421.9200134277344,
+          "absolute_difference": 0.625
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "overlapping_prices": 754,
+      "exactly_different_prices": [
+        {
+          "date": "2026-05-15",
+          "daily_parquet_close": 226.7949981689453,
+          "market_csv_close": 225.32000732421875,
+          "absolute_difference": 1.4749908447265625
+        }
+      ]
+    },
+    {
+      "ticker": "KO",
+      "overlapping_prices": 595,
+      "exactly_different_prices": [
+        {
+          "date": "2026-05-15",
+          "daily_parquet_close": 80.98999786376953,
+          "market_csv_close": 80.81999969482422,
+          "absolute_difference": 0.1699981689453125
+        }
+      ]
+    },
+    {
+      "ticker": "JPM",
+      "overlapping_prices": 595,
+      "exactly_different_prices": [
+        {
+          "date": "2026-05-15",
+          "daily_parquet_close": 298.17999267578125,
+          "market_csv_close": 297.80999755859375,
+          "absolute_difference": 0.3699951171875
+        }
+      ]
+    }
+  ],
+  "parquet_metadata_survey": {
+    "files": 7255,
+    "failures": [],
+    "first_year_counts": {
+      "2023": 6409,
+      "2026": 137,
+      "2025": 395,
+      "2024": 314
+    },
+    "ten_calendar_year_span_count": 0,
+    "ten_year_non_numeric_filenames": []
+  },
+  "csv_date_survey": {
+    "files": 518,
+    "failures": [],
+    "first_year_counts": {
+      "2024": 498,
+      "2023": 18,
+      "2025": 2
+    },
+    "ten_calendar_year_span_count": 0,
+    "ten_year_non_numeric_filenames": []
+  },
+  "network_requests": 0,
+  "parent_price_files_modified": false,
+  "scope": "Stored historical data audit only. No downloader, normalization fallback, or credential loading. File modification time is not proven acquisition time. Ten-year span is not a proof of complete sessions."
+}

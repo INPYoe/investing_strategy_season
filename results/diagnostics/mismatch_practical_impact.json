@@ -1,0 +1,248 @@
+{
+  "generated_at_utc": "2026-10-05T02:57:07.364394+00:00",
+  "comparison_source": "results/research/year_boundary/calibration.json",
+  "training_field_matches": {
+    "entry_day": 13,
+    "exit_day": 15,
+    "hold_days": 15,
+    "avg_return": 13,
+    "win_rate": 21,
+    "sample_count": 35
+  },
+  "training_cases": 36,
+  "QQQ_January_replica_comparison": {
+    "ticker": "QQQ",
+    "month": 1,
+    "expected": {
+      "entry_day": 21,
+      "exit_day": 50,
+      "hold_days": 20,
+      "avg_return": 0.017898221468867822,
+      "win_rate": 0.7272727272727273,
+      "sample_count": 11
+    },
+    "actual": {
+      "entry_day": 14,
+      "exit_day": 29,
+      "hold_days": 10,
+      "avg_return": 0.014006189849983575,
+      "win_rate": 0.9090909090909091,
+      "sample_count": 11
+    },
+    "checks": {
+      "entry_day": false,
+      "exit_day": false,
+      "hold_days": false,
+      "avg_return": false,
+      "win_rate": false,
+      "sample_count": true
+    },
+    "displayed_average_match": false,
+    "all_match": false
+  },
+  "QQQ_January_same_windows_investment_replay": {
+    "expected": {
+      "entry_md": "01-21",
+      "hold_days": 20,
+      "avg_return": 0.018914583740576918,
+      "win_rate": 0.7,
+      "worst_return": -0.028946091441164556,
+      "sample_count": 10,
+      "samples": [
+        {
+          "year": 2017,
+          "entry": "2017-01-23",
+          "exit": "2017-02-21",
+          "return": 0.05755952052146052
+        },
+        {
+          "year": 2018,
+          "entry": "2018-01-22",
+          "exit": "2018-02-20",
+          "return": -0.016832789769921197
+        },
+        {
+          "year": 2019,
+          "entry": "2019-01-22",
+          "exit": "2019-02-20",
+          "return": 0.06366533560825682
+        },
+        {
+          "year": 2020,
+          "entry": "2020-01-21",
+          "exit": "2020-02-19",
+          "return": 0.06135816101184499
+        },
+        {
+          "year": 2021,
+          "entry": "2021-01-21",
+          "exit": "2021-02-19",
+          "return": 0.014278393260284794
+        },
+        {
+          "year": 2022,
+          "entry": "2022-01-21",
+          "exit": "2022-02-18",
+          "return": -0.028946091441164556
+        },
+        {
+          "year": 2023,
+          "entry": "2023-01-23",
+          "exit": "2023-02-21",
+          "return": 0.017545555336457408
+        },
+        {
+          "year": 2024,
+          "entry": "2024-01-22",
+          "exit": "2024-02-20",
+          "return": 0.013254990784876908
+        },
+        {
+          "year": 2025,
+          "entry": "2025-01-21",
+          "exit": "2025-02-19",
+          "return": 0.028048820476081593
+        },
+        {
+          "year": 2026,
+          "entry": "2026-01-21",
+          "exit": "2026-02-19",
+          "return": -0.0207860583824081
+        }
+      ],
+      "passes_etf_win_filter_80pct": false
+    },
+    "actual": {
+      "entry_md": "01-14",
+      "hold_days": 10,
+      "avg_return": 0.015349088598142768,
+      "win_rate": 0.9,
+      "worst_return": -0.04463060118503326,
+      "sample_count": 10,
+      "samples": [
+        {
+          "year": 2017,
+          "entry": "2017-01-17",
+          "exit": "2017-01-31",
+          "return": 0.014496259533248068
+        },
+        {
+          "year": 2018,
+          "entry": "2018-01-16",
+          "exit": "2018-01-30",
+          "return": 0.028533367296267098
+        },
+        {
+          "year": 2019,
+          "entry": "2019-01-14",
+          "exit": "2019-01-29",
+          "return": 0.014441298764426902
+        },
+        {
+          "year": 2020,
+          "entry": "2020-01-14",
+          "exit": "2020-01-29",
+          "return": 0.007860613667245886
+        },
+        {
+          "year": 2021,
+          "entry": "2021-01-14",
+          "exit": "2021-01-29",
+          "return": 0.0006682642427098262
+        },
+        {
+          "year": 2022,
+          "entry": "2022-01-14",
+          "exit": "2022-01-31",
+          "return": -0.04463060118503326
+        },
+        {
+          "year": 2023,
+          "entry": "2023-01-17",
+          "exit": "2023-01-31",
+          "return": 0.04645852454060484
+        },
+        {
+          "year": 2024,
+          "entry": "2024-01-16",
+          "exit": "2024-01-30",
+          "return": 0.038532997277871406
+        },
+        {
+          "year": 2025,
+          "entry": "2025-01-14",
+          "exit": "2025-01-29",
+          "return": 0.031183197399474283
+        },
+        {
+          "year": 2026,
+          "entry": "2026-01-14",
+          "exit": "2026-01-29",
+          "return": 0.015946964444612632
+        }
+      ],
+      "passes_etf_win_filter_80pct": true
+    }
+  },
+  "asof_exclusive": "2026-10-01",
+  "mode": "investment, latest 10 completed samples; ordinary session counts",
+  "scope": "Diagnostic replay of the two selected windows, not an independently optimized investment decision, prospective trade, or proof of future profit",
+  "price_inputs": [
+    {
+      "ticker": "SPY",
+      "policy": "website chart adjusted-price snapshot"
+    },
+    {
+      "ticker": "QQQ",
+      "anchor": "2026-05-20",
+      "tail_policy": "assumed raw except independent quotes",
+      "independent_quotes": 14,
+      "replacements": [
+        {
+          "date": "2026-06-16",
+          "website": 729.0588,
+          "independent_close": 729.86
+        },
+        {
+          "date": "2026-06-17",
+          "website": 721.7169,
+          "independent_close": 722.51
+        },
+        {
+          "date": "2026-06-18",
+          "website": 739.807,
+          "independent_close": 740.62
+        }
+      ],
+      "factors": [
+        {
+          "ex_date": "2026-06-22",
+          "factor": 0.9989022710701845
+        },
+        {
+          "ex_date": "2026-09-21",
+          "factor": 0.9989590408205696
+        }
+      ],
+      "full_independent_price_validation": false,
+      "source": "https://ca.finance.yahoo.com/quote/QQQ/history/",
+      "input_sha256": "3c0541fce38c491d1aa3736d4e83f99a546d198821fd2e0062748de60534c09c"
+    },
+    {
+      "ticker": "AAPL",
+      "anchor": "2026-05-20",
+      "terminal_factor": 1.0,
+      "overlap_prices": 598,
+      "max_abs_close_error": 7.913540514437045e-05,
+      "tail_prices": 93,
+      "tail_cent_aligned": 93,
+      "tail_policy": "assumed raw",
+      "full_independent_price_validation": false,
+      "actions_source": "https://investor.apple.com/dividend-history/default.aspx",
+      "actions_sha256": "92f1f875fd73cbad9f84a3eeb3f743a2a4fd8567aea73734738764cd346c303e",
+      "anchor_cache_sha256": "cd0b5f503eafecaade67867426404652eeccdf8d4bf7cdb8d1036a10c8d7c7bd"
+    }
+  ],
+  "new_network_requests": 0,
+  "production_changed": false
+}

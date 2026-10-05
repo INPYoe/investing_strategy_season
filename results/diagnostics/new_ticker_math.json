@@ -1,0 +1,3934 @@
+{
+  "cutoff_exclusive": "2026-05-21",
+  "profile": {
+    "date_mode": "doy",
+    "roll": "next",
+    "hold_offset": 0,
+    "entry_step": 1,
+    "entry_offset": 0,
+    "objective": "win_mean",
+    "selection_history": "inclusive",
+    "holds": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30
+    ],
+    "cross_year_alignment": "leap_after_first_year"
+  },
+  "inputs": [
+    {
+      "ticker": "MSFT",
+      "path": "/Volumes/Extreme SSD/Investing_Researcher/market_detector/data/cache/prices/MSFT.csv",
+      "sha256": "78919633375790476270da9f5f66392ff8ea7968663118678ce3965005795450",
+      "quality": {
+        "records": 598,
+        "columns": [
+          "date",
+          "open",
+          "high",
+          "low",
+          "close",
+          "adj_close",
+          "volume"
+        ],
+        "first_date": "2024-01-02",
+        "last_date": "2026-05-20",
+        "has_adjusted_close_column": true,
+        "duplicate_dates": [],
+        "weekend_dates": [],
+        "quality_failures": [],
+        "within_file_missing_sessions": [],
+        "unexpected_exchange_dates": [],
+        "requested_start": "2024-01-02",
+        "cutoff_exclusive": "2026-05-21",
+        "requested_missing_session_count": 0,
+        "covers_requested_sessions": true,
+        "inferred_adjusted_close_values": false
+      },
+      "provider_and_actual_collection_time": "unverified; past stored records only"
+    },
+    {
+      "ticker": "NVDA",
+      "path": "/Volumes/Extreme SSD/Investing_Researcher/market_detector/data/cache/prices/NVDA.csv",
+      "sha256": "096833d957c55831b3b0300848039dd3b7ca69b1ccbb41b091f41f1353dc35c4",
+      "quality": {
+        "records": 759,
+        "columns": [
+          "date",
+          "open",
+          "high",
+          "low",
+          "close",
+          "adj_close",
+          "volume"
+        ],
+        "first_date": "2023-05-11",
+        "last_date": "2026-05-20",
+        "has_adjusted_close_column": true,
+        "duplicate_dates": [],
+        "weekend_dates": [],
+        "quality_failures": [],
+        "within_file_missing_sessions": [],
+        "unexpected_exchange_dates": [],
+        "requested_start": "2023-05-11",
+        "cutoff_exclusive": "2026-05-21",
+        "requested_missing_session_count": 0,
+        "covers_requested_sessions": true,
+        "inferred_adjusted_close_values": false
+      },
+      "provider_and_actual_collection_time": "unverified; past stored records only"
+    },
+    {
+      "ticker": "KO",
+      "path": "/Volumes/Extreme SSD/Investing_Researcher/market_detector/data/cache/prices/KO.csv",
+      "sha256": "5db40e332345dcfa0bf370bc347a3576dbfda3dff29c4ed10ab057d61eb802e6",
+      "quality": {
+        "records": 598,
+        "columns": [
+          "date",
+          "open",
+          "high",
+          "low",
+          "close",
+          "adj_close",
+          "volume"
+        ],
+        "first_date": "2024-01-02",
+        "last_date": "2026-05-20",
+        "has_adjusted_close_column": true,
+        "duplicate_dates": [],
+        "weekend_dates": [],
+        "quality_failures": [],
+        "within_file_missing_sessions": [],
+        "unexpected_exchange_dates": [],
+        "requested_start": "2024-01-02",
+        "cutoff_exclusive": "2026-05-21",
+        "requested_missing_session_count": 0,
+        "covers_requested_sessions": true,
+        "inferred_adjusted_close_values": false
+      },
+      "provider_and_actual_collection_time": "unverified; past stored records only"
+    },
+    {
+      "ticker": "JPM",
+      "path": "/Volumes/Extreme SSD/Investing_Researcher/market_detector/data/cache/prices/JPM.csv",
+      "sha256": "7cc5c4d34579e3c70be2a95a6c903bf0b187ff1b8b9e845e8b255cac72ffdd85",
+      "quality": {
+        "records": 598,
+        "columns": [
+          "date",
+          "open",
+          "high",
+          "low",
+          "close",
+          "adj_close",
+          "volume"
+        ],
+        "first_date": "2024-01-02",
+        "last_date": "2026-05-20",
+        "has_adjusted_close_column": true,
+        "duplicate_dates": [],
+        "weekend_dates": [],
+        "quality_failures": [],
+        "within_file_missing_sessions": [],
+        "unexpected_exchange_dates": [],
+        "requested_start": "2024-01-02",
+        "cutoff_exclusive": "2026-05-21",
+        "requested_missing_session_count": 0,
+        "covers_requested_sessions": true,
+        "inferred_adjusted_close_values": false
+      },
+      "provider_and_actual_collection_time": "unverified; past stored records only"
+    }
+  ],
+  "groups": [
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "sample_count_distribution": {
+        "3": 693,
+        "2": 1497
+      }
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "sample_count_distribution": {
+        "2": 2190
+      }
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "sample_count_distribution": {
+        "3": 729,
+        "2": 1461
+      }
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "sample_count_distribution": {
+        "3": 729,
+        "unavailable": 1461
+      }
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "sample_count_distribution": {
+        "3": 693,
+        "2": 1497
+      }
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "sample_count_distribution": {
+        "2": 2190
+      }
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "sample_count_distribution": {
+        "3": 729,
+        "2": 1461
+      }
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "sample_count_distribution": {
+        "3": 729,
+        "unavailable": 1461
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "sample_count_distribution": {
+        "3": 693,
+        "2": 1497
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "sample_count_distribution": {
+        "2": 2190
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "sample_count_distribution": {
+        "3": 2119,
+        "2": 58,
+        "4": 13
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "sample_count_distribution": {
+        "3": 2132,
+        "unavailable": 58
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "sample_count_distribution": {
+        "3": 693,
+        "2": 1497
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "sample_count_distribution": {
+        "2": 2190
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "sample_count_distribution": {
+        "3": 2119,
+        "2": 58,
+        "4": 13
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "sample_count_distribution": {
+        "3": 2132,
+        "unavailable": 58
+      }
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "sample_count_distribution": {
+        "3": 693,
+        "2": 1497
+      }
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "sample_count_distribution": {
+        "2": 2190
+      }
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "sample_count_distribution": {
+        "3": 729,
+        "2": 1461
+      }
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "sample_count_distribution": {
+        "3": 729,
+        "unavailable": 1461
+      }
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "sample_count_distribution": {
+        "3": 693,
+        "2": 1497
+      }
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "sample_count_distribution": {
+        "2": 2190
+      }
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "sample_count_distribution": {
+        "3": 729,
+        "2": 1461
+      }
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "sample_count_distribution": {
+        "3": 729,
+        "unavailable": 1461
+      }
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "sample_count_distribution": {
+        "3": 693,
+        "2": 1497
+      }
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "sample_count_distribution": {
+        "2": 2190
+      }
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "sample_count_distribution": {
+        "3": 729,
+        "2": 1461
+      }
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "sample_count_distribution": {
+        "3": 729,
+        "unavailable": 1461
+      }
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "sample_count_distribution": {
+        "3": 693,
+        "2": 1497
+      }
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "sample_count_distribution": {
+        "2": 2190
+      }
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "sample_count_distribution": {
+        "3": 729,
+        "2": 1461
+      }
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "sample_count_distribution": {
+        "3": 729,
+        "unavailable": 1461
+      }
+    }
+  ],
+  "candidate_windows_checked": 70080,
+  "maximum_numeric_difference": 5.551115123125783e-17,
+  "disagreements": [],
+  "selection_checks": [
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 1,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 2,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 3,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 4,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 5,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 6,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 7,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 8,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 9,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 10,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 11,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 12,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 1,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 2,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 3,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 4,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 5,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 6,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 7,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 8,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 9,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 10,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 11,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 12,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 1,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 2,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 3,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 4,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 5,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 6,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 7,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 8,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 9,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 10,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 11,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 12,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 1,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 2,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 3,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 4,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 5,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 6,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 7,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 8,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 9,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 10,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 11,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 12,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 1,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 2,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 3,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 4,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 5,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 6,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 7,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 8,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 9,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 10,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 11,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 12,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 1,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 2,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 3,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 4,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 5,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 6,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 7,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 8,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 9,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 10,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 11,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 12,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 1,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 2,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 3,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 4,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 5,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 6,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 7,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 8,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 9,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 10,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 11,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 12,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 1,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 2,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 3,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 4,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 5,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 6,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 7,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 8,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 9,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 10,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 11,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "MSFT",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 12,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 1,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 2,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 3,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 4,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 5,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 6,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 7,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 8,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 9,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 10,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 11,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 12,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 1,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 2,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 3,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 4,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 5,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 6,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 7,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 8,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 9,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 10,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 11,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 12,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 1,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 2,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 3,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 4,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 5,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 6,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 7,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 8,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 9,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 10,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 11,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 12,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 1,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 2,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 3,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 4,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 5,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 6,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 7,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 8,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 9,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 10,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 11,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 12,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 1,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 2,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 3,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 4,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 5,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 6,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 7,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 8,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 9,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 10,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 11,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 12,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 1,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 2,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 3,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 4,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 5,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 6,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 7,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 8,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 9,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 10,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 11,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 12,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 1,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 2,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 3,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 4,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 5,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 6,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 7,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 8,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 9,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 10,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 11,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 12,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 1,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 2,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 3,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 4,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 5,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 6,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 7,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 8,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 9,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 10,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 11,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "NVDA",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 12,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 1,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 2,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 3,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 4,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 5,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 6,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 7,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 8,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 9,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 10,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 11,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 12,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 1,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 2,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 3,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 4,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 5,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 6,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 7,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 8,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 9,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 10,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 11,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 12,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 1,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 2,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 3,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 4,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 5,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 6,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 7,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 8,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 9,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 10,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 11,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 12,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 1,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 2,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 3,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 4,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 5,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 6,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 7,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 8,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 9,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 10,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 11,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 12,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 1,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 2,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 3,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 4,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 5,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 6,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 7,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 8,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 9,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 10,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 11,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 12,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 1,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 2,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 3,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 4,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 5,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 6,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 7,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 8,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 9,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 10,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 11,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 12,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 1,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 2,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 3,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 4,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 5,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 6,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 7,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 8,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 9,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 10,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 11,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 12,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 1,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 2,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 3,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 4,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 5,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 6,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 7,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 8,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 9,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 10,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 11,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "KO",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 12,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 1,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 2,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 3,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 4,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 5,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 6,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 7,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 8,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 9,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 10,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 11,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 12,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 1,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 2,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 3,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 4,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 5,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 6,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 7,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 8,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 9,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 10,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 11,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 12,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 1,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 2,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 3,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 4,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 5,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 6,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 7,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 8,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 9,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 10,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 11,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 12,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 1,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 2,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 3,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 4,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 5,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 6,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 7,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 8,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 9,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 10,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 11,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 12,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 1,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 2,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 3,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 4,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 5,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 6,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 7,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 8,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 9,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 10,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 11,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "replica",
+      "month": 12,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 1,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 2,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 3,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 4,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 5,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 6,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 7,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 8,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 9,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 10,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 11,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 2,
+      "mode": "investment",
+      "month": 12,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 1,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 2,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 3,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 4,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 5,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 6,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 7,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 8,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 9,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 10,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 11,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "replica",
+      "month": 12,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 1,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 2,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 3,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 4,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 5,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 6,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 7,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 8,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 9,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 10,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 11,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    },
+    {
+      "ticker": "JPM",
+      "price_field": "Adj Close",
+      "period": 3,
+      "mode": "investment",
+      "month": 12,
+      "same_selected_trades": true,
+      "same_window_labels": true
+    }
+  ],
+  "selection_disagreements": [],
+  "default_investment_10_year": {
+    "windows_checked": 17520,
+    "available_windows": 0
+  },
+  "network_requests": 0,
+  "price_files_modified": false,
+  "new_site_reference_cases": 0,
+  "fresh_site_parity_validated": false,
+  "scope": "New ticker implementation verification on 2/3-year stored histories only. This does not verify an unpublished website selection rule or full price provenance. The default investment policy remains 10 completed observations."
+}

@@ -1,0 +1,27 @@
+<!doctype html><html lang='ko'><meta charset='utf-8'><title>계절성 비교 결과</title>
+<style>body{font:15px system-ui;margin:35px;color:#15213a;background:#f7f9fc}main{max-width:1400px;margin:auto}
+table{border-collapse:collapse;background:white;width:100%}td,th{padding:10px;text-align:left;border-bottom:1px solid #dde3ee;font-size:13px}
+.cards{display:flex;gap:18px;flex-wrap:wrap}.card{background:white;padding:20px;border-radius:12px}code{white-space:pre-wrap}h1{font-size:28px}
+</style><main><h1>사이트 기준값과 재현 모드 계산 비교</h1>
+<p>상태: 재현 미완료 — 차이를 아래에 기록.</p>
+<p>사이트 가격 스냅샷으로 계산 방식만 대조했습니다. 독립 가격 공급자 검증과는 별개입니다.</p>
+
+<div class='cards'><div class='card'>전체 최적화 일치<br><strong>0 / 12</strong></div>
+<div class='card'>진입일·보유기간 동시 일치<br><strong>0 / 12</strong></div>
+<div class='card'>지정 구간 평균 수익률 정밀 일치<br><strong>10 / 12</strong></div>
+<div class='card'>지정 구간 평균 화면 표시 일치<br><strong>11 / 12</strong></div>
+<div class='card'>지정 구간 승률 계산 일치<br><strong>12 / 12</strong></div></div>
+<p>각 칸은 사이트 값 / 독립 계산 값. 수익률 허용 오차는 0.0002%p, 날짜·기간·표본 수는 정확히 비교.
+지정 구간 계산은 사이트의 날짜를 입력받은 진단이며, 최적 구간을 독립적으로 찾았다는 뜻이 아닙니다.</p>
+<p>프로필: <code>{&quot;date_mode&quot;: &quot;doy&quot;, &quot;roll&quot;: &quot;next&quot;, &quot;hold_offset&quot;: 0, &quot;entry_step&quot;: 7, &quot;entry_offset&quot;: 0, &quot;objective&quot;: &quot;win_mean&quot;, &quot;selection_history&quot;: &quot;inclusive&quot;, &quot;holds&quot;: [5, 10, 15, 20, 25, 30]}</code></p>
+<details><summary>가격 출처·파일 해시·계산 기준일</summary><code>[
+  {
+    &quot;ticker&quot;: &quot;GLD&quot;,
+    &quot;source&quot;: &quot;easyinvesting public chart snapshot; calibration only&quot;,
+    &quot;price_field&quot;: &quot;Close&quot;,
+    &quot;sha256&quot;: &quot;1f764a6aa8107579e501298af78766ef86242437c3358316c0b0d4fe8cf967e8&quot;,
+    &quot;cutoff_exclusive&quot;: &quot;2026-10-01&quot;
+  }
+]</code></details>
+<div style='overflow:auto'><table><thead><tr><th>종목</th><th>월</th><th>진입 연초 일수</th><th>청산 연초 일수</th><th>보유 거래일</th><th>평균 수익률</th><th>승률</th><th>표본</th><th>결과</th></tr></thead>
+<tbody><tr><td>GLD</td><td>1</td><td>2 / 7</td><td>17 / 30</td><td>10 / 15</td><td>1.0760% / 3.0066%</td><td>81.8182% / 90.9091%</td><td>11 / 11</td><td>차이 있음</td></tr><tr><td>GLD</td><td>2</td><td>33 / 56</td><td>55 / 99</td><td>15 / 30</td><td>2.6184% / 2.0753%</td><td>72.7273% / 72.7273%</td><td>11 / 11</td><td>차이 있음</td></tr><tr><td>GLD</td><td>3</td><td>60 / 63</td><td>103 / 70</td><td>30 / 5</td><td>4.0709% / 0.9244%</td><td>81.8182% / 90.9091%</td><td>11 / 11</td><td>차이 있음</td></tr><tr><td>GLD</td><td>4</td><td>95 / 91</td><td>102 / 106</td><td>5 / 10</td><td>2.4794% / 2.6348%</td><td>90.9091% / 90.9091%</td><td>11 / 11</td><td>차이 있음</td></tr><tr><td>GLD</td><td>5</td><td>151 / 133</td><td>158 / 162</td><td>5 / 20</td><td>-0.0209% / -0.2015%</td><td>45.4545% / 63.6364%</td><td>11 / 11</td><td>차이 있음</td></tr><tr><td>GLD</td><td>6</td><td>180 / 175</td><td>216 / 218</td><td>25 / 30</td><td>2.8511% / 2.6518%</td><td>81.8182% / 72.7273%</td><td>11 / 11</td><td>차이 있음</td></tr><tr><td>GLD</td><td>7</td><td>186 / 189</td><td>215 / 217</td><td>20 / 20</td><td>1.3904% / 2.5011%</td><td>72.7273% / 90.9091%</td><td>11 / 11</td><td>차이 있음</td></tr><tr><td>GLD</td><td>8</td><td>215 / 224</td><td>243 / 238</td><td>20 / 10</td><td>1.7183% / 0.9782%</td><td>63.6364% / 81.8182%</td><td>11 / 11</td><td>차이 있음</td></tr><tr><td>GLD</td><td>9</td><td>271 / 273</td><td>285 / 308</td><td>10 / 25</td><td>1.0510% / 2.2746%</td><td>90.0000% / 90.0000%</td><td>10 / 10</td><td>차이 있음</td></tr><tr><td>GLD</td><td>10</td><td>278 / 280</td><td>306 / 287</td><td>20 / 5</td><td>1.4948% / 1.0824%</td><td>80.0000% / 80.0000%</td><td>10 / 10</td><td>차이 있음</td></tr><tr><td>GLD</td><td>11</td><td>333 / 329</td><td>13 / 10</td><td>30 / 30</td><td>4.0884% / 3.5861%</td><td>90.0000% / 100.0000%</td><td>10 / 10</td><td>차이 있음</td></tr><tr><td>GLD</td><td>12</td><td>348 / 343</td><td>30 / 8</td><td>30 / 20</td><td>6.1999% / 3.4158%</td><td>90.0000% / 100.0000%</td><td>10 / 10</td><td>차이 있음</td></tr></tbody></table></div></main></html>

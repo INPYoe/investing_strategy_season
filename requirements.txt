@@ -1,0 +1,2 @@
+yfinance>=0.2.65,<2
+exchange-calendars>=4.5,<5

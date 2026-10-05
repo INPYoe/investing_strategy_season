@@ -1,0 +1,76 @@
+{
+  "ticker": "QQQ",
+  "source": "https://ca.finance.yahoo.com/quote/QQQ/history/",
+  "retrieved": "2026-10-05",
+  "acquisition": "primary provider historical table via web search index; limited coverage",
+  "anchor": "2026-05-20",
+  "cash_precision": "provider display 0.001 USD; no inferred precision",
+  "events": [
+    {
+      "ex_date": "2026-06-22",
+      "cash": 0.813
+    },
+    {
+      "ex_date": "2026-09-21",
+      "cash": 0.751
+    }
+  ],
+  "quotes": [
+    {
+      "date": "2026-06-16",
+      "close": 729.86
+    },
+    {
+      "date": "2026-06-17",
+      "close": 722.51
+    },
+    {
+      "date": "2026-06-18",
+      "close": 740.62
+    },
+    {
+      "date": "2026-09-18",
+      "close": 721.45
+    },
+    {
+      "date": "2026-09-21",
+      "close": 741.47
+    },
+    {
+      "date": "2026-09-17",
+      "close": 716.92
+    },
+    {
+      "date": "2026-09-16",
+      "close": 704.72
+    },
+    {
+      "date": "2026-09-15",
+      "close": 704.54
+    },
+    {
+      "date": "2026-09-14",
+      "close": 709.18
+    },
+    {
+      "date": "2026-09-11",
+      "close": 714.88
+    },
+    {
+      "date": "2026-09-10",
+      "close": 708.69
+    },
+    {
+      "date": "2026-09-09",
+      "close": 716.31
+    },
+    {
+      "date": "2026-09-08",
+      "close": 718.36
+    },
+    {
+      "date": "2026-09-04",
+      "close": 718.96
+    }
+  ]
+}

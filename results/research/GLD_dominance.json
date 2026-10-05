@@ -1,0 +1,156 @@
+{
+  "scope": "daily candidate grid, current frozen chart, inclusive history; not a claim about unpublished constraints",
+  "details": [
+    {
+      "ticker": "GLD",
+      "month": 1,
+      "current_target_mean": 0.010760436019845636,
+      "current_target_win": 0.8181818181818182,
+      "dominated_by_count": 30,
+      "example": {
+        "entry_day": 3,
+        "hold_days": 15,
+        "avg_return": 0.033298361402976796,
+        "win_rate": 0.8181818181818182
+      }
+    },
+    {
+      "ticker": "GLD",
+      "month": 2,
+      "current_target_mean": 0.026183977983827232,
+      "current_target_win": 0.7272727272727273,
+      "dominated_by_count": 2,
+      "example": {
+        "entry_day": 58,
+        "hold_days": 30,
+        "avg_return": 0.03148629070722127,
+        "win_rate": 0.8181818181818182
+      }
+    },
+    {
+      "ticker": "GLD",
+      "month": 3,
+      "current_target_mean": 0.04070889836193516,
+      "current_target_win": 0.8181818181818182,
+      "dominated_by_count": 5,
+      "example": {
+        "entry_day": 78,
+        "hold_days": 20,
+        "avg_return": 0.0416645998130391,
+        "win_rate": 0.8181818181818182
+      }
+    },
+    {
+      "ticker": "GLD",
+      "month": 4,
+      "current_target_mean": 0.024794360570124893,
+      "current_target_win": 0.9090909090909091,
+      "dominated_by_count": 3,
+      "example": {
+        "entry_day": 91,
+        "hold_days": 10,
+        "avg_return": 0.026347541743743944,
+        "win_rate": 0.9090909090909091
+      }
+    },
+    {
+      "ticker": "GLD",
+      "month": 5,
+      "current_target_mean": -0.00020887534224660204,
+      "current_target_win": 0.45454545454545453,
+      "dominated_by_count": 62,
+      "example": {
+        "entry_day": 121,
+        "hold_days": 5,
+        "avg_return": 0.007631050344054505,
+        "win_rate": 0.7272727272727273
+      }
+    },
+    {
+      "ticker": "GLD",
+      "month": 6,
+      "current_target_mean": 0.028510750334392158,
+      "current_target_win": 0.8181818181818182,
+      "dominated_by_count": 1,
+      "example": {
+        "entry_day": 181,
+        "hold_days": 25,
+        "avg_return": 0.030263822277892483,
+        "win_rate": 0.8181818181818182
+      }
+    },
+    {
+      "ticker": "GLD",
+      "month": 7,
+      "current_target_mean": 0.01390399131891235,
+      "current_target_win": 0.7272727272727273,
+      "dominated_by_count": 43,
+      "example": {
+        "entry_day": 182,
+        "hold_days": 20,
+        "avg_return": 0.02072745356453458,
+        "win_rate": 0.7272727272727273
+      }
+    },
+    {
+      "ticker": "GLD",
+      "month": 8,
+      "current_target_mean": 0.017183406136235903,
+      "current_target_win": 0.6363636363636364,
+      "dominated_by_count": 0,
+      "example": null
+    },
+    {
+      "ticker": "GLD",
+      "month": 9,
+      "current_target_mean": 0.01051006632993794,
+      "current_target_win": 0.9,
+      "dominated_by_count": 2,
+      "example": {
+        "entry_day": 272,
+        "hold_days": 10,
+        "avg_return": 0.01963006515416834,
+        "win_rate": 0.9
+      }
+    },
+    {
+      "ticker": "GLD",
+      "month": 10,
+      "current_target_mean": 0.014948292598716263,
+      "current_target_win": 0.8,
+      "dominated_by_count": 3,
+      "example": {
+        "entry_day": 274,
+        "hold_days": 15,
+        "avg_return": 0.018279050170103294,
+        "win_rate": 0.8
+      }
+    },
+    {
+      "ticker": "GLD",
+      "month": 11,
+      "current_target_mean": 0.04023771276460797,
+      "current_target_win": 0.9,
+      "dominated_by_count": 1,
+      "example": {
+        "entry_day": 334,
+        "hold_days": 30,
+        "avg_return": 0.043582886106059836,
+        "win_rate": 0.9
+      }
+    },
+    {
+      "ticker": "GLD",
+      "month": 12,
+      "current_target_mean": 0.061830621645973506,
+      "current_target_win": 0.9,
+      "dominated_by_count": 1,
+      "example": {
+        "entry_day": 349,
+        "hold_days": 30,
+        "avg_return": 0.06584089662450468,
+        "win_rate": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+test_conventions_agree_on_unseen_synthetic_calendar (test_independent_window_math.IndependentWindowTests) ... ok
+test_exclusive_cutoff_and_latest_completed_observation (test_independent_window_math.IndependentWindowTests) ... ok
+test_ipo_distance_and_price_scale_do_not_create_observations (test_independent_window_math.IndependentWindowTests) ... ok
+test_leap_hypothesis_is_replica_only_and_excludes_initial_year (test_independent_window_math.IndependentWindowTests) ... ok
+test_path_drawdown_distinguishes_intrahold_loss_from_final_loss (test_independent_window_math.IndependentWindowTests) ... ok
+test_earlier_snapshot_cannot_observe_later_price_movements (test_research_selection_vintage.SelectionVintageTests) ... ok
+test_reporting_cache_separates_cutoffs (test_research_selection_vintage.SelectionVintageTests) ... FAIL
+test_reporting_cache_separates_price_objects_with_same_source_hash (test_research_selection_vintage.SelectionVintageTests) ... FAIL
+
+======================================================================
+FAIL: test_reporting_cache_separates_cutoffs (test_research_selection_vintage.SelectionVintageTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Volumes/Extreme SSD/Investing_Researcher/seasonality_lab/test_research_selection_vintage.py", line 17, in test_reporting_cache_separates_cutoffs
+    self.assertEqual(after['sample_count'], 2)
+AssertionError: 1 != 2
+
+======================================================================
+FAIL: test_reporting_cache_separates_price_objects_with_same_source_hash (test_research_selection_vintage.SelectionVintageTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Volumes/Extreme SSD/Investing_Researcher/seasonality_lab/test_research_selection_vintage.py", line 28, in test_reporting_cache_separates_price_objects_with_same_source_hash
+    self.assertAlmostEqual(changed['avg_return'], .2)
+AssertionError: 0.10000000000000009 != 0.2 within 7 places (0.09999999999999992 difference)
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.072s
+
+FAILED (failures=2)

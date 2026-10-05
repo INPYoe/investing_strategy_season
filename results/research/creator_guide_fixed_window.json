@@ -1,0 +1,145 @@
+{
+  "source": "https://fanding.kr/en/%40kangcfa/post/209655/",
+  "scope": "Validation of the publicly described fixed SPY 2006..2025 June window only; not independent optimum verification",
+  "expected_display": {
+    "ticker": "SPY",
+    "start_year": 2006,
+    "end_year": 2025,
+    "month": 6,
+    "entry_md": "06-17",
+    "exit_md": "07-16",
+    "hold_days": 20,
+    "displayed_average_percent": 1.7,
+    "displayed_win_percent": 90
+  },
+  "actual": {
+    "avg_return": 0.01670192285395406,
+    "win_rate": 0.9,
+    "sample_count": 20,
+    "samples": [
+      {
+        "year": 2006,
+        "entry": "2006-06-19",
+        "exit": "2006-07-18",
+        "return": 0.0024265835851779993
+      },
+      {
+        "year": 2007,
+        "entry": "2007-06-18",
+        "exit": "2007-07-17",
+        "return": 0.012165508797640445
+      },
+      {
+        "year": 2008,
+        "entry": "2008-06-16",
+        "exit": "2008-07-15",
+        "return": -0.10742739708326965
+      },
+      {
+        "year": 2009,
+        "entry": "2009-06-17",
+        "exit": "2009-07-16",
+        "return": 0.02278455039765892
+      },
+      {
+        "year": 2010,
+        "entry": "2010-06-17",
+        "exit": "2010-07-16",
+        "return": -0.044342238353067165
+      },
+      {
+        "year": 2011,
+        "entry": "2011-06-17",
+        "exit": "2011-07-18",
+        "return": 0.028019942509005302
+      },
+      {
+        "year": 2012,
+        "entry": "2012-06-18",
+        "exit": "2012-07-17",
+        "return": 0.014582787889826143
+      },
+      {
+        "year": 2013,
+        "entry": "2013-06-17",
+        "exit": "2013-07-16",
+        "return": 0.024120588457278158
+      },
+      {
+        "year": 2014,
+        "entry": "2014-06-17",
+        "exit": "2014-07-16",
+        "return": 0.020934198874258625
+      },
+      {
+        "year": 2015,
+        "entry": "2015-06-17",
+        "exit": "2015-07-16",
+        "return": 0.013024355206565641
+      },
+      {
+        "year": 2016,
+        "entry": "2016-06-16",
+        "exit": "2016-07-15",
+        "return": 0.04118837360632166
+      },
+      {
+        "year": 2017,
+        "entry": "2017-06-19",
+        "exit": "2017-07-18",
+        "return": 0.004087180005690305
+      },
+      {
+        "year": 2018,
+        "entry": "2018-06-18",
+        "exit": "2018-07-17",
+        "return": 0.014137454759899803
+      },
+      {
+        "year": 2019,
+        "entry": "2019-06-17",
+        "exit": "2019-07-16",
+        "return": 0.04101347359741059
+      },
+      {
+        "year": 2020,
+        "entry": "2020-06-16",
+        "exit": "2020-07-15",
+        "return": 0.032931911373056844
+      },
+      {
+        "year": 2021,
+        "entry": "2021-06-17",
+        "exit": "2021-07-16",
+        "return": 0.02554947200471336
+      },
+      {
+        "year": 2022,
+        "entry": "2022-06-17",
+        "exit": "2022-07-19",
+        "return": 0.0721859322998637
+      },
+      {
+        "year": 2023,
+        "entry": "2023-06-20",
+        "exit": "2023-07-19",
+        "return": 0.04121861841983421
+      },
+      {
+        "year": 2024,
+        "entry": "2024-06-17",
+        "exit": "2024-07-17",
+        "return": 0.021269909978636425
+      },
+      {
+        "year": 2025,
+        "entry": "2025-06-17",
+        "exit": "2025-07-17",
+        "return": 0.05416725075257989
+      }
+    ]
+  },
+  "display_matches": true,
+  "selection_used_reference": false,
+  "replication_complete": false
+}

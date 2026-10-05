@@ -1,0 +1,3685 @@
+{
+  "profile": {
+    "date_mode": "doy",
+    "roll": "next",
+    "hold_offset": 0,
+    "entry_step": 7,
+    "entry_offset": 0,
+    "objective": "win_mean",
+    "selection_history": "inclusive",
+    "holds": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30
+    ]
+  },
+  "cases": 24,
+  "field_matches": {
+    "entry_day": 6,
+    "exit_day": 7,
+    "hold_days": 10,
+    "avg_return": 5,
+    "win_rate": 15,
+    "sample_count": 24
+  },
+  "fully_matching_cases": 5,
+  "fixed_window_formula": {
+    "cases": 24,
+    "average_matches": 20,
+    "displayed_average_matches": 22,
+    "win_matches": 24,
+    "sample_matches": 24,
+    "details": [
+      {
+        "ticker": "SPY",
+        "month": 1,
+        "expected": {
+          "entry_day": 5,
+          "exit_day": 41,
+          "hold_days": 25,
+          "avg_return": 0.029305563288063923,
+          "win_rate": 0.8333333333333334,
+          "sample_count": 6
+        },
+        "actual": {
+          "entry_day": 5,
+          "exit_day": 41,
+          "hold_days": 25,
+          "avg_return": 0.02930557385316211,
+          "win_rate": 0.8333333333333334,
+          "sample_count": 6
+        },
+        "checks": {
+          "entry_day": true,
+          "exit_day": true,
+          "hold_days": true,
+          "avg_return": true,
+          "win_rate": true,
+          "sample_count": true
+        },
+        "displayed_average_match": true,
+        "all_match": true
+      },
+      {
+        "ticker": "SPY",
+        "month": 2,
+        "expected": {
+          "entry_day": 56,
+          "exit_day": 91,
+          "hold_days": 25,
+          "avg_return": 0.008269736841238015,
+          "win_rate": 0.6666666666666666,
+          "sample_count": 6
+        },
+        "actual": {
+          "entry_day": 56,
+          "exit_day": 91,
+          "hold_days": 25,
+          "avg_return": 0.00826964635315038,
+          "win_rate": 0.6666666666666666,
+          "sample_count": 6
+        },
+        "checks": {
+          "entry_day": true,
+          "exit_day": true,
+          "hold_days": true,
+          "avg_return": true,
+          "win_rate": true,
+          "sample_count": true
+        },
+        "displayed_average_match": true,
+        "all_match": true
+      },
+      {
+        "ticker": "SPY",
+        "month": 3,
+        "expected": {
+          "entry_day": 70,
+          "exit_day": 91,
+          "hold_days": 15,
+          "avg_return": 0.02914558862695793,
+          "win_rate": 0.8333333333333334,
+          "sample_count": 6
+        },
+        "actual": {
+          "entry_day": 70,
+          "exit_day": 91,
+          "hold_days": 15,
+          "avg_return": 0.029145507515574043,
+          "win_rate": 0.8333333333333334,
+          "sample_count": 6
+        },
+        "checks": {
+          "entry_day": true,
+          "exit_day": true,
+          "hold_days": true,
+          "avg_return": true,
+          "win_rate": true,
+          "sample_count": true
+        },
+        "displayed_average_match": true,
+        "all_match": true
+      },
+      {
+        "ticker": "SPY",
+        "month": 4,
+        "expected": {
+          "entry_day": 97,
+          "exit_day": 140,
+          "hold_days": 30,
+          "avg_return": 0.035237284897645625,
+          "win_rate": 0.8333333333333334,
+          "sample_count": 6
+        },
+        "actual": {
+          "entry_day": 97,
+          "exit_day": 140,
+          "hold_days": 30,
+          "avg_return": 0.035237172817608374,
+          "win_rate": 0.8333333333333334,
+          "sample_count": 6
+        },
+        "checks": {
+          "entry_day": true,
+          "exit_day": true,
+          "hold_days": true,
+          "avg_return": true,
+          "win_rate": true,
+          "sample_count": true
+        },
+        "displayed_average_match": true,
+        "all_match": true
+      },
+      {
+        "ticker": "SPY",
+        "month": 5,
+        "expected": {
+          "entry_day": 129,
+          "exit_day": 151,
+          "hold_days": 15,
+          "avg_return": 0.02436956935070378,
+          "win_rate": 1,
+          "sample_count": 6
+        },
+        "actual": {
+          "entry_day": 129,
+          "exit_day": 151,
+          "hold_days": 15,
+          "avg_return": 0.024369596739845917,
+          "win_rate": 1.0,
+          "sample_count": 6
+        },
+        "checks": {
+          "entry_day": true,
+          "exit_day": true,
+          "hold_days": true,
+          "avg_return": true,
+          "win_rate": true,
+          "sample_count": true
+        },
+        "displayed_average_match": true,
+        "all_match": true
+      },
+      {
+        "ticker": "SPY",
+        "month": 6,
+        "expected": {
+          "entry_day": 168,
+          "exit_day": 212,
+          "hold_days": 30,
+          "avg_return": 0.044888485414306456,
+          "win_rate": 1,
+          "sample_count": 6
+        },
+        "actual": {
+          "entry_day": 168,
+          "exit_day": 212,
+          "hold_days": 30,
+          "avg_return": 0.04488839340367279,
+          "win_rate": 1.0,
+          "sample_count": 6
+        },
+        "checks": {
+          "entry_day": true,
+          "exit_day": true,
+          "hold_days": true,
+          "avg_return": true,
+          "win_rate": true,
+          "sample_count": true
+        },
+        "displayed_average_match": true,
+        "all_match": true
+      },
+      {
+        "ticker": "SPY",
+        "month": 7,
+        "expected": {
+          "entry_day": 186,
+          "exit_day": 222,
+          "hold_days": 25,
+          "avg_return": 0.019974778187116127,
+          "win_rate": 0.8333333333333334,
+          "sample_count": 6
+        },
+        "actual": {
+          "entry_day": 186,
+          "exit_day": 222,
+          "hold_days": 25,
+          "avg_return": 0.019974719243954497,
+          "win_rate": 0.8333333333333334,
+          "sample_count": 6
+        },
+        "checks": {
+          "entry_day": true,
+          "exit_day": true,
+          "hold_days": true,
+          "avg_return": true,
+          "win_rate": true,
+          "sample_count": true
+        },
+        "displayed_average_match": true,
+        "all_match": true
+      },
+      {
+        "ticker": "SPY",
+        "month": 8,
+        "expected": {
+          "entry_day": 220,
+          "exit_day": 227,
+          "hold_days": 5,
+          "avg_return": 0.015674844325429687,
+          "win_rate": 0.6666666666666666,
+          "sample_count": 6
+        },
+        "actual": {
+          "entry_day": 220,
+          "exit_day": 227,
+          "hold_days": 5,
+          "avg_return": 0.015674977302689113,
+          "win_rate": 0.6666666666666666,
+          "sample_count": 6
+        },
+        "checks": {
+          "entry_day": true,
+          "exit_day": true,
+          "hold_days": true,
+          "avg_return": true,
+          "win_rate": true,
+          "sample_count": true
+        },
+        "displayed_average_match": true,
+        "all_match": true
+      },
+      {
+        "ticker": "SPY",
+        "month": 9,
+        "expected": {
+          "entry_day": 273,
+          "exit_day": 315,
+          "hold_days": 30,
+          "avg_return": 0.05907428347032693,
+          "win_rate": 1,
+          "sample_count": 5
+        },
+        "actual": {
+          "entry_day": 273,
+          "exit_day": 315,
+          "hold_days": 30,
+          "avg_return": 0.05907427463833774,
+          "win_rate": 1.0,
+          "sample_count": 5
+        },
+        "checks": {
+          "entry_day": true,
+          "exit_day": true,
+          "hold_days": true,
+          "avg_return": true,
+          "win_rate": true,
+          "sample_count": true
+        },
+        "displayed_average_match": true,
+        "all_match": true
+      },
+      {
+        "ticker": "SPY",
+        "month": 10,
+        "expected": {
+          "entry_day": 287,
+          "exit_day": 330,
+          "hold_days": 30,
+          "avg_return": 0.045900149961453085,
+          "win_rate": 1,
+          "sample_count": 5
+        },
+        "actual": {
+          "entry_day": 287,
+          "exit_day": 330,
+          "hold_days": 30,
+          "avg_return": 0.04590030064249424,
+          "win_rate": 1.0,
+          "sample_count": 5
+        },
+        "checks": {
+          "entry_day": true,
+          "exit_day": true,
+          "hold_days": true,
+          "avg_return": true,
+          "win_rate": true,
+          "sample_count": true
+        },
+        "displayed_average_match": true,
+        "all_match": true
+      },
+      {
+        "ticker": "SPY",
+        "month": 11,
+        "expected": {
+          "entry_day": 329,
+          "exit_day": 359,
+          "hold_days": 20,
+          "avg_return": 0.01718038092472014,
+          "win_rate": 0.8,
+          "sample_count": 5
+        },
+        "actual": {
+          "entry_day": 329,
+          "exit_day": 359,
+          "hold_days": 20,
+          "avg_return": 0.017180406003826622,
+          "win_rate": 0.8,
+          "sample_count": 5
+        },
+        "checks": {
+          "entry_day": true,
+          "exit_day": true,
+          "hold_days": true,
+          "avg_return": true,
+          "win_rate": true,
+          "sample_count": true
+        },
+        "displayed_average_match": true,
+        "all_match": true
+      },
+      {
+        "ticker": "SPY",
+        "month": 12,
+        "expected": {
+          "entry_day": 350,
+          "exit_day": 10,
+          "hold_days": 15,
+          "avg_return": 0.002017494427771904,
+          "win_rate": 0.8,
+          "sample_count": 5
+        },
+        "actual": {
+          "entry_day": 350,
+          "exit_day": 8,
+          "hold_days": 15,
+          "avg_return": 0.004993990982960783,
+          "win_rate": 0.8,
+          "sample_count": 5
+        },
+        "checks": {
+          "entry_day": true,
+          "exit_day": false,
+          "hold_days": true,
+          "avg_return": false,
+          "win_rate": true,
+          "sample_count": true
+        },
+        "displayed_average_match": false,
+        "all_match": false
+      },
+      {
+        "ticker": "QQQ",
+        "month": 1,
+        "expected": {
+          "entry_day": 5,
+          "exit_day": 12,
+          "hold_days": 5,
+          "avg_return": 0.015232845986938656,
+          "win_rate": 0.8333333333333334,
+          "sample_count": 6
+        },
+        "actual": {
+          "entry_day": 5,
+          "exit_day": 12,
+          "hold_days": 5,
+          "avg_return": 0.015232940264717646,
+          "win_rate": 0.8333333333333334,
+          "sample_count": 6
+        },
+        "checks": {
+          "entry_day": true,
+          "exit_day": true,
+          "hold_days": true,
+          "avg_return": true,
+          "win_rate": true,
+          "sample_count": true
+        },
+        "displayed_average_match": true,
+        "all_match": true
+      },
+      {
+        "ticker": "QQQ",
+        "month": 2,
+        "expected": {
+          "entry_day": 56,
+          "exit_day": 91,
+          "hold_days": 25,
+          "avg_return": 0.010036324995212731,
+          "win_rate": 0.6666666666666666,
+          "sample_count": 6
+        },
+        "actual": {
+          "entry_day": 56,
+          "exit_day": 91,
+          "hold_days": 25,
+          "avg_return": 0.01003642063728157,
+          "win_rate": 0.6666666666666666,
+          "sample_count": 6
+        },
+        "checks": {
+          "entry_day": true,
+          "exit_day": true,
+          "hold_days": true,
+          "avg_return": true,
+          "win_rate": true,
+          "sample_count": true
+        },
+        "displayed_average_match": true,
+        "all_match": true
+      },
+      {
+        "ticker": "QQQ",
+        "month": 3,
+        "expected": {
+          "entry_day": 70,
+          "exit_day": 91,
+          "hold_days": 15,
+          "avg_return": 0.03634978268843327,
+          "win_rate": 0.8333333333333334,
+          "sample_count": 6
+        },
+        "actual": {
+          "entry_day": 70,
+          "exit_day": 91,
+          "hold_days": 15,
+          "avg_return": 0.036349725036445034,
+          "win_rate": 0.8333333333333334,
+          "sample_count": 6
+        },
+        "checks": {
+          "entry_day": true,
+          "exit_day": true,
+          "hold_days": true,
+          "avg_return": true,
+          "win_rate": true,
+          "sample_count": true
+        },
+        "displayed_average_match": true,
+        "all_match": true
+      },
+      {
+        "ticker": "QQQ",
+        "month": 4,
+        "expected": {
+          "entry_day": 97,
+          "exit_day": 140,
+          "hold_days": 30,
+          "avg_return": 0.050421058759892744,
+          "win_rate": 0.6666666666666666,
+          "sample_count": 6
+        },
+        "actual": {
+          "entry_day": 97,
+          "exit_day": 140,
+          "hold_days": 30,
+          "avg_return": 0.05042103929151268,
+          "win_rate": 0.6666666666666666,
+          "sample_count": 6
+        },
+        "checks": {
+          "entry_day": true,
+          "exit_day": true,
+          "hold_days": true,
+          "avg_return": true,
+          "win_rate": true,
+          "sample_count": true
+        },
+        "displayed_average_match": true,
+        "all_match": true
+      },
+      {
+        "ticker": "QQQ",
+        "month": 5,
+        "expected": {
+          "entry_day": 126,
+          "exit_day": 169,
+          "hold_days": 30,
+          "avg_return": 0.0548661588514624,
+          "win_rate": 0.8333333333333334,
+          "sample_count": 6
+        },
+        "actual": {
+          "entry_day": 126,
+          "exit_day": 169,
+          "hold_days": 30,
+          "avg_return": 0.054671400648519164,
+          "win_rate": 0.8333333333333334,
+          "sample_count": 6
+        },
+        "checks": {
+          "entry_day": true,
+          "exit_day": true,
+          "hold_days": true,
+          "avg_return": false,
+          "win_rate": true,
+          "sample_count": true
+        },
+        "displayed_average_match": true,
+        "all_match": false
+      },
+      {
+        "ticker": "QQQ",
+        "month": 6,
+        "expected": {
+          "entry_day": 161,
+          "exit_day": 198,
+          "hold_days": 25,
+          "avg_return": 0.04204732860272231,
+          "win_rate": 1,
+          "sample_count": 6
+        },
+        "actual": {
+          "entry_day": 161,
+          "exit_day": 198,
+          "hold_days": 25,
+          "avg_return": 0.041863694027291176,
+          "win_rate": 1.0,
+          "sample_count": 6
+        },
+        "checks": {
+          "entry_day": true,
+          "exit_day": true,
+          "hold_days": true,
+          "avg_return": false,
+          "win_rate": true,
+          "sample_count": true
+        },
+        "displayed_average_match": true,
+        "all_match": false
+      },
+      {
+        "ticker": "QQQ",
+        "month": 7,
+        "expected": {
+          "entry_day": 182,
+          "exit_day": 197,
+          "hold_days": 10,
+          "avg_return": 0.016378724527707444,
+          "win_rate": 0.8333333333333334,
+          "sample_count": 6
+        },
+        "actual": {
+          "entry_day": 182,
+          "exit_day": 197,
+          "hold_days": 10,
+          "avg_return": 0.016378593873484466,
+          "win_rate": 0.8333333333333334,
+          "sample_count": 6
+        },
+        "checks": {
+          "entry_day": true,
+          "exit_day": true,
+          "hold_days": true,
+          "avg_return": true,
+          "win_rate": true,
+          "sample_count": true
+        },
+        "displayed_average_match": true,
+        "all_match": true
+      },
+      {
+        "ticker": "QQQ",
+        "month": 8,
+        "expected": {
+          "entry_day": 238,
+          "exit_day": 253,
+          "hold_days": 10,
+          "avg_return": 0.002273751722630927,
+          "win_rate": 0.6666666666666666,
+          "sample_count": 6
+        },
+        "actual": {
+          "entry_day": 238,
+          "exit_day": 253,
+          "hold_days": 10,
+          "avg_return": 0.0022737068647292746,
+          "win_rate": 0.6666666666666666,
+          "sample_count": 6
+        },
+        "checks": {
+          "entry_day": true,
+          "exit_day": true,
+          "hold_days": true,
+          "avg_return": true,
+          "win_rate": true,
+          "sample_count": true
+        },
+        "displayed_average_match": true,
+        "all_match": true
+      },
+      {
+        "ticker": "QQQ",
+        "month": 9,
+        "expected": {
+          "entry_day": 273,
+          "exit_day": 315,
+          "hold_days": 30,
+          "avg_return": 0.06017412223852632,
+          "win_rate": 1,
+          "sample_count": 5
+        },
+        "actual": {
+          "entry_day": 273,
+          "exit_day": 315,
+          "hold_days": 30,
+          "avg_return": 0.060174170247718185,
+          "win_rate": 1.0,
+          "sample_count": 5
+        },
+        "checks": {
+          "entry_day": true,
+          "exit_day": true,
+          "hold_days": true,
+          "avg_return": true,
+          "win_rate": true,
+          "sample_count": true
+        },
+        "displayed_average_match": true,
+        "all_match": true
+      },
+      {
+        "ticker": "QQQ",
+        "month": 10,
+        "expected": {
+          "entry_day": 287,
+          "exit_day": 315,
+          "hold_days": 20,
+          "avg_return": 0.05262418208137234,
+          "win_rate": 1,
+          "sample_count": 5
+        },
+        "actual": {
+          "entry_day": 287,
+          "exit_day": 315,
+          "hold_days": 20,
+          "avg_return": 0.05262418096568524,
+          "win_rate": 1.0,
+          "sample_count": 5
+        },
+        "checks": {
+          "entry_day": true,
+          "exit_day": true,
+          "hold_days": true,
+          "avg_return": true,
+          "win_rate": true,
+          "sample_count": true
+        },
+        "displayed_average_match": true,
+        "all_match": true
+      },
+      {
+        "ticker": "QQQ",
+        "month": 11,
+        "expected": {
+          "entry_day": 329,
+          "exit_day": 359,
+          "hold_days": 20,
+          "avg_return": 0.019700052886919915,
+          "win_rate": 0.8,
+          "sample_count": 5
+        },
+        "actual": {
+          "entry_day": 329,
+          "exit_day": 359,
+          "hold_days": 20,
+          "avg_return": 0.019699926574070225,
+          "win_rate": 0.8,
+          "sample_count": 5
+        },
+        "checks": {
+          "entry_day": true,
+          "exit_day": true,
+          "hold_days": true,
+          "avg_return": true,
+          "win_rate": true,
+          "sample_count": true
+        },
+        "displayed_average_match": true,
+        "all_match": true
+      },
+      {
+        "ticker": "QQQ",
+        "month": 12,
+        "expected": {
+          "entry_day": 350,
+          "exit_day": 32,
+          "hold_days": 30,
+          "avg_return": 0.01172125953545009,
+          "win_rate": 0.6,
+          "sample_count": 5
+        },
+        "actual": {
+          "entry_day": 350,
+          "exit_day": 31,
+          "hold_days": 30,
+          "avg_return": 0.013277249694211268,
+          "win_rate": 0.6,
+          "sample_count": 5
+        },
+        "checks": {
+          "entry_day": true,
+          "exit_day": false,
+          "hold_days": true,
+          "avg_return": false,
+          "win_rate": true,
+          "sample_count": true
+        },
+        "displayed_average_match": false,
+        "all_match": false
+      }
+    ]
+  },
+  "details": [
+    {
+      "ticker": "SPY",
+      "month": 1,
+      "expected": {
+        "entry_day": 5,
+        "exit_day": 41,
+        "hold_days": 25,
+        "avg_return": 0.029305563288063923,
+        "win_rate": 0.8333333333333334,
+        "sample_count": 6
+      },
+      "actual": {
+        "entry_day": 21,
+        "exit_day": 42,
+        "hold_days": 15,
+        "avg_return": 0.017088679644946942,
+        "win_rate": 1.0,
+        "sample_count": 6
+      },
+      "checks": {
+        "entry_day": false,
+        "exit_day": false,
+        "hold_days": false,
+        "avg_return": false,
+        "win_rate": false,
+        "sample_count": true
+      },
+      "displayed_average_match": false,
+      "all_match": false
+    },
+    {
+      "ticker": "SPY",
+      "month": 2,
+      "expected": {
+        "entry_day": 56,
+        "exit_day": 91,
+        "hold_days": 25,
+        "avg_return": 0.008269736841238015,
+        "win_rate": 0.6666666666666666,
+        "sample_count": 6
+      },
+      "actual": {
+        "entry_day": 35,
+        "exit_day": 42,
+        "hold_days": 5,
+        "avg_return": 0.005341613239758273,
+        "win_rate": 0.8333333333333334,
+        "sample_count": 6
+      },
+      "checks": {
+        "entry_day": false,
+        "exit_day": false,
+        "hold_days": false,
+        "avg_return": false,
+        "win_rate": false,
+        "sample_count": true
+      },
+      "displayed_average_match": false,
+      "all_match": false
+    },
+    {
+      "ticker": "SPY",
+      "month": 3,
+      "expected": {
+        "entry_day": 70,
+        "exit_day": 91,
+        "hold_days": 15,
+        "avg_return": 0.02914558862695793,
+        "win_rate": 0.8333333333333334,
+        "sample_count": 6
+      },
+      "actual": {
+        "entry_day": 70,
+        "exit_day": 91,
+        "hold_days": 15,
+        "avg_return": 0.029145507515574043,
+        "win_rate": 0.8333333333333334,
+        "sample_count": 6
+      },
+      "checks": {
+        "entry_day": true,
+        "exit_day": true,
+        "hold_days": true,
+        "avg_return": true,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": true,
+      "all_match": true
+    },
+    {
+      "ticker": "SPY",
+      "month": 4,
+      "expected": {
+        "entry_day": 97,
+        "exit_day": 140,
+        "hold_days": 30,
+        "avg_return": 0.035237284897645625,
+        "win_rate": 0.8333333333333334,
+        "sample_count": 6
+      },
+      "actual": {
+        "entry_day": 112,
+        "exit_day": 155,
+        "hold_days": 30,
+        "avg_return": 0.0468454852193918,
+        "win_rate": 0.8333333333333334,
+        "sample_count": 6
+      },
+      "checks": {
+        "entry_day": false,
+        "exit_day": false,
+        "hold_days": true,
+        "avg_return": false,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": false,
+      "all_match": false
+    },
+    {
+      "ticker": "SPY",
+      "month": 5,
+      "expected": {
+        "entry_day": 129,
+        "exit_day": 151,
+        "hold_days": 15,
+        "avg_return": 0.02436956935070378,
+        "win_rate": 1,
+        "sample_count": 6
+      },
+      "actual": {
+        "entry_day": 126,
+        "exit_day": 155,
+        "hold_days": 20,
+        "avg_return": 0.027931199470660955,
+        "win_rate": 1.0,
+        "sample_count": 6
+      },
+      "checks": {
+        "entry_day": false,
+        "exit_day": false,
+        "hold_days": false,
+        "avg_return": false,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": false,
+      "all_match": false
+    },
+    {
+      "ticker": "SPY",
+      "month": 6,
+      "expected": {
+        "entry_day": 168,
+        "exit_day": 212,
+        "hold_days": 30,
+        "avg_return": 0.044888485414306456,
+        "win_rate": 1,
+        "sample_count": 6
+      },
+      "actual": {
+        "entry_day": 168,
+        "exit_day": 212,
+        "hold_days": 30,
+        "avg_return": 0.04488839340367279,
+        "win_rate": 1.0,
+        "sample_count": 6
+      },
+      "checks": {
+        "entry_day": true,
+        "exit_day": true,
+        "hold_days": true,
+        "avg_return": true,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": true,
+      "all_match": true
+    },
+    {
+      "ticker": "SPY",
+      "month": 7,
+      "expected": {
+        "entry_day": 186,
+        "exit_day": 222,
+        "hold_days": 25,
+        "avg_return": 0.019974778187116127,
+        "win_rate": 0.8333333333333334,
+        "sample_count": 6
+      },
+      "actual": {
+        "entry_day": 182,
+        "exit_day": 197,
+        "hold_days": 10,
+        "avg_return": 0.013415459958295814,
+        "win_rate": 1.0,
+        "sample_count": 6
+      },
+      "checks": {
+        "entry_day": false,
+        "exit_day": false,
+        "hold_days": false,
+        "avg_return": false,
+        "win_rate": false,
+        "sample_count": true
+      },
+      "displayed_average_match": false,
+      "all_match": false
+    },
+    {
+      "ticker": "SPY",
+      "month": 8,
+      "expected": {
+        "entry_day": 220,
+        "exit_day": 227,
+        "hold_days": 5,
+        "avg_return": 0.015674844325429687,
+        "win_rate": 0.6666666666666666,
+        "sample_count": 6
+      },
+      "actual": {
+        "entry_day": 217,
+        "exit_day": 224,
+        "hold_days": 5,
+        "avg_return": 0.015406727336273518,
+        "win_rate": 0.8333333333333334,
+        "sample_count": 6
+      },
+      "checks": {
+        "entry_day": false,
+        "exit_day": false,
+        "hold_days": true,
+        "avg_return": false,
+        "win_rate": false,
+        "sample_count": true
+      },
+      "displayed_average_match": false,
+      "all_match": false
+    },
+    {
+      "ticker": "SPY",
+      "month": 9,
+      "expected": {
+        "entry_day": 273,
+        "exit_day": 315,
+        "hold_days": 30,
+        "avg_return": 0.05907428347032693,
+        "win_rate": 1,
+        "sample_count": 5
+      },
+      "actual": {
+        "entry_day": 273,
+        "exit_day": 315,
+        "hold_days": 30,
+        "avg_return": 0.05907427463833774,
+        "win_rate": 1.0,
+        "sample_count": 5
+      },
+      "checks": {
+        "entry_day": true,
+        "exit_day": true,
+        "hold_days": true,
+        "avg_return": true,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": true,
+      "all_match": true
+    },
+    {
+      "ticker": "SPY",
+      "month": 10,
+      "expected": {
+        "entry_day": 287,
+        "exit_day": 330,
+        "hold_days": 30,
+        "avg_return": 0.045900149961453085,
+        "win_rate": 1,
+        "sample_count": 5
+      },
+      "actual": {
+        "entry_day": 280,
+        "exit_day": 315,
+        "hold_days": 25,
+        "avg_return": 0.04984927093675924,
+        "win_rate": 1.0,
+        "sample_count": 5
+      },
+      "checks": {
+        "entry_day": false,
+        "exit_day": false,
+        "hold_days": false,
+        "avg_return": false,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": false,
+      "all_match": false
+    },
+    {
+      "ticker": "SPY",
+      "month": 11,
+      "expected": {
+        "entry_day": 329,
+        "exit_day": 359,
+        "hold_days": 20,
+        "avg_return": 0.01718038092472014,
+        "win_rate": 0.8,
+        "sample_count": 5
+      },
+      "actual": {
+        "entry_day": 308,
+        "exit_day": 345,
+        "hold_days": 25,
+        "avg_return": 0.041923355815562766,
+        "win_rate": 1.0,
+        "sample_count": 5
+      },
+      "checks": {
+        "entry_day": false,
+        "exit_day": false,
+        "hold_days": false,
+        "avg_return": false,
+        "win_rate": false,
+        "sample_count": true
+      },
+      "displayed_average_match": false,
+      "all_match": false
+    },
+    {
+      "ticker": "SPY",
+      "month": 12,
+      "expected": {
+        "entry_day": 350,
+        "exit_day": 10,
+        "hold_days": 15,
+        "avg_return": 0.002017494427771904,
+        "win_rate": 0.8,
+        "sample_count": 5
+      },
+      "actual": {
+        "entry_day": 357,
+        "exit_day": 38,
+        "hold_days": 30,
+        "avg_return": 0.01692000035663175,
+        "win_rate": 0.8,
+        "sample_count": 5
+      },
+      "checks": {
+        "entry_day": false,
+        "exit_day": false,
+        "hold_days": false,
+        "avg_return": false,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": false,
+      "all_match": false
+    },
+    {
+      "ticker": "QQQ",
+      "month": 1,
+      "expected": {
+        "entry_day": 5,
+        "exit_day": 12,
+        "hold_days": 5,
+        "avg_return": 0.015232845986938656,
+        "win_rate": 0.8333333333333334,
+        "sample_count": 6
+      },
+      "actual": {
+        "entry_day": 14,
+        "exit_day": 29,
+        "hold_days": 10,
+        "avg_return": 0.014693224453373269,
+        "win_rate": 0.8333333333333334,
+        "sample_count": 6
+      },
+      "checks": {
+        "entry_day": false,
+        "exit_day": false,
+        "hold_days": false,
+        "avg_return": false,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": true,
+      "all_match": false
+    },
+    {
+      "ticker": "QQQ",
+      "month": 2,
+      "expected": {
+        "entry_day": 56,
+        "exit_day": 91,
+        "hold_days": 25,
+        "avg_return": 0.010036324995212731,
+        "win_rate": 0.6666666666666666,
+        "sample_count": 6
+      },
+      "actual": {
+        "entry_day": 35,
+        "exit_day": 42,
+        "hold_days": 5,
+        "avg_return": 0.0034160694030615133,
+        "win_rate": 0.8333333333333334,
+        "sample_count": 6
+      },
+      "checks": {
+        "entry_day": false,
+        "exit_day": false,
+        "hold_days": false,
+        "avg_return": false,
+        "win_rate": false,
+        "sample_count": true
+      },
+      "displayed_average_match": false,
+      "all_match": false
+    },
+    {
+      "ticker": "QQQ",
+      "month": 3,
+      "expected": {
+        "entry_day": 70,
+        "exit_day": 91,
+        "hold_days": 15,
+        "avg_return": 0.03634978268843327,
+        "win_rate": 0.8333333333333334,
+        "sample_count": 6
+      },
+      "actual": {
+        "entry_day": 70,
+        "exit_day": 91,
+        "hold_days": 15,
+        "avg_return": 0.036349725036445034,
+        "win_rate": 0.8333333333333334,
+        "sample_count": 6
+      },
+      "checks": {
+        "entry_day": true,
+        "exit_day": true,
+        "hold_days": true,
+        "avg_return": true,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": true,
+      "all_match": true
+    },
+    {
+      "ticker": "QQQ",
+      "month": 4,
+      "expected": {
+        "entry_day": 97,
+        "exit_day": 140,
+        "hold_days": 30,
+        "avg_return": 0.050421058759892744,
+        "win_rate": 0.6666666666666666,
+        "sample_count": 6
+      },
+      "actual": {
+        "entry_day": 112,
+        "exit_day": 155,
+        "hold_days": 30,
+        "avg_return": 0.07890721788520826,
+        "win_rate": 0.8333333333333334,
+        "sample_count": 6
+      },
+      "checks": {
+        "entry_day": false,
+        "exit_day": false,
+        "hold_days": true,
+        "avg_return": false,
+        "win_rate": false,
+        "sample_count": true
+      },
+      "displayed_average_match": false,
+      "all_match": false
+    },
+    {
+      "ticker": "QQQ",
+      "month": 5,
+      "expected": {
+        "entry_day": 126,
+        "exit_day": 169,
+        "hold_days": 30,
+        "avg_return": 0.0548661588514624,
+        "win_rate": 0.8333333333333334,
+        "sample_count": 6
+      },
+      "actual": {
+        "entry_day": 140,
+        "exit_day": 186,
+        "hold_days": 30,
+        "avg_return": 0.05817789464253983,
+        "win_rate": 1.0,
+        "sample_count": 6
+      },
+      "checks": {
+        "entry_day": false,
+        "exit_day": false,
+        "hold_days": true,
+        "avg_return": false,
+        "win_rate": false,
+        "sample_count": true
+      },
+      "displayed_average_match": false,
+      "all_match": false
+    },
+    {
+      "ticker": "QQQ",
+      "month": 6,
+      "expected": {
+        "entry_day": 161,
+        "exit_day": 198,
+        "hold_days": 25,
+        "avg_return": 0.04204732860272231,
+        "win_rate": 1,
+        "sample_count": 6
+      },
+      "actual": {
+        "entry_day": 161,
+        "exit_day": 198,
+        "hold_days": 25,
+        "avg_return": 0.041863694027291176,
+        "win_rate": 1.0,
+        "sample_count": 6
+      },
+      "checks": {
+        "entry_day": true,
+        "exit_day": true,
+        "hold_days": true,
+        "avg_return": false,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": true,
+      "all_match": false
+    },
+    {
+      "ticker": "QQQ",
+      "month": 7,
+      "expected": {
+        "entry_day": 182,
+        "exit_day": 197,
+        "hold_days": 10,
+        "avg_return": 0.016378724527707444,
+        "win_rate": 0.8333333333333334,
+        "sample_count": 6
+      },
+      "actual": {
+        "entry_day": 189,
+        "exit_day": 224,
+        "hold_days": 25,
+        "avg_return": 0.02148934337734167,
+        "win_rate": 0.8333333333333334,
+        "sample_count": 6
+      },
+      "checks": {
+        "entry_day": false,
+        "exit_day": false,
+        "hold_days": false,
+        "avg_return": false,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": false,
+      "all_match": false
+    },
+    {
+      "ticker": "QQQ",
+      "month": 8,
+      "expected": {
+        "entry_day": 238,
+        "exit_day": 253,
+        "hold_days": 10,
+        "avg_return": 0.002273751722630927,
+        "win_rate": 0.6666666666666666,
+        "sample_count": 6
+      },
+      "actual": {
+        "entry_day": 217,
+        "exit_day": 224,
+        "hold_days": 5,
+        "avg_return": 0.014860718334438064,
+        "win_rate": 0.6666666666666666,
+        "sample_count": 6
+      },
+      "checks": {
+        "entry_day": false,
+        "exit_day": false,
+        "hold_days": false,
+        "avg_return": false,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": false,
+      "all_match": false
+    },
+    {
+      "ticker": "QQQ",
+      "month": 9,
+      "expected": {
+        "entry_day": 273,
+        "exit_day": 315,
+        "hold_days": 30,
+        "avg_return": 0.06017412223852632,
+        "win_rate": 1,
+        "sample_count": 5
+      },
+      "actual": {
+        "entry_day": 273,
+        "exit_day": 315,
+        "hold_days": 30,
+        "avg_return": 0.060174170247718185,
+        "win_rate": 1.0,
+        "sample_count": 5
+      },
+      "checks": {
+        "entry_day": true,
+        "exit_day": true,
+        "hold_days": true,
+        "avg_return": true,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": true,
+      "all_match": true
+    },
+    {
+      "ticker": "QQQ",
+      "month": 10,
+      "expected": {
+        "entry_day": 287,
+        "exit_day": 315,
+        "hold_days": 20,
+        "avg_return": 0.05262418208137234,
+        "win_rate": 1,
+        "sample_count": 5
+      },
+      "actual": {
+        "entry_day": 280,
+        "exit_day": 315,
+        "hold_days": 25,
+        "avg_return": 0.05385846470529443,
+        "win_rate": 1.0,
+        "sample_count": 5
+      },
+      "checks": {
+        "entry_day": false,
+        "exit_day": true,
+        "hold_days": false,
+        "avg_return": false,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": false,
+      "all_match": false
+    },
+    {
+      "ticker": "QQQ",
+      "month": 11,
+      "expected": {
+        "entry_day": 329,
+        "exit_day": 359,
+        "hold_days": 20,
+        "avg_return": 0.019700052886919915,
+        "win_rate": 0.8,
+        "sample_count": 5
+      },
+      "actual": {
+        "entry_day": 308,
+        "exit_day": 345,
+        "hold_days": 25,
+        "avg_return": 0.048579782568298494,
+        "win_rate": 0.8,
+        "sample_count": 5
+      },
+      "checks": {
+        "entry_day": false,
+        "exit_day": false,
+        "hold_days": false,
+        "avg_return": false,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": false,
+      "all_match": false
+    },
+    {
+      "ticker": "QQQ",
+      "month": 12,
+      "expected": {
+        "entry_day": 350,
+        "exit_day": 32,
+        "hold_days": 30,
+        "avg_return": 0.01172125953545009,
+        "win_rate": 0.6,
+        "sample_count": 5
+      },
+      "actual": {
+        "entry_day": 364,
+        "exit_day": 23,
+        "hold_days": 15,
+        "avg_return": 0.010863268507140766,
+        "win_rate": 0.8,
+        "sample_count": 5
+      },
+      "checks": {
+        "entry_day": false,
+        "exit_day": false,
+        "hold_days": false,
+        "avg_return": false,
+        "win_rate": false,
+        "sample_count": true
+      },
+      "displayed_average_match": false,
+      "all_match": false
+    }
+  ],
+  "replication_complete": false,
+  "diagnostics": [
+    {
+      "ticker": "SPY",
+      "month": 1,
+      "expected": {
+        "entry_day": 5,
+        "exit_day": 41,
+        "hold_days": 25,
+        "avg_return": 0.029305563288063923,
+        "win_rate": 0.8333333333333334,
+        "sample_count": 6
+      },
+      "actual": {
+        "entry_day": 5,
+        "exit_day": 41,
+        "hold_days": 25,
+        "avg_return": 0.02930557385316211,
+        "win_rate": 0.8333333333333334,
+        "sample_count": 6
+      },
+      "checks": {
+        "entry_day": true,
+        "exit_day": true,
+        "hold_days": true,
+        "avg_return": true,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": true,
+      "all_match": true,
+      "cutoff_exclusive": "2026-10-01",
+      "candidate_in_current_grid": false,
+      "daily_objective_rank": 8,
+      "rounding_mean_interval": [
+        0.029305348471018604,
+        0.029305799235358403
+      ],
+      "difference_exceeds_price_rounding": false,
+      "samples": [
+        {
+          "year": 2021,
+          "entry": "2021-01-05",
+          "exit": "2021-02-10",
+          "return": 0.050494293137321566,
+          "entry_price": 344.7954,
+          "exit_price": 362.2056,
+          "cross_year": false
+        },
+        {
+          "year": 2022,
+          "entry": "2022-01-05",
+          "exit": "2022-02-10",
+          "return": -0.040693421216244086,
+          "entry_price": 440.7076,
+          "exit_price": 422.7737,
+          "cross_year": false
+        },
+        {
+          "year": 2023,
+          "entry": "2023-01-05",
+          "exit": "2023-02-10",
+          "return": 0.07554421402089728,
+          "entry_price": 362.7571,
+          "exit_price": 390.1613,
+          "cross_year": false
+        },
+        {
+          "year": 2024,
+          "entry": "2024-01-05",
+          "exit": "2024-02-12",
+          "return": 0.07065312514241517,
+          "entry_price": 454.2177,
+          "exit_price": 486.3096,
+          "cross_year": false
+        },
+        {
+          "year": 2025,
+          "entry": "2025-01-06",
+          "exit": "2025-02-12",
+          "return": 0.01343733914238765,
+          "entry_price": 585.3391,
+          "exit_price": 593.2045,
+          "cross_year": false
+        },
+        {
+          "year": 2026,
+          "entry": "2026-01-05",
+          "exit": "2026-02-10",
+          "return": 0.006397892892195056,
+          "entry_price": 684.0846,
+          "exit_price": 688.4613,
+          "cross_year": false
+        }
+      ]
+    },
+    {
+      "ticker": "SPY",
+      "month": 2,
+      "expected": {
+        "entry_day": 56,
+        "exit_day": 91,
+        "hold_days": 25,
+        "avg_return": 0.008269736841238015,
+        "win_rate": 0.6666666666666666,
+        "sample_count": 6
+      },
+      "actual": {
+        "entry_day": 56,
+        "exit_day": 91,
+        "hold_days": 25,
+        "avg_return": 0.00826964635315038,
+        "win_rate": 0.6666666666666666,
+        "sample_count": 6
+      },
+      "checks": {
+        "entry_day": true,
+        "exit_day": true,
+        "hold_days": true,
+        "avg_return": true,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": true,
+      "all_match": true,
+      "cutoff_exclusive": "2026-10-01",
+      "candidate_in_current_grid": true,
+      "daily_objective_rank": 9,
+      "rounding_mean_interval": [
+        0.00826942660423785,
+        0.008269866102113351
+      ],
+      "difference_exceeds_price_rounding": false,
+      "samples": [
+        {
+          "year": 2021,
+          "entry": "2021-02-25",
+          "exit": "2021-04-01",
+          "return": 0.051243713546739844,
+          "entry_price": 355.0094,
+          "exit_price": 373.2014,
+          "cross_year": false
+        },
+        {
+          "year": 2022,
+          "entry": "2022-02-25",
+          "exit": "2022-04-01",
+          "return": 0.03786885393164585,
+          "entry_price": 411.8873,
+          "exit_price": 427.485,
+          "cross_year": false
+        },
+        {
+          "year": 2023,
+          "entry": "2023-02-27",
+          "exit": "2023-04-03",
+          "return": 0.037181931249556266,
+          "entry_price": 380.303,
+          "exit_price": 394.4434,
+          "cross_year": false
+        },
+        {
+          "year": 2024,
+          "entry": "2024-02-26",
+          "exit": "2024-04-02",
+          "return": 0.02858178861252325,
+          "entry_price": 491.1729,
+          "exit_price": 505.2115,
+          "cross_year": false
+        },
+        {
+          "year": 2025,
+          "entry": "2025-02-25",
+          "exit": "2025-04-01",
+          "return": -0.05314769890826998,
+          "entry_price": 584.2379,
+          "exit_price": 553.187,
+          "cross_year": false
+        },
+        {
+          "year": 2026,
+          "entry": "2026-02-25",
+          "exit": "2026-04-01",
+          "return": -0.05211071031329295,
+          "entry_price": 689.4859,
+          "exit_price": 653.5563,
+          "cross_year": false
+        }
+      ]
+    },
+    {
+      "ticker": "SPY",
+      "month": 3,
+      "expected": {
+        "entry_day": 70,
+        "exit_day": 91,
+        "hold_days": 15,
+        "avg_return": 0.02914558862695793,
+        "win_rate": 0.8333333333333334,
+        "sample_count": 6
+      },
+      "actual": {
+        "entry_day": 70,
+        "exit_day": 91,
+        "hold_days": 15,
+        "avg_return": 0.029145507515574043,
+        "win_rate": 0.8333333333333334,
+        "sample_count": 6
+      },
+      "checks": {
+        "entry_day": true,
+        "exit_day": true,
+        "hold_days": true,
+        "avg_return": true,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": true,
+      "all_match": true,
+      "cutoff_exclusive": "2026-10-01",
+      "candidate_in_current_grid": true,
+      "daily_objective_rank": 4,
+      "rounding_mean_interval": [
+        0.02914528172521434,
+        0.029145733305986205
+      ],
+      "difference_exceeds_price_rounding": false,
+      "samples": [
+        {
+          "year": 2021,
+          "entry": "2021-03-11",
+          "exit": "2021-04-01",
+          "return": 0.02132486574636472,
+          "entry_price": 365.4091,
+          "exit_price": 373.2014,
+          "cross_year": false
+        },
+        {
+          "year": 2022,
+          "entry": "2022-03-11",
+          "exit": "2022-04-01",
+          "return": 0.08155077812402678,
+          "entry_price": 395.2519,
+          "exit_price": 427.485,
+          "cross_year": false
+        },
+        {
+          "year": 2023,
+          "entry": "2023-03-13",
+          "exit": "2023-04-03",
+          "return": 0.07047533753986013,
+          "entry_price": 368.475,
+          "exit_price": 394.4434,
+          "cross_year": false
+        },
+        {
+          "year": 2024,
+          "entry": "2024-03-11",
+          "exit": "2024-04-02",
+          "return": 0.017939465009631173,
+          "entry_price": 496.308,
+          "exit_price": 505.2115,
+          "cross_year": false
+        },
+        {
+          "year": 2025,
+          "entry": "2025-03-11",
+          "exit": "2025-04-01",
+          "return": 0.012119741775327597,
+          "entry_price": 546.5628,
+          "exit_price": 553.187,
+          "cross_year": false
+        },
+        {
+          "year": 2026,
+          "entry": "2026-03-11",
+          "exit": "2026-04-01",
+          "return": -0.028537143101766138,
+          "entry_price": 672.7548,
+          "exit_price": 653.5563,
+          "cross_year": false
+        }
+      ]
+    },
+    {
+      "ticker": "SPY",
+      "month": 4,
+      "expected": {
+        "entry_day": 97,
+        "exit_day": 140,
+        "hold_days": 30,
+        "avg_return": 0.035237284897645625,
+        "win_rate": 0.8333333333333334,
+        "sample_count": 6
+      },
+      "actual": {
+        "entry_day": 97,
+        "exit_day": 140,
+        "hold_days": 30,
+        "avg_return": 0.035237172817608374,
+        "win_rate": 0.8333333333333334,
+        "sample_count": 6
+      },
+      "checks": {
+        "entry_day": true,
+        "exit_day": true,
+        "hold_days": true,
+        "avg_return": true,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": true,
+      "all_match": true,
+      "cutoff_exclusive": "2026-10-01",
+      "candidate_in_current_grid": false,
+      "daily_objective_rank": 20,
+      "rounding_mean_interval": [
+        0.03523695237695875,
+        0.035237393258307236
+      ],
+      "difference_exceeds_price_rounding": false,
+      "samples": [
+        {
+          "year": 2021,
+          "entry": "2021-04-07",
+          "exit": "2021-05-19",
+          "return": 0.01050182391901422,
+          "entry_price": 378.7723,
+          "exit_price": 382.7501,
+          "cross_year": false
+        },
+        {
+          "year": 2022,
+          "entry": "2022-04-07",
+          "exit": "2022-05-20",
+          "return": -0.13178258702673795,
+          "entry_price": 423.5681,
+          "exit_price": 367.7492,
+          "cross_year": false
+        },
+        {
+          "year": 2023,
+          "entry": "2023-04-10",
+          "exit": "2023-05-22",
+          "return": 0.02241138597706316,
+          "entry_price": 393.1573,
+          "exit_price": 401.9685,
+          "cross_year": false
+        },
+        {
+          "year": 2024,
+          "entry": "2024-04-08",
+          "exit": "2024-05-20",
+          "return": 0.021861651631526424,
+          "entry_price": 505.0945,
+          "exit_price": 516.1367,
+          "cross_year": false
+        },
+        {
+          "year": 2025,
+          "entry": "2025-04-07",
+          "exit": "2025-05-20",
+          "return": 0.17540314068336182,
+          "entry_price": 497.3822,
+          "exit_price": 584.6246,
+          "cross_year": false
+        },
+        {
+          "year": 2026,
+          "entry": "2026-04-07",
+          "exit": "2026-05-19",
+          "return": 0.11302762172142256,
+          "entry_price": 657.526,
+          "exit_price": 731.8446,
+          "cross_year": false
+        }
+      ]
+    },
+    {
+      "ticker": "SPY",
+      "month": 5,
+      "expected": {
+        "entry_day": 129,
+        "exit_day": 151,
+        "hold_days": 15,
+        "avg_return": 0.02436956935070378,
+        "win_rate": 1,
+        "sample_count": 6
+      },
+      "actual": {
+        "entry_day": 129,
+        "exit_day": 151,
+        "hold_days": 15,
+        "avg_return": 0.024369596739845917,
+        "win_rate": 1.0,
+        "sample_count": 6
+      },
+      "checks": {
+        "entry_day": true,
+        "exit_day": true,
+        "hold_days": true,
+        "avg_return": true,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": true,
+      "all_match": true,
+      "cutoff_exclusive": "2026-10-01",
+      "candidate_in_current_grid": false,
+      "daily_objective_rank": 9,
+      "rounding_mean_interval": [
+        0.024369379181038393,
+        0.02436981429870248
+      ],
+      "difference_exceeds_price_rounding": false,
+      "samples": [
+        {
+          "year": 2021,
+          "entry": "2021-05-10",
+          "exit": "2021-06-01",
+          "return": 0.004138993116403755,
+          "entry_price": 389.3459,
+          "exit_price": 390.9574,
+          "cross_year": false
+        },
+        {
+          "year": 2022,
+          "entry": "2022-05-09",
+          "exit": "2022-05-31",
+          "return": 0.03706983536343933,
+          "entry_price": 375.8096,
+          "exit_price": 389.7408,
+          "cross_year": false
+        },
+        {
+          "year": 2023,
+          "entry": "2023-05-09",
+          "exit": "2023-05-31",
+          "return": 0.01683999105531564,
+          "entry_price": 394.4242,
+          "exit_price": 401.0663,
+          "cross_year": false
+        },
+        {
+          "year": 2024,
+          "entry": "2024-05-08",
+          "exit": "2024-05-30",
+          "return": 0.010479645944597937,
+          "entry_price": 503.6048,
+          "exit_price": 508.8824,
+          "cross_year": false
+        },
+        {
+          "year": 2025,
+          "entry": "2025-05-09",
+          "exit": "2025-06-02",
+          "return": 0.05027130674850033,
+          "entry_price": 556.5103,
+          "exit_price": 584.4868,
+          "cross_year": false
+        },
+        {
+          "year": 2026,
+          "entry": "2026-05-11",
+          "exit": "2026-06-02",
+          "return": 0.027417808210818517,
+          "entry_price": 737.4003,
+          "exit_price": 757.6182,
+          "cross_year": false
+        }
+      ]
+    },
+    {
+      "ticker": "SPY",
+      "month": 6,
+      "expected": {
+        "entry_day": 168,
+        "exit_day": 212,
+        "hold_days": 30,
+        "avg_return": 0.044888485414306456,
+        "win_rate": 1,
+        "sample_count": 6
+      },
+      "actual": {
+        "entry_day": 168,
+        "exit_day": 212,
+        "hold_days": 30,
+        "avg_return": 0.04488839340367279,
+        "win_rate": 1.0,
+        "sample_count": 6
+      },
+      "checks": {
+        "entry_day": true,
+        "exit_day": true,
+        "hold_days": true,
+        "avg_return": true,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": true,
+      "all_match": true,
+      "cutoff_exclusive": "2026-10-01",
+      "candidate_in_current_grid": true,
+      "daily_objective_rank": 1,
+      "rounding_mean_interval": [
+        0.04488817585357748,
+        0.044888610953817354
+      ],
+      "difference_exceeds_price_rounding": false,
+      "samples": [
+        {
+          "year": 2021,
+          "entry": "2021-06-17",
+          "exit": "2021-07-30",
+          "return": 0.04259678387260646,
+          "entry_price": 393.1001,
+          "exit_price": 409.8449,
+          "cross_year": false
+        },
+        {
+          "year": 2022,
+          "entry": "2022-06-17",
+          "exit": "2022-08-02",
+          "return": 0.1153446683994328,
+          "entry_price": 346.8058,
+          "exit_price": 386.808,
+          "cross_year": false
+        },
+        {
+          "year": 2023,
+          "entry": "2023-06-20",
+          "exit": "2023-08-02",
+          "return": 0.029621637946467327,
+          "entry_price": 421.1786,
+          "exit_price": 433.6546,
+          "cross_year": false
+        },
+        {
+          "year": 2024,
+          "entry": "2024-06-17",
+          "exit": "2024-07-31",
+          "return": 0.010029300070148128,
+          "entry_price": 532.7291,
+          "exit_price": 538.072,
+          "cross_year": false
+        },
+        {
+          "year": 2025,
+          "entry": "2025-06-17",
+          "exit": "2025-07-31",
+          "return": 0.06094853063218064,
+          "entry_price": 589.2398,
+          "exit_price": 625.1531,
+          "cross_year": false
+        },
+        {
+          "year": 2026,
+          "entry": "2026-06-17",
+          "exit": "2026-07-31",
+          "return": 0.01078943950120137,
+          "entry_price": 739.056,
+          "exit_price": 747.03,
+          "cross_year": false
+        }
+      ]
+    },
+    {
+      "ticker": "SPY",
+      "month": 7,
+      "expected": {
+        "entry_day": 186,
+        "exit_day": 222,
+        "hold_days": 25,
+        "avg_return": 0.019974778187116127,
+        "win_rate": 0.8333333333333334,
+        "sample_count": 6
+      },
+      "actual": {
+        "entry_day": 186,
+        "exit_day": 222,
+        "hold_days": 25,
+        "avg_return": 0.019974719243954497,
+        "win_rate": 0.8333333333333334,
+        "sample_count": 6
+      },
+      "checks": {
+        "entry_day": true,
+        "exit_day": true,
+        "hold_days": true,
+        "avg_return": true,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": true,
+      "all_match": true,
+      "cutoff_exclusive": "2026-10-01",
+      "candidate_in_current_grid": false,
+      "daily_objective_rank": 29,
+      "rounding_mean_interval": [
+        0.019974510482594188,
+        0.01997492800536053
+      ],
+      "difference_exceeds_price_rounding": false,
+      "samples": [
+        {
+          "year": 2021,
+          "entry": "2021-07-06",
+          "exit": "2021-08-10",
+          "return": 0.022521090893993012,
+          "entry_price": 404.6296,
+          "exit_price": 413.7423,
+          "cross_year": false
+        },
+        {
+          "year": 2022,
+          "entry": "2022-07-05",
+          "exit": "2022-08-09",
+          "return": 0.07694510853233871,
+          "entry_price": 362.0672,
+          "exit_price": 389.9265,
+          "cross_year": false
+        },
+        {
+          "year": 2023,
+          "entry": "2023-07-05",
+          "exit": "2023-08-09",
+          "return": 0.005912240704090799,
+          "entry_price": 426.9109,
+          "exit_price": 429.4349,
+          "cross_year": false
+        },
+        {
+          "year": 2024,
+          "entry": "2024-07-05",
+          "exit": "2024-08-09",
+          "return": -0.039034287450255056,
+          "entry_price": 541.8134,
+          "exit_price": 520.6641,
+          "cross_year": false
+        },
+        {
+          "year": 2025,
+          "entry": "2025-07-07",
+          "exit": "2025-08-11",
+          "return": 0.02455357179218476,
+          "entry_price": 613.8781,
+          "exit_price": 628.951,
+          "cross_year": false
+        },
+        {
+          "year": 2026,
+          "entry": "2026-07-06",
+          "exit": "2026-08-10",
+          "return": 0.02895059099137476,
+          "entry_price": 751.28,
+          "exit_price": 773.03,
+          "cross_year": false
+        }
+      ]
+    },
+    {
+      "ticker": "SPY",
+      "month": 8,
+      "expected": {
+        "entry_day": 220,
+        "exit_day": 227,
+        "hold_days": 5,
+        "avg_return": 0.015674844325429687,
+        "win_rate": 0.6666666666666666,
+        "sample_count": 6
+      },
+      "actual": {
+        "entry_day": 220,
+        "exit_day": 227,
+        "hold_days": 5,
+        "avg_return": 0.015674977302689113,
+        "win_rate": 0.6666666666666666,
+        "sample_count": 6
+      },
+      "checks": {
+        "entry_day": true,
+        "exit_day": true,
+        "hold_days": true,
+        "avg_return": true,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": true,
+      "all_match": true,
+      "cutoff_exclusive": "2026-10-01",
+      "candidate_in_current_grid": false,
+      "daily_objective_rank": 16,
+      "rounding_mean_interval": [
+        0.01567477323596021,
+        0.01567518136946137
+      ],
+      "difference_exceeds_price_rounding": false,
+      "samples": [
+        {
+          "year": 2021,
+          "entry": "2021-08-09",
+          "exit": "2021-08-16",
+          "return": 0.010946975316066254,
+          "entry_price": 413.2283,
+          "exit_price": 417.7519,
+          "cross_year": false
+        },
+        {
+          "year": 2022,
+          "entry": "2022-08-08",
+          "exit": "2022-08-15",
+          "return": 0.03842739789992411,
+          "entry_price": 391.4811,
+          "exit_price": 406.5247,
+          "cross_year": false
+        },
+        {
+          "year": 2023,
+          "entry": "2023-08-08",
+          "exit": "2023-08-15",
+          "return": -0.013058228633960889,
+          "entry_price": 432.3251,
+          "exit_price": 426.6797,
+          "cross_year": false
+        },
+        {
+          "year": 2024,
+          "entry": "2024-08-07",
+          "exit": "2024-08-14",
+          "return": 0.04837471665230808,
+          "entry_price": 506.6655,
+          "exit_price": 531.1753,
+          "cross_year": false
+        },
+        {
+          "year": 2025,
+          "entry": "2025-08-08",
+          "exit": "2025-08-15",
+          "return": 0.00982470248995071,
+          "entry_price": 630.1972,
+          "exit_price": 636.3887,
+          "cross_year": false
+        },
+        {
+          "year": 2026,
+          "entry": "2026-08-10",
+          "exit": "2026-08-17",
+          "return": -0.00046569990815359397,
+          "entry_price": 773.03,
+          "exit_price": 772.67,
+          "cross_year": false
+        }
+      ]
+    },
+    {
+      "ticker": "SPY",
+      "month": 9,
+      "expected": {
+        "entry_day": 273,
+        "exit_day": 315,
+        "hold_days": 30,
+        "avg_return": 0.05907428347032693,
+        "win_rate": 1,
+        "sample_count": 5
+      },
+      "actual": {
+        "entry_day": 273,
+        "exit_day": 315,
+        "hold_days": 30,
+        "avg_return": 0.05907427463833774,
+        "win_rate": 1.0,
+        "sample_count": 5
+      },
+      "checks": {
+        "entry_day": true,
+        "exit_day": true,
+        "hold_days": true,
+        "avg_return": true,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": true,
+      "all_match": true,
+      "cutoff_exclusive": "2026-10-01",
+      "candidate_in_current_grid": true,
+      "daily_objective_rank": 1,
+      "rounding_mean_interval": [
+        0.059074044551917025,
+        0.05907450472481255
+      ],
+      "difference_exceeds_price_rounding": false,
+      "samples": [
+        {
+          "year": 2021,
+          "entry": "2021-09-30",
+          "exit": "2021-11-11",
+          "return": 0.0806963897126145,
+          "entry_price": 402.3724,
+          "exit_price": 434.8424,
+          "cross_year": false
+        },
+        {
+          "year": 2022,
+          "entry": "2022-09-30",
+          "exit": "2022-11-11",
+          "return": 0.11571186280144707,
+          "entry_price": 339.9686,
+          "exit_price": 379.307,
+          "cross_year": false
+        },
+        {
+          "year": 2023,
+          "entry": "2023-10-02",
+          "exit": "2023-11-13",
+          "return": 0.030142192897544273,
+          "entry_price": 413.1219,
+          "exit_price": 425.5743,
+          "cross_year": false
+        },
+        {
+          "year": 2024,
+          "entry": "2024-09-30",
+          "exit": "2024-11-11",
+          "return": 0.043572485242621806,
+          "entry_price": 562.2103,
+          "exit_price": 586.7072,
+          "cross_year": false
+        },
+        {
+          "year": 2025,
+          "entry": "2025-09-30",
+          "exit": "2025-11-11",
+          "return": 0.025248442537461058,
+          "entry_price": 660.7061,
+          "exit_price": 677.3879,
+          "cross_year": false
+        }
+      ]
+    },
+    {
+      "ticker": "SPY",
+      "month": 10,
+      "expected": {
+        "entry_day": 287,
+        "exit_day": 330,
+        "hold_days": 30,
+        "avg_return": 0.045900149961453085,
+        "win_rate": 1,
+        "sample_count": 5
+      },
+      "actual": {
+        "entry_day": 287,
+        "exit_day": 330,
+        "hold_days": 30,
+        "avg_return": 0.04590030064249424,
+        "win_rate": 1.0,
+        "sample_count": 5
+      },
+      "checks": {
+        "entry_day": true,
+        "exit_day": true,
+        "hold_days": true,
+        "avg_return": true,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": true,
+      "all_match": true,
+      "cutoff_exclusive": "2026-10-01",
+      "candidate_in_current_grid": true,
+      "daily_objective_rank": 15,
+      "rounding_mean_interval": [
+        0.04590007510014651,
+        0.045900526184894416
+      ],
+      "difference_exceeds_price_rounding": false,
+      "samples": [
+        {
+          "year": 2021,
+          "entry": "2021-10-14",
+          "exit": "2021-11-26",
+          "return": 0.037220624778560474,
+          "entry_price": 414.899,
+          "exit_price": 430.3418,
+          "cross_year": false
+        },
+        {
+          "year": 2022,
+          "entry": "2022-10-14",
+          "exit": "2022-11-28",
+          "return": 0.1070382838386601,
+          "entry_price": 340.3969,
+          "exit_price": 376.8324,
+          "cross_year": false
+        },
+        {
+          "year": 2023,
+          "entry": "2023-10-16",
+          "exit": "2023-11-28",
+          "return": 0.043321731246713124,
+          "entry_price": 421.5621,
+          "exit_price": 439.8249,
+          "cross_year": false
+        },
+        {
+          "year": 2024,
+          "entry": "2024-10-14",
+          "exit": "2024-11-25",
+          "return": 0.022607495241965703,
+          "entry_price": 572.5579,
+          "exit_price": 585.502,
+          "cross_year": false
+        },
+        {
+          "year": 2025,
+          "entry": "2025-10-14",
+          "exit": "2025-11-25",
+          "return": 0.019313368106571804,
+          "entry_price": 656.7886,
+          "exit_price": 669.4734,
+          "cross_year": false
+        }
+      ]
+    },
+    {
+      "ticker": "SPY",
+      "month": 11,
+      "expected": {
+        "entry_day": 329,
+        "exit_day": 359,
+        "hold_days": 20,
+        "avg_return": 0.01718038092472014,
+        "win_rate": 0.8,
+        "sample_count": 5
+      },
+      "actual": {
+        "entry_day": 329,
+        "exit_day": 359,
+        "hold_days": 20,
+        "avg_return": 0.017180406003826622,
+        "win_rate": 0.8,
+        "sample_count": 5
+      },
+      "checks": {
+        "entry_day": true,
+        "exit_day": true,
+        "hold_days": true,
+        "avg_return": true,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": true,
+      "all_match": true,
+      "cutoff_exclusive": "2026-10-01",
+      "candidate_in_current_grid": true,
+      "daily_objective_rank": 56,
+      "rounding_mean_interval": [
+        0.017180196179561104,
+        0.017180615828137413
+      ],
+      "difference_exceeds_price_rounding": false,
+      "samples": [
+        {
+          "year": 2021,
+          "entry": "2021-11-26",
+          "exit": "2021-12-27",
+          "return": 0.043503326890392824,
+          "entry_price": 430.3418,
+          "exit_price": 449.0631,
+          "cross_year": false
+        },
+        {
+          "year": 2022,
+          "entry": "2022-11-25",
+          "exit": "2022-12-23",
+          "return": -0.043898439193300165,
+          "entry_price": 382.943,
+          "exit_price": 366.1324,
+          "cross_year": false
+        },
+        {
+          "year": 2023,
+          "entry": "2023-11-27",
+          "exit": "2023-12-26",
+          "return": 0.0508238925892226,
+          "entry_price": 439.3898,
+          "exit_price": 461.7213,
+          "cross_year": false
+        },
+        {
+          "year": 2024,
+          "entry": "2024-11-25",
+          "exit": "2024-12-24",
+          "return": 0.009696124009824114,
+          "entry_price": 585.502,
+          "exit_price": 591.1791,
+          "cross_year": false
+        },
+        {
+          "year": 2025,
+          "entry": "2025-11-25",
+          "exit": "2025-12-24",
+          "return": 0.025777125722993732,
+          "entry_price": 669.4734,
+          "exit_price": 686.7305,
+          "cross_year": false
+        }
+      ]
+    },
+    {
+      "ticker": "SPY",
+      "month": 12,
+      "expected": {
+        "entry_day": 350,
+        "exit_day": 10,
+        "hold_days": 15,
+        "avg_return": 0.002017494427771904,
+        "win_rate": 0.8,
+        "sample_count": 5
+      },
+      "actual": {
+        "entry_day": 350,
+        "exit_day": 8,
+        "hold_days": 15,
+        "avg_return": 0.004993990982960783,
+        "win_rate": 0.8,
+        "sample_count": 5
+      },
+      "checks": {
+        "entry_day": true,
+        "exit_day": false,
+        "hold_days": true,
+        "avg_return": false,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": false,
+      "all_match": false,
+      "cutoff_exclusive": "2026-10-01",
+      "candidate_in_current_grid": true,
+      "daily_objective_rank": 53,
+      "rounding_mean_interval": [
+        0.004993783035507437,
+        0.004994198930459226
+      ],
+      "difference_exceeds_price_rounding": true,
+      "samples": [
+        {
+          "year": 2021,
+          "entry": "2021-12-16",
+          "exit": "2022-01-07",
+          "return": 0.0027387350144687517,
+          "entry_price": 437.3552,
+          "exit_price": 438.553,
+          "cross_year": true
+        },
+        {
+          "year": 2022,
+          "entry": "2022-12-16",
+          "exit": "2023-01-10",
+          "return": 0.019072704778422267,
+          "entry_price": 366.4766,
+          "exit_price": 373.4663,
+          "cross_year": true
+        },
+        {
+          "year": 2023,
+          "entry": "2023-12-18",
+          "exit": "2024-01-10",
+          "return": 0.009724997882785802,
+          "entry_price": 458.1492,
+          "exit_price": 462.6047,
+          "cross_year": true
+        },
+        {
+          "year": 2024,
+          "entry": "2024-12-16",
+          "exit": "2025-01-08",
+          "return": -0.0252407011793625,
+          "entry_price": 594.5754,
+          "exit_price": 579.5679,
+          "cross_year": true
+        },
+        {
+          "year": 2025,
+          "entry": "2025-12-16",
+          "exit": "2026-01-08",
+          "return": 0.018674218418489597,
+          "entry_price": 673.2919,
+          "exit_price": 685.8651,
+          "cross_year": true
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "month": 1,
+      "expected": {
+        "entry_day": 5,
+        "exit_day": 12,
+        "hold_days": 5,
+        "avg_return": 0.015232845986938656,
+        "win_rate": 0.8333333333333334,
+        "sample_count": 6
+      },
+      "actual": {
+        "entry_day": 5,
+        "exit_day": 12,
+        "hold_days": 5,
+        "avg_return": 0.015232940264717646,
+        "win_rate": 0.8333333333333334,
+        "sample_count": 6
+      },
+      "checks": {
+        "entry_day": true,
+        "exit_day": true,
+        "hold_days": true,
+        "avg_return": true,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": true,
+      "all_match": true,
+      "cutoff_exclusive": "2026-10-01",
+      "candidate_in_current_grid": false,
+      "daily_objective_rank": 22,
+      "rounding_mean_interval": [
+        0.01523267131850494,
+        0.015233209211008236
+      ],
+      "difference_exceeds_price_rounding": false,
+      "samples": [
+        {
+          "year": 2021,
+          "entry": "2021-01-05",
+          "exit": "2021-01-12",
+          "return": 0.006605978696901493,
+          "entry_price": 302.2565,
+          "exit_price": 304.2532,
+          "cross_year": false
+        },
+        {
+          "year": 2022,
+          "entry": "2022-01-05",
+          "exit": "2022-01-12",
+          "return": 0.007962848413028079,
+          "entry_price": 374.2505,
+          "exit_price": 377.2306,
+          "cross_year": false
+        },
+        {
+          "year": 2023,
+          "entry": "2023-01-05",
+          "exit": "2023-01-12",
+          "return": 0.06678611523409583,
+          "entry_price": 256.6237,
+          "exit_price": 273.7626,
+          "cross_year": false
+        },
+        {
+          "year": 2024,
+          "entry": "2024-01-05",
+          "exit": "2024-01-12",
+          "return": 0.03228730833548932,
+          "entry_price": 391.9218,
+          "exit_price": 404.5759,
+          "cross_year": false
+        },
+        {
+          "year": 2025,
+          "entry": "2025-01-06",
+          "exit": "2025-01-14",
+          "return": -0.0370993177754414,
+          "entry_price": 521.236,
+          "exit_price": 501.8985,
+          "cross_year": false
+        },
+        {
+          "year": 2026,
+          "entry": "2026-01-05",
+          "exit": "2026-01-12",
+          "return": 0.014854708684232554,
+          "entry_price": 617.2117,
+          "exit_price": 626.3802,
+          "cross_year": false
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "month": 2,
+      "expected": {
+        "entry_day": 56,
+        "exit_day": 91,
+        "hold_days": 25,
+        "avg_return": 0.010036324995212731,
+        "win_rate": 0.6666666666666666,
+        "sample_count": 6
+      },
+      "actual": {
+        "entry_day": 56,
+        "exit_day": 91,
+        "hold_days": 25,
+        "avg_return": 0.01003642063728157,
+        "win_rate": 0.6666666666666666,
+        "sample_count": 6
+      },
+      "checks": {
+        "entry_day": true,
+        "exit_day": true,
+        "hold_days": true,
+        "avg_return": true,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": true,
+      "all_match": true,
+      "cutoff_exclusive": "2026-10-01",
+      "candidate_in_current_grid": true,
+      "daily_objective_rank": 7,
+      "rounding_mean_interval": [
+        0.010036156854523562,
+        0.010036684420113537
+      ],
+      "difference_exceeds_price_rounding": false,
+      "samples": [
+        {
+          "year": 2021,
+          "entry": "2021-02-25",
+          "exit": "2021-04-01",
+          "return": 0.03883881321927318,
+          "entry_price": 303.1967,
+          "exit_price": 314.9725,
+          "cross_year": false
+        },
+        {
+          "year": 2022,
+          "entry": "2022-02-25",
+          "exit": "2022-04-01",
+          "return": 0.047798755585965136,
+          "entry_price": 336.7368,
+          "exit_price": 352.8324,
+          "cross_year": false
+        },
+        {
+          "year": 2023,
+          "entry": "2023-02-27",
+          "exit": "2023-04-03",
+          "return": 0.09085430028383623,
+          "entry_price": 288.3705,
+          "exit_price": 314.5702,
+          "cross_year": false
+        },
+        {
+          "year": 2024,
+          "entry": "2024-02-26",
+          "exit": "2024-04-02",
+          "return": 0.011781442940375086,
+          "entry_price": 431.2375,
+          "exit_price": 436.3181,
+          "cross_year": false
+        },
+        {
+          "year": 2025,
+          "entry": "2025-02-25",
+          "exit": "2025-04-01",
+          "return": -0.07775875704243151,
+          "entry_price": 510.0866,
+          "exit_price": 470.4229,
+          "cross_year": false
+        },
+        {
+          "year": 2026,
+          "entry": "2026-02-25",
+          "exit": "2026-04-01",
+          "return": -0.051296031163328704,
+          "entry_price": 615.9034,
+          "exit_price": 584.31,
+          "cross_year": false
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "month": 3,
+      "expected": {
+        "entry_day": 70,
+        "exit_day": 91,
+        "hold_days": 15,
+        "avg_return": 0.03634978268843327,
+        "win_rate": 0.8333333333333334,
+        "sample_count": 6
+      },
+      "actual": {
+        "entry_day": 70,
+        "exit_day": 91,
+        "hold_days": 15,
+        "avg_return": 0.036349725036445034,
+        "win_rate": 0.8333333333333334,
+        "sample_count": 6
+      },
+      "checks": {
+        "entry_day": true,
+        "exit_day": true,
+        "hold_days": true,
+        "avg_return": true,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": true,
+      "all_match": true,
+      "cutoff_exclusive": "2026-10-01",
+      "candidate_in_current_grid": true,
+      "daily_objective_rank": 3,
+      "rounding_mean_interval": [
+        0.03634945174120389,
+        0.03634999833176409
+      ],
+      "difference_exceeds_price_rounding": false,
+      "samples": [
+        {
+          "year": 2021,
+          "entry": "2021-03-11",
+          "exit": "2021-04-01",
+          "return": 0.021821193578380083,
+          "entry_price": 308.2462,
+          "exit_price": 314.9725,
+          "cross_year": false
+        },
+        {
+          "year": 2022,
+          "entry": "2022-03-11",
+          "exit": "2022-04-01",
+          "return": 0.11682258965096803,
+          "entry_price": 315.9252,
+          "exit_price": 352.8324,
+          "cross_year": false
+        },
+        {
+          "year": 2023,
+          "entry": "2023-03-13",
+          "exit": "2023-04-03",
+          "return": 0.1030502966350273,
+          "entry_price": 285.1821,
+          "exit_price": 314.5702,
+          "cross_year": false
+        },
+        {
+          "year": 2024,
+          "entry": "2024-03-11",
+          "exit": "2024-04-02",
+          "return": 0.009838282137990984,
+          "entry_price": 432.0673,
+          "exit_price": 436.3181,
+          "cross_year": false
+        },
+        {
+          "year": 2025,
+          "entry": "2025-03-11",
+          "exit": "2025-04-01",
+          "return": 0.0038271179742459527,
+          "entry_price": 468.6294,
+          "exit_price": 470.4229,
+          "cross_year": false
+        },
+        {
+          "year": 2026,
+          "entry": "2026-03-11",
+          "exit": "2026-04-01",
+          "return": -0.03726112975794216,
+          "entry_price": 606.9247,
+          "exit_price": 584.31,
+          "cross_year": false
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "month": 4,
+      "expected": {
+        "entry_day": 97,
+        "exit_day": 140,
+        "hold_days": 30,
+        "avg_return": 0.050421058759892744,
+        "win_rate": 0.6666666666666666,
+        "sample_count": 6
+      },
+      "actual": {
+        "entry_day": 97,
+        "exit_day": 140,
+        "hold_days": 30,
+        "avg_return": 0.05042103929151268,
+        "win_rate": 0.6666666666666666,
+        "sample_count": 6
+      },
+      "checks": {
+        "entry_day": true,
+        "exit_day": true,
+        "hold_days": true,
+        "avg_return": true,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": true,
+      "all_match": true,
+      "cutoff_exclusive": "2026-10-01",
+      "candidate_in_current_grid": false,
+      "daily_objective_rank": 39,
+      "rounding_mean_interval": [
+        0.050420775444367495,
+        0.05042130313872865
+      ],
+      "difference_exceeds_price_rounding": false,
+      "samples": [
+        {
+          "year": 2021,
+          "entry": "2021-04-07",
+          "exit": "2021-05-19",
+          "return": -0.027230006391888883,
+          "entry_price": 321.8141,
+          "exit_price": 313.0511,
+          "cross_year": false
+        },
+        {
+          "year": 2022,
+          "entry": "2022-04-07",
+          "exit": "2022-05-20",
+          "return": -0.18474985917043063,
+          "entry_price": 345.2755,
+          "exit_price": 281.4859,
+          "cross_year": false
+        },
+        {
+          "year": 2023,
+          "entry": "2023-04-10",
+          "exit": "2023-05-22",
+          "return": 0.06219545422964634,
+          "entry_price": 312.3299,
+          "exit_price": 331.7554,
+          "cross_year": false
+        },
+        {
+          "year": 2024,
+          "entry": "2024-04-08",
+          "exit": "2024-05-20",
+          "return": 0.032478327321972866,
+          "entry_price": 435.8137,
+          "exit_price": 449.9682,
+          "cross_year": false
+        },
+        {
+          "year": 2025,
+          "entry": "2025-04-07",
+          "exit": "2025-05-20",
+          "return": 0.22795002478364723,
+          "entry_price": 421.649,
+          "exit_price": 517.7639,
+          "cross_year": false
+        },
+        {
+          "year": 2026,
+          "entry": "2026-04-07",
+          "exit": "2026-05-19",
+          "return": 0.1918822949761292,
+          "entry_price": 588.59,
+          "exit_price": 701.53,
+          "cross_year": false
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "month": 5,
+      "expected": {
+        "entry_day": 126,
+        "exit_day": 169,
+        "hold_days": 30,
+        "avg_return": 0.0548661588514624,
+        "win_rate": 0.8333333333333334,
+        "sample_count": 6
+      },
+      "actual": {
+        "entry_day": 126,
+        "exit_day": 169,
+        "hold_days": 30,
+        "avg_return": 0.054671400648519164,
+        "win_rate": 0.8333333333333334,
+        "sample_count": 6
+      },
+      "checks": {
+        "entry_day": true,
+        "exit_day": true,
+        "hold_days": true,
+        "avg_return": false,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": true,
+      "all_match": false,
+      "cutoff_exclusive": "2026-10-01",
+      "candidate_in_current_grid": true,
+      "daily_objective_rank": 35,
+      "rounding_mean_interval": [
+        0.05467113818764957,
+        0.054671663109460554
+      ],
+      "difference_exceeds_price_rounding": true,
+      "samples": [
+        {
+          "year": 2021,
+          "entry": "2021-05-06",
+          "exit": "2021-06-18",
+          "return": 0.03354322391813924,
+          "entry_price": 321.7073,
+          "exit_price": 332.4984,
+          "cross_year": false
+        },
+        {
+          "year": 2022,
+          "entry": "2022-05-06",
+          "exit": "2022-06-21",
+          "return": -0.08934438271385892,
+          "entry_price": 301.5433,
+          "exit_price": 274.6021,
+          "cross_year": false
+        },
+        {
+          "year": 2023,
+          "entry": "2023-05-08",
+          "exit": "2023-06-21",
+          "return": 0.11957861772654188,
+          "entry_price": 318.0485,
+          "exit_price": 356.0803,
+          "cross_year": false
+        },
+        {
+          "year": 2024,
+          "entry": "2024-05-06",
+          "exit": "2024-06-18",
+          "return": 0.10212380946913391,
+          "entry_price": 435.4675,
+          "exit_price": 479.9391,
+          "cross_year": false
+        },
+        {
+          "year": 2025,
+          "entry": "2025-05-06",
+          "exit": "2025-06-18",
+          "return": 0.09883466815281428,
+          "entry_price": 479.091,
+          "exit_price": 526.4418,
+          "cross_year": false
+        },
+        {
+          "year": 2026,
+          "entry": "2026-05-06",
+          "exit": "2026-06-18",
+          "return": 0.0632924673383446,
+          "entry_price": 695.77,
+          "exit_price": 739.807,
+          "cross_year": false
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "month": 6,
+      "expected": {
+        "entry_day": 161,
+        "exit_day": 198,
+        "hold_days": 25,
+        "avg_return": 0.04204732860272231,
+        "win_rate": 1,
+        "sample_count": 6
+      },
+      "actual": {
+        "entry_day": 161,
+        "exit_day": 198,
+        "hold_days": 25,
+        "avg_return": 0.041863694027291176,
+        "win_rate": 1.0,
+        "sample_count": 6
+      },
+      "checks": {
+        "entry_day": true,
+        "exit_day": true,
+        "hold_days": true,
+        "avg_return": false,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": true,
+      "all_match": false,
+      "cutoff_exclusive": "2026-10-01",
+      "candidate_in_current_grid": true,
+      "daily_objective_rank": 1,
+      "rounding_mean_interval": [
+        0.04186344015001938,
+        0.04186394790463133
+      ],
+      "difference_exceeds_price_rounding": true,
+      "samples": [
+        {
+          "year": 2021,
+          "entry": "2021-06-10",
+          "exit": "2021-07-16",
+          "return": 0.05190170092032376,
+          "entry_price": 330.2859,
+          "exit_price": 347.4283,
+          "cross_year": false
+        },
+        {
+          "year": 2022,
+          "entry": "2022-06-10",
+          "exit": "2022-07-19",
+          "return": 0.034736663827363845,
+          "entry_price": 281.6419,
+          "exit_price": 291.4252,
+          "cross_year": false
+        },
+        {
+          "year": 2023,
+          "entry": "2023-06-12",
+          "exit": "2023-07-19",
+          "return": 0.07126141740241776,
+          "entry_price": 354.2071,
+          "exit_price": 379.4484,
+          "cross_year": false
+        },
+        {
+          "year": 2024,
+          "entry": "2024-06-10",
+          "exit": "2024-07-17",
+          "return": 0.038090784624402296,
+          "entry_price": 459.7805,
+          "exit_price": 477.2939,
+          "cross_year": false
+        },
+        {
+          "year": 2025,
+          "entry": "2025-06-10",
+          "exit": "2025-07-17",
+          "return": 0.052827428956654154,
+          "entry_price": 531.6367,
+          "exit_price": 559.7217,
+          "cross_year": false
+        },
+        {
+          "year": 2026,
+          "entry": "2026-06-10",
+          "exit": "2026-07-17",
+          "return": 0.0023641684325852452,
+          "entry_price": 693.69,
+          "exit_price": 695.33,
+          "cross_year": false
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "month": 7,
+      "expected": {
+        "entry_day": 182,
+        "exit_day": 197,
+        "hold_days": 10,
+        "avg_return": 0.016378724527707444,
+        "win_rate": 0.8333333333333334,
+        "sample_count": 6
+      },
+      "actual": {
+        "entry_day": 182,
+        "exit_day": 197,
+        "hold_days": 10,
+        "avg_return": 0.016378593873484466,
+        "win_rate": 0.8333333333333334,
+        "sample_count": 6
+      },
+      "checks": {
+        "entry_day": true,
+        "exit_day": true,
+        "hold_days": true,
+        "avg_return": true,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": true,
+      "all_match": true,
+      "cutoff_exclusive": "2026-10-01",
+      "candidate_in_current_grid": true,
+      "daily_objective_rank": 11,
+      "rounding_mean_interval": [
+        0.01637834835881356,
+        0.016378839388220767
+      ],
+      "difference_exceeds_price_rounding": false,
+      "samples": [
+        {
+          "year": 2021,
+          "entry": "2021-07-01",
+          "exit": "2021-07-16",
+          "return": 0.008545229598071913,
+          "entry_price": 344.4846,
+          "exit_price": 347.4283,
+          "cross_year": false
+        },
+        {
+          "year": 2022,
+          "entry": "2022-07-01",
+          "exit": "2022-07-18",
+          "return": 0.025768073551335036,
+          "entry_price": 275.6279,
+          "exit_price": 282.7303,
+          "cross_year": false
+        },
+        {
+          "year": 2023,
+          "entry": "2023-07-03",
+          "exit": "2023-07-18",
+          "return": 0.041723917028100965,
+          "entry_price": 364.3354,
+          "exit_price": 379.5369,
+          "cross_year": false
+        },
+        {
+          "year": 2024,
+          "entry": "2024-07-01",
+          "exit": "2024-07-16",
+          "return": 0.02992192777140712,
+          "entry_price": 477.4425,
+          "exit_price": 491.7285,
+          "cross_year": false
+        },
+        {
+          "year": 2025,
+          "entry": "2025-07-01",
+          "exit": "2025-07-16",
+          "return": 0.01883033522800659,
+          "entry_price": 544.9664,
+          "exit_price": 555.2283,
+          "cross_year": false
+        },
+        {
+          "year": 2026,
+          "entry": "2026-07-01",
+          "exit": "2026-07-16",
+          "return": -0.026517919936014822,
+          "entry_price": 725.17,
+          "exit_price": 705.94,
+          "cross_year": false
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "month": 8,
+      "expected": {
+        "entry_day": 238,
+        "exit_day": 253,
+        "hold_days": 10,
+        "avg_return": 0.002273751722630927,
+        "win_rate": 0.6666666666666666,
+        "sample_count": 6
+      },
+      "actual": {
+        "entry_day": 238,
+        "exit_day": 253,
+        "hold_days": 10,
+        "avg_return": 0.0022737068647292746,
+        "win_rate": 0.6666666666666666,
+        "sample_count": 6
+      },
+      "checks": {
+        "entry_day": true,
+        "exit_day": true,
+        "hold_days": true,
+        "avg_return": true,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": true,
+      "all_match": true,
+      "cutoff_exclusive": "2026-10-01",
+      "candidate_in_current_grid": true,
+      "daily_objective_rank": 36,
+      "rounding_mean_interval": [
+        0.0022734706149263686,
+        0.0022739431145923548
+      ],
+      "difference_exceeds_price_rounding": false,
+      "samples": [
+        {
+          "year": 2021,
+          "entry": "2021-08-26",
+          "exit": "2021-09-10",
+          "return": 0.011197069979338226,
+          "entry_price": 361.8268,
+          "exit_price": 365.8782,
+          "cross_year": false
+        },
+        {
+          "year": 2022,
+          "entry": "2022-08-26",
+          "exit": "2022-09-12",
+          "return": 0.010733642589911163,
+          "entry_price": 300.3547,
+          "exit_price": 303.5786,
+          "cross_year": false
+        },
+        {
+          "year": 2023,
+          "entry": "2023-08-28",
+          "exit": "2023-09-12",
+          "return": 0.016441183488096867,
+          "entry_price": 360.8621,
+          "exit_price": 366.7951,
+          "cross_year": false
+        },
+        {
+          "year": 2024,
+          "entry": "2024-08-26",
+          "exit": "2024-09-10",
+          "return": -0.035090617671316604,
+          "entry_price": 470.9236,
+          "exit_price": 454.3986,
+          "cross_year": false
+        },
+        {
+          "year": 2025,
+          "entry": "2025-08-26",
+          "exit": "2025-09-10",
+          "return": 0.014128341241133047,
+          "entry_price": 570.4916,
+          "exit_price": 578.5517,
+          "cross_year": false
+        },
+        {
+          "year": 2026,
+          "entry": "2026-08-26",
+          "exit": "2026-09-10",
+          "return": -0.00376737843878705,
+          "entry_price": 711.37,
+          "exit_price": 708.69,
+          "cross_year": false
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "month": 9,
+      "expected": {
+        "entry_day": 273,
+        "exit_day": 315,
+        "hold_days": 30,
+        "avg_return": 0.06017412223852632,
+        "win_rate": 1,
+        "sample_count": 5
+      },
+      "actual": {
+        "entry_day": 273,
+        "exit_day": 315,
+        "hold_days": 30,
+        "avg_return": 0.060174170247718185,
+        "win_rate": 1.0,
+        "sample_count": 5
+      },
+      "checks": {
+        "entry_day": true,
+        "exit_day": true,
+        "hold_days": true,
+        "avg_return": true,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": true,
+      "all_match": true,
+      "cutoff_exclusive": "2026-10-01",
+      "candidate_in_current_grid": true,
+      "daily_objective_rank": 1,
+      "rounding_mean_interval": [
+        0.060173896955393505,
+        0.060174443540120935
+      ],
+      "difference_exceeds_price_rounding": false,
+      "samples": [
+        {
+          "year": 2021,
+          "entry": "2021-09-30",
+          "exit": "2021-11-11",
+          "return": 0.09115539615416535,
+          "entry_price": 348.1637,
+          "exit_price": 379.9007,
+          "cross_year": false
+        },
+        {
+          "year": 2022,
+          "entry": "2022-09-30",
+          "exit": "2022-11-11",
+          "return": 0.07745274875004693,
+          "entry_price": 261.5698,
+          "exit_price": 281.8291,
+          "cross_year": false
+        },
+        {
+          "year": 2023,
+          "entry": "2023-10-02",
+          "exit": "2023-11-13",
+          "return": 0.04415095749555231,
+          "entry_price": 355.9651,
+          "exit_price": 371.6813,
+          "cross_year": false
+        },
+        {
+          "year": 2024,
+          "entry": "2024-09-30",
+          "exit": "2024-11-11",
+          "return": 0.05280012093806308,
+          "entry_price": 484.2148,
+          "exit_price": 509.7814,
+          "cross_year": false
+        },
+        {
+          "year": 2025,
+          "entry": "2025-09-30",
+          "exit": "2025-11-11",
+          "return": 0.035311627900763254,
+          "entry_price": 598.8424,
+          "exit_price": 619.9885,
+          "cross_year": false
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "month": 10,
+      "expected": {
+        "entry_day": 287,
+        "exit_day": 315,
+        "hold_days": 20,
+        "avg_return": 0.05262418208137234,
+        "win_rate": 1,
+        "sample_count": 5
+      },
+      "actual": {
+        "entry_day": 287,
+        "exit_day": 315,
+        "hold_days": 20,
+        "avg_return": 0.05262418096568524,
+        "win_rate": 1.0,
+        "sample_count": 5
+      },
+      "checks": {
+        "entry_day": true,
+        "exit_day": true,
+        "hold_days": true,
+        "avg_return": true,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": true,
+      "all_match": true,
+      "cutoff_exclusive": "2026-10-01",
+      "candidate_in_current_grid": true,
+      "daily_objective_rank": 12,
+      "rounding_mean_interval": [
+        0.05262390967972323,
+        0.052624452251725184
+      ],
+      "difference_exceeds_price_rounding": false,
+      "samples": [
+        {
+          "year": 2021,
+          "entry": "2021-10-14",
+          "exit": "2021-11-11",
+          "return": 0.06535173508433201,
+          "entry_price": 356.5965,
+          "exit_price": 379.9007,
+          "cross_year": false
+        },
+        {
+          "year": 2022,
+          "entry": "2022-10-14",
+          "exit": "2022-11-11",
+          "return": 0.10439533740927298,
+          "entry_price": 255.1886,
+          "exit_price": 281.8291,
+          "cross_year": false
+        },
+        {
+          "year": 2023,
+          "entry": "2023-10-16",
+          "exit": "2023-11-13",
+          "return": 0.021114815673596077,
+          "entry_price": 363.9956,
+          "exit_price": 371.6813,
+          "cross_year": false
+        },
+        {
+          "year": 2024,
+          "entry": "2024-10-14",
+          "exit": "2024-11-11",
+          "return": 0.032844352092426865,
+          "entry_price": 493.5704,
+          "exit_price": 509.7814,
+          "cross_year": false
+        },
+        {
+          "year": 2025,
+          "entry": "2025-10-14",
+          "exit": "2025-11-11",
+          "return": 0.039414664568798274,
+          "entry_price": 596.4785,
+          "exit_price": 619.9885,
+          "cross_year": false
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "month": 11,
+      "expected": {
+        "entry_day": 329,
+        "exit_day": 359,
+        "hold_days": 20,
+        "avg_return": 0.019700052886919915,
+        "win_rate": 0.8,
+        "sample_count": 5
+      },
+      "actual": {
+        "entry_day": 329,
+        "exit_day": 359,
+        "hold_days": 20,
+        "avg_return": 0.019699926574070225,
+        "win_rate": 0.8,
+        "sample_count": 5
+      },
+      "checks": {
+        "entry_day": true,
+        "exit_day": true,
+        "hold_days": true,
+        "avg_return": true,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": true,
+      "all_match": true,
+      "cutoff_exclusive": "2026-10-01",
+      "candidate_in_current_grid": true,
+      "daily_objective_rank": 39,
+      "rounding_mean_interval": [
+        0.019699676507385376,
+        0.019700176640821288
+      ],
+      "difference_exceeds_price_rounding": false,
+      "samples": [
+        {
+          "year": 2021,
+          "entry": "2021-11-26",
+          "exit": "2021-12-27",
+          "return": 0.03270800590810885,
+          "entry_price": 380.494,
+          "exit_price": 392.9392,
+          "cross_year": false
+        },
+        {
+          "year": 2022,
+          "entry": "2022-11-25",
+          "exit": "2022-12-23",
+          "return": -0.06594179080400253,
+          "entry_price": 280.8113,
+          "exit_price": 262.2941,
+          "cross_year": false
+        },
+        {
+          "year": 2023,
+          "entry": "2023-11-27",
+          "exit": "2023-12-26",
+          "return": 0.05789377470394386,
+          "entry_price": 383.4661,
+          "exit_price": 405.6664,
+          "cross_year": false
+        },
+        {
+          "year": 2024,
+          "entry": "2024-11-25",
+          "exit": "2024-12-24",
+          "return": 0.04781883234120321,
+          "entry_price": 502.5886,
+          "exit_price": 526.6218,
+          "cross_year": false
+        },
+        {
+          "year": 2025,
+          "entry": "2025-11-25",
+          "exit": "2025-12-24",
+          "return": 0.026020810721097742,
+          "entry_price": 607.3408,
+          "exit_price": 623.1443,
+          "cross_year": false
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "month": 12,
+      "expected": {
+        "entry_day": 350,
+        "exit_day": 32,
+        "hold_days": 30,
+        "avg_return": 0.01172125953545009,
+        "win_rate": 0.6,
+        "sample_count": 5
+      },
+      "actual": {
+        "entry_day": 350,
+        "exit_day": 31,
+        "hold_days": 30,
+        "avg_return": 0.013277249694211268,
+        "win_rate": 0.6,
+        "sample_count": 5
+      },
+      "checks": {
+        "entry_day": true,
+        "exit_day": false,
+        "hold_days": true,
+        "avg_return": false,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": false,
+      "all_match": false,
+      "cutoff_exclusive": "2026-10-01",
+      "candidate_in_current_grid": true,
+      "daily_objective_rank": 51,
+      "rounding_mean_interval": [
+        0.013276999223138209,
+        0.013277500165352207
+      ],
+      "difference_exceeds_price_rounding": true,
+      "samples": [
+        {
+          "year": 2021,
+          "entry": "2021-12-16",
+          "exit": "2022-01-31",
+          "return": -0.06029953757216222,
+          "entry_price": 376.2533,
+          "exit_price": 353.5654,
+          "cross_year": true
+        },
+        {
+          "year": 2022,
+          "entry": "2022-12-16",
+          "exit": "2023-02-01",
+          "return": 0.09987407371530965,
+          "entry_price": 268.411,
+          "exit_price": 295.2183,
+          "cross_year": true
+        },
+        {
+          "year": 2023,
+          "entry": "2023-12-18",
+          "exit": "2024-02-01",
+          "return": 0.03690161121252844,
+          "entry_price": 401.9147,
+          "exit_price": 416.746,
+          "cross_year": true
+        },
+        {
+          "year": 2024,
+          "entry": "2024-12-16",
+          "exit": "2025-01-31",
+          "return": -0.027942435473838567,
+          "entry_price": 533.9191,
+          "exit_price": 519.0001,
+          "cross_year": true
+        },
+        {
+          "year": 2025,
+          "entry": "2025-12-16",
+          "exit": "2026-01-30",
+          "return": 0.017852536589219037,
+          "entry_price": 610.1934,
+          "exit_price": 621.0869,
+          "cross_year": true
+        }
+      ]
+    }
+  ],
+  "mode": "replica",
+  "price_inputs": [
+    {
+      "ticker": "SPY",
+      "source": "easyinvesting public chart snapshot; calibration only",
+      "price_field": "Close",
+      "sha256": "32b11304d15d33aec4198587436a1ada93f64b25f0b413cb7f81dcbd0569496a",
+      "cutoff_exclusive": "2026-10-01"
+    },
+    {
+      "ticker": "QQQ",
+      "source": "easyinvesting public chart snapshot; calibration only",
+      "price_field": "Close",
+      "sha256": "550bd252d4a34de498892799987e95c49eb2270eaf31b642db1615cf1bc81fa3",
+      "cutoff_exclusive": "2026-10-01"
+    }
+  ],
+  "window_matching_cases": 6
+}

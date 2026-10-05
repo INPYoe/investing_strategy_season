@@ -1,0 +1,20 @@
+test_conventions_agree_on_unseen_synthetic_calendar (test_independent_window_math.IndependentWindowTests) ... ok
+test_exclusive_cutoff_and_latest_completed_observation (test_independent_window_math.IndependentWindowTests) ... ok
+test_ipo_distance_and_price_scale_do_not_create_observations (test_independent_window_math.IndependentWindowTests) ... ok
+test_leap_hypothesis_is_replica_only_and_excludes_initial_year (test_independent_window_math.IndependentWindowTests) ... ok
+test_path_drawdown_distinguishes_intrahold_loss_from_final_loss (test_independent_window_math.IndependentWindowTests) ... ok
+test_earlier_snapshot_cannot_observe_later_price_movements (test_research_selection_vintage.SelectionVintageTests) ... ok
+test_reporting_cache_separates_cutoffs (test_research_selection_vintage.SelectionVintageTests) ... ok
+test_reporting_cache_separates_price_objects_with_same_source_hash (test_research_selection_vintage.SelectionVintageTests) ... ok
+test_better_score_is_ranking_and_exact_tie_is_separate (test_research_selection_diagnosis.SelectionDiagnosisTests) ... ok
+test_holiday_alias_is_display_difference_not_absent_candidate (test_research_selection_diagnosis.SelectionDiagnosisTests) ... ok
+test_unavailable_economic_window_is_candidate_generation (test_research_selection_diagnosis.SelectionDiagnosisTests) ... ok
+test_internal_gap_and_short_history_are_different_quality_findings (test_existing_price_quality.ExistingPriceQualityTests) ... ok
+test_ohlc_conflict_and_missing_adjusted_close_are_preserved_as_flags (test_existing_price_quality.ExistingPriceQualityTests) ... ok
+test_intrahold_filter_rejects_profitable_but_deep_loss_path (test_research_holding_risk.HoldingRiskTests) ... ok
+test_risk_filter_does_not_insert_dates_outside_candidate_grid (test_research_holding_risk.HoldingRiskTests) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.076s
+
+OK

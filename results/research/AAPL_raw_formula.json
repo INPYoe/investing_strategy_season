@@ -1,0 +1,365 @@
+{
+  "source": "Replica diagnostic: issuer-dividend reversal anchored to external Close; tail assumed raw",
+  "cached_close_comparison": {
+    "anchor": "2026-05-20",
+    "terminal_factor": 1.0,
+    "overlap_prices": 598,
+    "max_abs_close_error": 7.913540514437045e-05,
+    "tail_prices": 93,
+    "tail_cent_aligned": 93,
+    "tail_policy": "assumed raw",
+    "full_independent_price_validation": false
+  },
+  "fixed_window_matches": 12,
+  "details": [
+    {
+      "month": 1,
+      "expected": {
+        "entry_day": 21,
+        "exit_day": 35,
+        "hold_days": 10,
+        "avg_return": 0.03511283585599121,
+        "win_rate": 0.8181818181818182,
+        "sample_count": 11
+      },
+      "actual": {
+        "entry_day": 21,
+        "exit_day": 35,
+        "hold_days": 10,
+        "avg_return": 0.03511303629370581,
+        "win_rate": 0.8181818181818182,
+        "sample_count": 11
+      },
+      "checks": {
+        "entry_day": true,
+        "exit_day": true,
+        "hold_days": true,
+        "avg_return": true,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": true,
+      "all_match": true
+    },
+    {
+      "month": 2,
+      "expected": {
+        "entry_day": 56,
+        "exit_day": 91,
+        "hold_days": 25,
+        "avg_return": 0.006581045043125591,
+        "win_rate": 0.5454545454545454,
+        "sample_count": 11
+      },
+      "actual": {
+        "entry_day": 56,
+        "exit_day": 91,
+        "hold_days": 25,
+        "avg_return": 0.006581217196854682,
+        "win_rate": 0.5454545454545454,
+        "sample_count": 11
+      },
+      "checks": {
+        "entry_day": true,
+        "exit_day": true,
+        "hold_days": true,
+        "avg_return": true,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": true,
+      "all_match": true
+    },
+    {
+      "month": 3,
+      "expected": {
+        "entry_day": 77,
+        "exit_day": 91,
+        "hold_days": 10,
+        "avg_return": 0.02018626310903485,
+        "win_rate": 0.8181818181818182,
+        "sample_count": 11
+      },
+      "actual": {
+        "entry_day": 77,
+        "exit_day": 91,
+        "hold_days": 10,
+        "avg_return": 0.020186258064794297,
+        "win_rate": 0.8181818181818182,
+        "sample_count": 11
+      },
+      "checks": {
+        "entry_day": true,
+        "exit_day": true,
+        "hold_days": true,
+        "avg_return": true,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": true,
+      "all_match": true
+    },
+    {
+      "month": 4,
+      "expected": {
+        "entry_day": 98,
+        "exit_day": 127,
+        "hold_days": 20,
+        "avg_return": 0.04395774715408308,
+        "win_rate": 0.7272727272727273,
+        "sample_count": 11
+      },
+      "actual": {
+        "entry_day": 98,
+        "exit_day": 127,
+        "hold_days": 20,
+        "avg_return": 0.043957597640438786,
+        "win_rate": 0.7272727272727273,
+        "sample_count": 11
+      },
+      "checks": {
+        "entry_day": true,
+        "exit_day": true,
+        "hold_days": true,
+        "avg_return": true,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": true,
+      "all_match": true
+    },
+    {
+      "month": 5,
+      "expected": {
+        "entry_day": 147,
+        "exit_day": 155,
+        "hold_days": 5,
+        "avg_return": 0.006039711338293649,
+        "win_rate": 0.7272727272727273,
+        "sample_count": 11
+      },
+      "actual": {
+        "entry_day": 147,
+        "exit_day": 155,
+        "hold_days": 5,
+        "avg_return": 0.006039763052553523,
+        "win_rate": 0.7272727272727273,
+        "sample_count": 11
+      },
+      "checks": {
+        "entry_day": true,
+        "exit_day": true,
+        "hold_days": true,
+        "avg_return": true,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": true,
+      "all_match": true
+    },
+    {
+      "month": 6,
+      "expected": {
+        "entry_day": 154,
+        "exit_day": 198,
+        "hold_days": 30,
+        "avg_return": 0.08830656128840107,
+        "win_rate": 0.8181818181818182,
+        "sample_count": 11
+      },
+      "actual": {
+        "entry_day": 154,
+        "exit_day": 198,
+        "hold_days": 30,
+        "avg_return": 0.08830622980093017,
+        "win_rate": 0.8181818181818182,
+        "sample_count": 11
+      },
+      "checks": {
+        "entry_day": true,
+        "exit_day": true,
+        "hold_days": true,
+        "avg_return": true,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": true,
+      "all_match": true
+    },
+    {
+      "month": 7,
+      "expected": {
+        "entry_day": 182,
+        "exit_day": 211,
+        "hold_days": 20,
+        "avg_return": 0.05634546325513265,
+        "win_rate": 1,
+        "sample_count": 11
+      },
+      "actual": {
+        "entry_day": 182,
+        "exit_day": 211,
+        "hold_days": 20,
+        "avg_return": 0.056345504380329814,
+        "win_rate": 1.0,
+        "sample_count": 11
+      },
+      "checks": {
+        "entry_day": true,
+        "exit_day": true,
+        "hold_days": true,
+        "avg_return": true,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": true,
+      "all_match": true
+    },
+    {
+      "month": 8,
+      "expected": {
+        "entry_day": 217,
+        "exit_day": 246,
+        "hold_days": 20,
+        "avg_return": 0.06734758466694325,
+        "win_rate": 0.9090909090909091,
+        "sample_count": 11
+      },
+      "actual": {
+        "entry_day": 217,
+        "exit_day": 246,
+        "hold_days": 20,
+        "avg_return": 0.06734761793301065,
+        "win_rate": 0.9090909090909091,
+        "sample_count": 11
+      },
+      "checks": {
+        "entry_day": true,
+        "exit_day": true,
+        "hold_days": true,
+        "avg_return": true,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": true,
+      "all_match": true
+    },
+    {
+      "month": 9,
+      "expected": {
+        "entry_day": 251,
+        "exit_day": 272,
+        "hold_days": 15,
+        "avg_return": 0.008291404323546813,
+        "win_rate": 0.6363636363636364,
+        "sample_count": 11
+      },
+      "actual": {
+        "entry_day": 251,
+        "exit_day": 272,
+        "hold_days": 15,
+        "avg_return": 0.00829176177552267,
+        "win_rate": 0.6363636363636364,
+        "sample_count": 11
+      },
+      "checks": {
+        "entry_day": true,
+        "exit_day": true,
+        "hold_days": true,
+        "avg_return": true,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": true,
+      "all_match": true
+    },
+    {
+      "month": 10,
+      "expected": {
+        "entry_day": 280,
+        "exit_day": 322,
+        "hold_days": 30,
+        "avg_return": 0.044071889310477286,
+        "win_rate": 0.8,
+        "sample_count": 10
+      },
+      "actual": {
+        "entry_day": 280,
+        "exit_day": 322,
+        "hold_days": 30,
+        "avg_return": 0.0440716792779012,
+        "win_rate": 0.8,
+        "sample_count": 10
+      },
+      "checks": {
+        "entry_day": true,
+        "exit_day": true,
+        "hold_days": true,
+        "avg_return": true,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": true,
+      "all_match": true
+    },
+    {
+      "month": 11,
+      "expected": {
+        "entry_day": 327,
+        "exit_day": 356,
+        "hold_days": 20,
+        "avg_return": 0.020522211271033243,
+        "win_rate": 0.7,
+        "sample_count": 10
+      },
+      "actual": {
+        "entry_day": 327,
+        "exit_day": 356,
+        "hold_days": 20,
+        "avg_return": 0.02052212578765906,
+        "win_rate": 0.7,
+        "sample_count": 10
+      },
+      "checks": {
+        "entry_day": true,
+        "exit_day": true,
+        "hold_days": true,
+        "avg_return": true,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": true,
+      "all_match": true
+    },
+    {
+      "month": 12,
+      "expected": {
+        "entry_day": 341,
+        "exit_day": 348,
+        "hold_days": 5,
+        "avg_return": 0.014193590364613217,
+        "win_rate": 0.7,
+        "sample_count": 10
+      },
+      "actual": {
+        "entry_day": 341,
+        "exit_day": 348,
+        "hold_days": 5,
+        "avg_return": 0.014193455336357819,
+        "win_rate": 0.7,
+        "sample_count": 10
+      },
+      "checks": {
+        "entry_day": true,
+        "exit_day": true,
+        "hold_days": true,
+        "avg_return": true,
+        "win_rate": true,
+        "sample_count": true
+      },
+      "displayed_average_match": true,
+      "all_match": true
+    }
+  ],
+  "investment_changed": false
+}

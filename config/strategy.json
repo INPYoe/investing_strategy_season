@@ -1,0 +1,20 @@
+{
+  "lookback_years": 10,
+  "completed_samples": 10,
+  "minimum_win_rate": {"etf": 0.8, "stock": 0.9},
+  "minimum_historical_worst_return": -0.1,
+  "ranking": "median_return_descending",
+  "max_positions": 5,
+  "max_stock_positions": 3,
+  "allocation": "equal_weight",
+  "single_position_weight": 1,
+  "zero_eligible_policy": "cash",
+  "rebalance_on": "admitted_entry_or_scheduled_exit",
+  "stop_loss": null,
+  "holding_period_min": null,
+  "holding_period_max": null,
+  "incumbent_policy": "keep_until_frozen_exit",
+  "late_entry_policy": "skip",
+  "tie_breaks": ["win_rate_descending", "worst_return_descending", "ticker_ascending"],
+  "note": "Approved investment rules. Search-grid/website replication settings are separately provisional. This file documents fixed v1 rules; code enforces them."
+}

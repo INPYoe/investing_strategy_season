@@ -1,0 +1,14 @@
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:242: IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:242: IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:242: IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:242: IOError: sysctlbyname failed for 'hw.optional.neon'. Detail: [errno 1] Operation not permitted
+surveyed parquet 1000 / 7255
+surveyed parquet 2000 / 7255
+surveyed parquet 3000 / 7255
+surveyed parquet 4000 / 7255
+surveyed parquet 5000 / 7255
+surveyed parquet 6000 / 7255
+surveyed parquet 7000 / 7255
+survey parent_cache_date_ranges.csv {'files': 7255, 'failures': [], 'first_year_counts': {'2023': 6409, '2026': 137, '2025': 395, '2024': 314}, 'ten_calendar_year_span_count': 0}
+survey parent_csv_date_ranges.csv {'files': 518, 'failures': [], 'first_year_counts': {'2024': 498, '2023': 18, '2025': 2}, 'ten_calendar_year_span_count': 0}
+quality [('SPY', 'daily_parquet', 1, False), ('SPY', 'market_csv', 0, False), ('QQQ', 'market_csv', 0, False), ('AAPL', 'daily_parquet', 0, False), ('AAPL', 'market_csv', 0, False), ('MSFT', 'daily_parquet', 0, False), ('MSFT', 'market_csv', 0, False), ('NVDA', 'daily_parquet', 0, False), ('NVDA', 'market_csv', 0, False), ('KO', 'daily_parquet', 1, False), ('KO', 'market_csv', 0, False), ('JPM', 'daily_parquet', 0, False), ('JPM', 'market_csv', 0, False)]

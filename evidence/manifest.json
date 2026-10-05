@@ -1,0 +1,93 @@
+[
+  {
+    "file": "AAPL_chart.json",
+    "sha256": "ea6794bf89d215ffe5c32fac49b8b938959e99dfde49dd5f5caa8689d008fc0c",
+    "source": "https://easyinvesting.app/",
+    "captured_on": "2026-10-04 UTC",
+    "purpose": "frozen public reference and calibration prices only"
+  },
+  {
+    "file": "AAPL_optimal_10.json",
+    "sha256": "138d8f14038ec23a5c22195c0f834cef55bd0ce76729b40ca8484209e9bc4388",
+    "source": "https://easyinvesting.app/",
+    "captured_on": "2026-10-04 UTC",
+    "purpose": "frozen public reference and calibration prices only"
+  },
+  {
+    "file": "GLD_chart.json",
+    "sha256": "1f764a6aa8107579e501298af78766ef86242437c3358316c0b0d4fe8cf967e8",
+    "source": "https://easyinvesting.app/",
+    "captured_on": "2026-10-04 UTC",
+    "purpose": "frozen public reference and calibration prices only"
+  },
+  {
+    "file": "GLD_optimal_10.json",
+    "sha256": "bd1871bd81a220f2678e1ecdc82b3867272bb4d0e9616ae38c417fca891fe60c",
+    "source": "https://easyinvesting.app/",
+    "captured_on": "2026-10-04 UTC",
+    "purpose": "frozen public reference and calibration prices only"
+  },
+  {
+    "file": "QQQ_chart.json",
+    "sha256": "550bd252d4a34de498892799987e95c49eb2270eaf31b642db1615cf1bc81fa3",
+    "source": "https://easyinvesting.app/",
+    "captured_on": "2026-10-04 UTC",
+    "purpose": "frozen public reference and calibration prices only"
+  },
+  {
+    "file": "QQQ_optimal_10.json",
+    "sha256": "1f8744649f725d885820076a5307813580b7929b8096c4c23585662e7499f8d6",
+    "source": "https://easyinvesting.app/",
+    "captured_on": "2026-10-04 UTC",
+    "purpose": "frozen public reference and calibration prices only"
+  },
+  {
+    "file": "QQQ_optimal_5.json",
+    "sha256": "91de62c8f6db268c23de5a5ea25a1dac11ac4c000693f530e86790626d96e9dd",
+    "source": "https://easyinvesting.app/",
+    "captured_on": "2026-10-04 UTC",
+    "purpose": "frozen public reference and calibration prices only"
+  },
+  {
+    "file": "SPY_calc.json",
+    "sha256": "79d74d732de8c3dc3b03be4a17db9881a62405aa1a065dbac3182f2620d9bf62",
+    "source": "https://easyinvesting.app/",
+    "captured_on": "2026-10-04 UTC",
+    "purpose": "frozen public reference and calibration prices only"
+  },
+  {
+    "file": "SPY_chart.json",
+    "sha256": "32b11304d15d33aec4198587436a1ada93f64b25f0b413cb7f81dcbd0569496a",
+    "source": "https://easyinvesting.app/",
+    "captured_on": "2026-10-04 UTC",
+    "purpose": "frozen public reference and calibration prices only"
+  },
+  {
+    "file": "SPY_daily.json",
+    "sha256": "e1bab49ff63a02e5f180d13f28bf0bd4794ff38046751f738dbc0556ec675940",
+    "source": "https://easyinvesting.app/",
+    "captured_on": "2026-10-04 UTC",
+    "purpose": "frozen public reference and calibration prices only"
+  },
+  {
+    "file": "SPY_monthly.json",
+    "sha256": "ccbdf15ae0e450e1403b1e65960f815bee119ffa8c5159ebec7ef068ef2f860f",
+    "source": "https://easyinvesting.app/",
+    "captured_on": "2026-10-04 UTC",
+    "purpose": "frozen public reference and calibration prices only"
+  },
+  {
+    "file": "SPY_optimal_10.json",
+    "sha256": "5e40d551e0595a6c5ddd9f49a1c8ec81b1e448133504a03fcfbabd611edf92f5",
+    "source": "https://easyinvesting.app/",
+    "captured_on": "2026-10-04 UTC",
+    "purpose": "frozen public reference and calibration prices only"
+  },
+  {
+    "file": "SPY_optimal_5.json",
+    "sha256": "8ac671d0d54a22eff03c7c08ada7aa0bb970caf6453164ce80414625a9ef292f",
+    "source": "https://easyinvesting.app/",
+    "captured_on": "2026-10-04 UTC",
+    "purpose": "frozen public reference and calibration prices only"
+  }
+]

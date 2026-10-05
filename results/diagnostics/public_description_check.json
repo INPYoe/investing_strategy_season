@@ -1,0 +1,35 @@
+{
+  "checked_at_utc": "2026-10-05T04:04:08.436816+00:00",
+  "purpose": "Public documentation for candidate/score rules; no price data acquisition",
+  "sources": [
+    {
+      "url": "https://easyinvesting.app/",
+      "kind": "official platform homepage",
+      "direct_open": "HTML response with 0 extractable lines",
+      "indexed_content": "General feature descriptions; seasonality described as monthly performance analysis",
+      "candidate_interval_or_objective_found": false
+    },
+    {
+      "url": "https://fanding.kr/en/@kangcfa/post/209655/",
+      "kind": "platform creator public usage guide",
+      "direct_open": "Title/creator/date and page shell; full article not extracted",
+      "indexed_content": "Describes month-level entry/exit selection and the already saved SPY 2006-2025 June 17 to July 16, 20-session example, displayed 1.7 percent average and 90 percent win rate",
+      "candidate_interval_or_objective_found": false,
+      "new_validation_case": false
+    }
+  ],
+  "site_or_creator_scoped_searches": [
+    "site:easyinvesting.app 계절성 최적화 진입 보유기간",
+    "site:fanding.kr \"@kangcfa\" 계절성 최적화",
+    "\"easyinvesting.app\" \"최적\"",
+    "site:fanding.kr \"@kangcfa\" \"계절성\" \"최적\"",
+    "site:fanding.kr \"@kangcfa\" \"계절성\" \"보유기간\"",
+    "site:easyinvesting.app \"계절성\" \"점수\""
+  ],
+  "public_document_web_tool_calls": 4,
+  "new_price_api_requests": 0,
+  "new_optimal_response_requests": 0,
+  "interactive_browser_reinitialized": false,
+  "scope": "Only the extracted/indexed public text was checked. No proof that all public documentation lacks a formula; no server implementation obtained. CUA initialization remains a separate issue.",
+  "replication_complete": false
+}

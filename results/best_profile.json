@@ -1,0 +1,20 @@
+{
+  "profile": {
+    "date_mode": "doy",
+    "roll": "next",
+    "hold_offset": 0,
+    "entry_step": 7,
+    "entry_offset": 0,
+    "objective": "win_mean",
+    "selection_history": "inclusive",
+    "holds": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30
+    ]
+  },
+  "replication_complete": false
+}

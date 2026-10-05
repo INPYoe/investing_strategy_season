@@ -1,0 +1,1720 @@
+{
+  "source_note": "Existing external project price cache; provider adapters include Yahoo, but per-file provider and capture time are not recorded. Partial overlap only.",
+  "prices_rescaled": false,
+  "full_period_independent_validation": false,
+  "reports": [
+    {
+      "ticker": "SPY",
+      "csv_path": "/Volumes/Extreme SSD/Investing_Researcher/market_detector/data/cache/prices/SPY.csv",
+      "csv_sha256": "5645f2bb5781b1d776a9985d2522c49f842afda4c8a7f699c2b47c2d17557623",
+      "website_sha256": "32b11304d15d33aec4198587436a1ada93f64b25f0b413cb7f81dcbd0569496a",
+      "overlapping_dates": 759,
+      "first": "2023-05-11",
+      "last": "2026-05-20",
+      "fields": {
+        "close": {
+          "website_to_csv_ratio_min": 0.9598330368041245,
+          "website_to_csv_ratio_median": 0.9798703963710799,
+          "website_to_csv_ratio_max": 0.9974304622396563,
+          "max_absolute_price_difference": 17.777806103515616
+        },
+        "adj_close": {
+          "website_to_csv_ratio_min": 0.9974300510872403,
+          "website_to_csv_ratio_median": 0.9974303844363048,
+          "website_to_csv_ratio_max": 0.9974307293877297,
+          "max_absolute_price_difference": 1.9224829101563046
+        }
+      },
+      "windows": [
+        {
+          "month": 1,
+          "available_samples": 3,
+          "required_replica_samples": 11,
+          "samples": [
+            {
+              "year": 2024,
+              "entry": "2024-01-22",
+              "exit": "2024-02-20",
+              "return": 0.027531201189874954,
+              "csv_returns": {
+                "close": 0.02753127980663672,
+                "adj_close": 0.027531346384554345
+              },
+              "return_differences": {
+                "close": 7.86167617672362e-08,
+                "adj_close": 1.4519467939067e-07
+              }
+            },
+            {
+              "year": 2025,
+              "entry": "2025-01-21",
+              "exit": "2025-02-19",
+              "return": 0.01638355235583777,
+              "csv_returns": {
+                "close": 0.016383392890813475,
+                "adj_close": 0.016383351469859475
+              },
+              "return_differences": {
+                "close": -1.594650242964235e-07,
+                "adj_close": -2.0088597829648336e-07
+              }
+            },
+            {
+              "year": 2026,
+              "entry": "2026-01-20",
+              "exit": "2026-02-18",
+              "return": 0.012854485368061885,
+              "csv_returns": {
+                "close": 0.012854512703766918,
+                "adj_close": 0.012854573134794878
+              },
+              "return_differences": {
+                "close": 2.733570503288263e-08,
+                "adj_close": 8.776673299237814e-08
+              }
+            }
+          ]
+        },
+        {
+          "month": 2,
+          "available_samples": 3,
+          "required_replica_samples": 11,
+          "samples": [
+            {
+              "year": 2024,
+              "entry": "2024-02-20",
+              "exit": "2024-04-03",
+              "return": 0.04884416270645442,
+              "csv_returns": {
+                "close": 0.045595383955308044,
+                "adj_close": 0.04884398117141475
+              },
+              "return_differences": {
+                "close": -0.003248778751146375,
+                "adj_close": -1.815350396672244e-07
+              }
+            },
+            {
+              "year": 2025,
+              "entry": "2025-02-18",
+              "exit": "2025-04-01",
+              "return": -0.07985826956062358,
+              "csv_returns": {
+                "close": -0.08261790109088529,
+                "adj_close": -0.07985816467511786
+              },
+              "return_differences": {
+                "close": -0.002759631530261708,
+                "adj_close": 1.0488550572507194e-07
+              }
+            },
+            {
+              "year": 2026,
+              "entry": "2026-02-18",
+              "exit": "2026-04-01",
+              "return": -0.042635734428496996,
+              "csv_returns": {
+                "close": -0.04524324817071945,
+                "adj_close": -0.04263582517259701
+              },
+              "return_differences": {
+                "close": -0.002607513742222456,
+                "adj_close": -9.074410001197464e-08
+              }
+            }
+          ]
+        },
+        {
+          "month": 3,
+          "available_samples": 3,
+          "required_replica_samples": 11,
+          "samples": [
+            {
+              "year": 2024,
+              "entry": "2024-03-25",
+              "exit": "2024-05-07",
+              "return": -0.005060093800426824,
+              "csv_returns": {
+                "close": -0.005059939557853554,
+                "adj_close": -0.005060091404610612
+              },
+              "return_differences": {
+                "close": 1.5424257326923652e-07,
+                "adj_close": 2.395816212086288e-09
+              }
+            },
+            {
+              "year": 2025,
+              "entry": "2025-03-24",
+              "exit": "2025-05-06",
+              "return": -0.026616490777848667,
+              "csv_returns": {
+                "close": -0.02661654968297511,
+                "adj_close": -0.026616479871334198
+              },
+              "return_differences": {
+                "close": -5.890512644324275e-08,
+                "adj_close": 1.0906514469333217e-08
+              }
+            },
+            {
+              "year": 2026,
+              "entry": "2026-03-24",
+              "exit": "2026-05-06",
+              "return": 0.12347275893106002,
+              "csv_returns": {
+                "close": 0.12347289463609568,
+                "adj_close": 0.12347289463609568
+              },
+              "return_differences": {
+                "close": 1.357050356531886e-07,
+                "adj_close": 1.357050356531886e-07
+              }
+            }
+          ]
+        },
+        {
+          "month": 4,
+          "available_samples": 3,
+          "required_replica_samples": 11,
+          "samples": [
+            {
+              "year": 2024,
+              "entry": "2024-04-08",
+              "exit": "2024-04-29",
+              "return": -0.01669469772488108,
+              "csv_returns": {
+                "close": -0.01669489056454232,
+                "adj_close": -0.016694893451845827
+              },
+              "return_differences": {
+                "close": -1.9283966123939678e-07,
+                "adj_close": -1.9572696474678963e-07
+              }
+            },
+            {
+              "year": 2025,
+              "entry": "2025-04-07",
+              "exit": "2025-04-29",
+              "return": 0.09901259031786802,
+              "csv_returns": {
+                "close": 0.09901265307495555,
+                "adj_close": 0.09901276036466378
+              },
+              "return_differences": {
+                "close": 6.275708752667697e-08,
+                "adj_close": 1.700467957554963e-07
+              }
+            },
+            {
+              "year": 2026,
+              "entry": "2026-04-07",
+              "exit": "2026-04-28",
+              "return": 0.07959411490952473,
+              "csv_returns": {
+                "close": 0.07959411739652955,
+                "adj_close": 0.07959411739652955
+              },
+              "return_differences": {
+                "close": 2.487004824303085e-09,
+                "adj_close": 2.487004824303085e-09
+              }
+            }
+          ]
+        },
+        {
+          "month": 5,
+          "available_samples": 2,
+          "required_replica_samples": 11,
+          "samples": [
+            {
+              "year": 2024,
+              "entry": "2024-05-01",
+              "exit": "2024-06-06",
+              "return": 0.06857185197591509,
+              "csv_returns": {
+                "close": 0.06857193289194718,
+                "adj_close": 0.06857188518782387
+              },
+              "return_differences": {
+                "close": 8.091603209692266e-08,
+                "adj_close": 3.32119087786964e-08
+              }
+            },
+            {
+              "year": 2025,
+              "entry": "2025-05-02",
+              "exit": "2025-06-09",
+              "return": 0.058084436712544596,
+              "csv_returns": {
+                "close": 0.05808451962545802,
+                "adj_close": 0.05808451211114285
+              },
+              "return_differences": {
+                "close": 8.291291342388263e-08,
+                "adj_close": 7.539859825378414e-08
+              }
+            }
+          ]
+        },
+        {
+          "month": 6,
+          "available_samples": 3,
+          "required_replica_samples": 11,
+          "samples": [
+            {
+              "year": 2023,
+              "entry": "2023-06-20",
+              "exit": "2023-08-02",
+              "return": 0.029621637946467327,
+              "csv_returns": {
+                "close": 0.029621694551413613,
+                "adj_close": 0.02962158127465897
+              },
+              "return_differences": {
+                "close": 5.6604946285787605e-08,
+                "adj_close": -5.667180835722263e-08
+              }
+            },
+            {
+              "year": 2024,
+              "entry": "2024-06-17",
+              "exit": "2024-07-31",
+              "return": 0.010029300070148128,
+              "csv_returns": {
+                "close": 0.006781250481107781,
+                "adj_close": 0.010029461579099896
+              },
+              "return_differences": {
+                "close": -0.003248049589040347,
+                "adj_close": 1.6150895176814117e-07
+              }
+            },
+            {
+              "year": 2025,
+              "entry": "2025-06-17",
+              "exit": "2025-07-31",
+              "return": 0.06094853063218064,
+              "csv_returns": {
+                "close": 0.05782134135354555,
+                "adj_close": 0.06094859621513682
+              },
+              "return_differences": {
+                "close": -0.0031271892786350897,
+                "adj_close": 6.558295617686838e-08
+              }
+            }
+          ]
+        },
+        {
+          "month": 7,
+          "available_samples": 3,
+          "required_replica_samples": 11,
+          "samples": [
+            {
+              "year": 2023,
+              "entry": "2023-07-03",
+              "exit": "2023-07-18",
+              "return": 0.02343439909605194,
+              "csv_returns": {
+                "close": 0.023434493107637566,
+                "adj_close": 0.023434311245603023
+              },
+              "return_differences": {
+                "close": 9.401158562738487e-08,
+                "adj_close": -8.785044891546079e-08
+              }
+            },
+            {
+              "year": 2024,
+              "entry": "2024-07-01",
+              "exit": "2024-07-16",
+              "return": 0.035793648022651725,
+              "csv_returns": {
+                "close": 0.03579410557601914,
+                "adj_close": 0.03579412413392746
+              },
+              "return_differences": {
+                "close": 4.575533674167076e-07,
+                "adj_close": 4.7611127573787826e-07
+              }
+            },
+            {
+              "year": 2025,
+              "entry": "2025-07-01",
+              "exit": "2025-07-16",
+              "return": 0.010637091035525126,
+              "csv_returns": {
+                "close": 0.010637004823718987,
+                "adj_close": 0.010636940847064569
+              },
+              "return_differences": {
+                "close": -8.621180613843649e-08,
+                "adj_close": -1.501884605570325e-07
+              }
+            }
+          ]
+        },
+        {
+          "month": 8,
+          "available_samples": 3,
+          "required_replica_samples": 11,
+          "samples": [
+            {
+              "year": 2023,
+              "entry": "2023-08-07",
+              "exit": "2023-08-14",
+              "return": -0.005768592125438787,
+              "csv_returns": {
+                "close": -0.005768689740206834,
+                "adj_close": -0.005768750436822123
+              },
+              "return_differences": {
+                "close": -9.761476804648339e-08,
+                "adj_close": -1.5831138333588513e-07
+              }
+            },
+            {
+              "year": 2024,
+              "entry": "2024-08-05",
+              "exit": "2024-08-12",
+              "return": 0.030712378795172413,
+              "csv_returns": {
+                "close": 0.03071246375676351,
+                "adj_close": 0.030712337530427014
+              },
+              "return_differences": {
+                "close": 8.496159109583346e-08,
+                "adj_close": -4.1264745398450486e-08
+              }
+            },
+            {
+              "year": 2025,
+              "entry": "2025-08-05",
+              "exit": "2025-08-12",
+              "return": 0.023440796885336956,
+              "csv_returns": {
+                "close": 0.02344066185489657,
+                "adj_close": 0.023440709350396993
+              },
+              "return_differences": {
+                "close": -1.3503044038465362e-07,
+                "adj_close": -8.753493996316308e-08
+              }
+            }
+          ]
+        },
+        {
+          "month": 9,
+          "available_samples": 3,
+          "required_replica_samples": 10,
+          "samples": [
+            {
+              "year": 2023,
+              "entry": "2023-10-02",
+              "exit": "2023-11-13",
+              "return": 0.030142192897544273,
+              "csv_returns": {
+                "close": 0.030142063037142952,
+                "adj_close": 0.030142008708334833
+              },
+              "return_differences": {
+                "close": -1.2986040132112464e-07,
+                "adj_close": -1.8418920944007766e-07
+              }
+            },
+            {
+              "year": 2024,
+              "entry": "2024-09-30",
+              "exit": "2024-11-11",
+              "return": 0.043572485242621806,
+              "csv_returns": {
+                "close": 0.043572224579074836,
+                "adj_close": 0.04357212414051048
+              },
+              "return_differences": {
+                "close": -2.606635469692975e-07,
+                "adj_close": -3.6110211132367454e-07
+              }
+            },
+            {
+              "year": 2025,
+              "entry": "2025-09-30",
+              "exit": "2025-11-11",
+              "return": 0.025248442537461058,
+              "csv_returns": {
+                "close": 0.025248442626833345,
+                "adj_close": 0.025248373775223376
+              },
+              "return_differences": {
+                "close": 8.937228734851033e-11,
+                "adj_close": -6.876223768159662e-08
+              }
+            }
+          ]
+        },
+        {
+          "month": 10,
+          "available_samples": 3,
+          "required_replica_samples": 10,
+          "samples": [
+            {
+              "year": 2023,
+              "entry": "2023-10-09",
+              "exit": "2023-11-13",
+              "return": 0.018274781390287487,
+              "csv_returns": {
+                "close": 0.01827475477186158,
+                "adj_close": 0.018274640575914658
+              },
+              "return_differences": {
+                "close": -2.6618425907898313e-08,
+                "adj_close": -1.4081437282875697e-07
+              }
+            },
+            {
+              "year": 2024,
+              "entry": "2024-10-07",
+              "exit": "2024-11-11",
+              "return": 0.05452626523625259,
+              "csv_returns": {
+                "close": 0.05452628150450911,
+                "adj_close": 0.05452630993835683
+              },
+              "return_differences": {
+                "close": 1.6268256519680335e-08,
+                "adj_close": 4.4702104240457174e-08
+              }
+            },
+            {
+              "year": 2025,
+              "entry": "2025-10-07",
+              "exit": "2025-11-11",
+              "return": 0.02074373977109545,
+              "csv_returns": {
+                "close": 0.020743670767724653,
+                "adj_close": 0.020743628468130604
+              },
+              "return_differences": {
+                "close": -6.900337079507324e-08,
+                "adj_close": -1.1130296484473945e-07
+              }
+            }
+          ]
+        },
+        {
+          "month": 11,
+          "available_samples": 3,
+          "required_replica_samples": 10,
+          "samples": [
+            {
+              "year": 2023,
+              "entry": "2023-11-03",
+              "exit": "2023-12-11",
+              "return": 0.06280348996054563,
+              "csv_returns": {
+                "close": 0.06280334868444237,
+                "adj_close": 0.06280337256715263
+              },
+              "return_differences": {
+                "close": -1.4127610326042372e-07,
+                "adj_close": -1.173933930065374e-07
+              }
+            },
+            {
+              "year": 2024,
+              "entry": "2024-11-04",
+              "exit": "2024-12-10",
+              "return": 0.05789626392520675,
+              "csv_returns": {
+                "close": 0.05789647492273531,
+                "adj_close": 0.0578965628832564
+              },
+              "return_differences": {
+                "close": 2.1099752856024168e-07,
+                "adj_close": 2.989580496493005e-07
+              }
+            },
+            {
+              "year": 2025,
+              "entry": "2025-11-03",
+              "exit": "2025-12-09",
+              "return": -0.0004391160310993625,
+              "csv_returns": {
+                "close": -0.0004390915449600241,
+                "adj_close": -0.0004390765558899279
+              },
+              "return_differences": {
+                "close": 2.448613933836441e-08,
+                "adj_close": 3.947520943459182e-08
+              }
+            }
+          ]
+        },
+        {
+          "month": 12,
+          "available_samples": 3,
+          "required_replica_samples": 10,
+          "samples": [
+            {
+              "year": 2023,
+              "entry": "2023-12-21",
+              "exit": "2024-01-16",
+              "return": 0.004717365597795231,
+              "csv_returns": {
+                "close": 0.004717538420061063,
+                "adj_close": 0.004717542491714299
+              },
+              "return_differences": {
+                "close": 1.7282226583148486e-07,
+                "adj_close": 1.7689391906827723e-07
+              }
+            },
+            {
+              "year": 2024,
+              "entry": "2024-12-20",
+              "exit": "2025-01-15",
+              "return": 0.00275722642807974,
+              "csv_returns": {
+                "close": 0.002757345539193823,
+                "adj_close": 0.002757226629930276
+              },
+              "return_differences": {
+                "close": 1.1911111408302588e-07,
+                "adj_close": 2.018505362855194e-10
+              }
+            },
+            {
+              "year": 2025,
+              "entry": "2025-12-22",
+              "exit": "2026-01-14",
+              "return": 0.008075045309095641,
+              "csv_returns": {
+                "close": 0.008074950168244888,
+                "adj_close": 0.008074928934619807
+              },
+              "return_differences": {
+                "close": -9.514085075323919e-08,
+                "adj_close": -1.1637447583368044e-07
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "csv_path": "/Volumes/Extreme SSD/Investing_Researcher/market_detector/data/cache/prices/QQQ.csv",
+      "csv_sha256": "6e0895fb9a83bdc8fb4a668be7c926d610aeab22d2cda8b24e00addd1220137f",
+      "website_sha256": "550bd252d4a34de498892799987e95c49eb2270eaf31b642db1615cf1bc81fa3",
+      "overlapping_dates": 759,
+      "first": "2023-05-11",
+      "last": "2026-05-20",
+      "fields": {
+        "close": {
+          "website_to_csv_ratio_min": 0.9825707786809558,
+          "website_to_csv_ratio_median": 0.9921012505636179,
+          "website_to_csv_ratio_max": 1.000000045742777,
+          "max_absolute_price_difference": 6.45320976562499
+        },
+        "adj_close": {
+          "website_to_csv_ratio_min": 0.9999995632330844,
+          "website_to_csv_ratio_median": 0.9999999993523696,
+          "website_to_csv_ratio_max": 1.000000503114043,
+          "max_absolute_price_difference": 0.00016479492188636868
+        }
+      },
+      "windows": [
+        {
+          "month": 1,
+          "available_samples": 3,
+          "required_replica_samples": 11,
+          "samples": [
+            {
+              "year": 2024,
+              "entry": "2024-01-22",
+              "exit": "2024-02-20",
+              "return": 0.013254990784876908,
+              "csv_returns": {
+                "close": 0.013254917108737274,
+                "adj_close": 0.013254922925872714
+              },
+              "return_differences": {
+                "close": -7.367613963360498e-08,
+                "adj_close": -6.785900419359336e-08
+              }
+            },
+            {
+              "year": 2025,
+              "entry": "2025-01-21",
+              "exit": "2025-02-19",
+              "return": 0.028048820476081815,
+              "csv_returns": {
+                "close": 0.028048841617138498,
+                "adj_close": 0.028048742521501913
+              },
+              "return_differences": {
+                "close": 2.1141056683049442e-08,
+                "adj_close": -7.795457990233956e-08
+              }
+            },
+            {
+              "year": 2026,
+              "entry": "2026-01-21",
+              "exit": "2026-02-19",
+              "return": -0.020786058382408323,
+              "csv_returns": {
+                "close": -0.02078610044911766,
+                "adj_close": -0.020786032626976092
+              },
+              "return_differences": {
+                "close": -4.206670933815104e-08,
+                "adj_close": 2.5755432231377995e-08
+              }
+            }
+          ]
+        },
+        {
+          "month": 2,
+          "available_samples": 3,
+          "required_replica_samples": 11,
+          "samples": [
+            {
+              "year": 2024,
+              "entry": "2024-02-26",
+              "exit": "2024-04-02",
+              "return": 0.011781442940375086,
+              "csv_returns": {
+                "close": 0.01044553358401723,
+                "adj_close": 0.0117817200440824
+              },
+              "return_differences": {
+                "close": -0.0013359093563578561,
+                "adj_close": 2.771037073134863e-07
+              }
+            },
+            {
+              "year": 2025,
+              "entry": "2025-02-25",
+              "exit": "2025-04-01",
+              "return": -0.07775875704243151,
+              "csv_returns": {
+                "close": -0.07913191486325888,
+                "adj_close": -0.07775863340831202
+              },
+              "return_differences": {
+                "close": -0.0013731578208273643,
+                "adj_close": 1.236341194976731e-07
+              }
+            },
+            {
+              "year": 2026,
+              "entry": "2026-02-25",
+              "exit": "2026-04-01",
+              "return": -0.051296031163328704,
+              "csv_returns": {
+                "close": -0.05249074966212819,
+                "adj_close": -0.05129600639621934
+              },
+              "return_differences": {
+                "close": -0.0011947184987994852,
+                "adj_close": 2.476710936338833e-08
+              }
+            }
+          ]
+        },
+        {
+          "month": 3,
+          "available_samples": 3,
+          "required_replica_samples": 11,
+          "samples": [
+            {
+              "year": 2024,
+              "entry": "2024-03-18",
+              "exit": "2024-04-02",
+              "return": 0.008297367674259704,
+              "csv_returns": {
+                "close": 0.008297463367641367,
+                "adj_close": 0.008297472590765631
+              },
+              "return_differences": {
+                "close": 9.569338166315333e-08,
+                "adj_close": 1.0491650592747703e-07
+              }
+            },
+            {
+              "year": 2025,
+              "entry": "2025-03-18",
+              "exit": "2025-04-01",
+              "return": -0.0023921065573196953,
+              "csv_returns": {
+                "close": -0.0038774314172846935,
+                "adj_close": -0.0023919575862429987
+              },
+              "return_differences": {
+                "close": -0.0014853248599649982,
+                "adj_close": 1.4897107669664678e-07
+              }
+            },
+            {
+              "year": 2026,
+              "entry": "2026-03-18",
+              "exit": "2026-04-01",
+              "return": -0.016562964055091167,
+              "csv_returns": {
+                "close": -0.017801355557010123,
+                "adj_close": -0.016562933249837042
+              },
+              "return_differences": {
+                "close": -0.0012383915019189562,
+                "adj_close": 3.080525412535451e-08
+              }
+            }
+          ]
+        },
+        {
+          "month": 4,
+          "available_samples": 3,
+          "required_replica_samples": 11,
+          "samples": [
+            {
+              "year": 2024,
+              "entry": "2024-04-08",
+              "exit": "2024-04-29",
+              "return": -0.017816557854881565,
+              "csv_returns": {
+                "close": -0.017816627314506506,
+                "adj_close": -0.017816578744076605
+              },
+              "return_differences": {
+                "close": -6.945962494064872e-08,
+                "adj_close": -2.0889195040396658e-08
+              }
+            },
+            {
+              "year": 2025,
+              "entry": "2025-04-07",
+              "exit": "2025-04-29",
+              "return": 0.12235366382939361,
+              "csv_returns": {
+                "close": 0.12235359824205383,
+                "adj_close": 0.12235358115703754
+              },
+              "return_differences": {
+                "close": -6.558733978145881e-08,
+                "adj_close": -8.267235607206658e-08
+              }
+            },
+            {
+              "year": 2026,
+              "entry": "2026-04-07",
+              "exit": "2026-04-28",
+              "return": 0.1171613517049217,
+              "csv_returns": {
+                "close": 0.11716127999299841,
+                "adj_close": 0.11716127999299841
+              },
+              "return_differences": {
+                "close": -7.171192328847553e-08,
+                "adj_close": -7.171192328847553e-08
+              }
+            }
+          ]
+        },
+        {
+          "month": 5,
+          "available_samples": 3,
+          "required_replica_samples": 11,
+          "samples": [
+            {
+              "year": 2023,
+              "entry": "2023-05-15",
+              "exit": "2023-06-21",
+              "return": 0.1089583001136114,
+              "csv_returns": {
+                "close": 0.10743898048748379,
+                "adj_close": 0.10895811586446613
+              },
+              "return_differences": {
+                "close": -0.0015193196261276132,
+                "adj_close": -1.8424914527415126e-07
+              }
+            },
+            {
+              "year": 2024,
+              "entry": "2024-05-13",
+              "exit": "2024-06-18",
+              "return": 0.0950843185018806,
+              "csv_returns": {
+                "close": 0.09508442303778297,
+                "adj_close": 0.09508440320657341
+              },
+              "return_differences": {
+                "close": 1.045359023787995e-07,
+                "adj_close": 8.470469281540716e-08
+              }
+            },
+            {
+              "year": 2025,
+              "entry": "2025-05-13",
+              "exit": "2025-06-18",
+              "return": 0.02598954135048781,
+              "csv_returns": {
+                "close": 0.025989570552074515,
+                "adj_close": 0.025989519117707305
+              },
+              "return_differences": {
+                "close": 2.9201586704274973e-08,
+                "adj_close": -2.223278050550448e-08
+              }
+            }
+          ]
+        },
+        {
+          "month": 6,
+          "available_samples": 3,
+          "required_replica_samples": 11,
+          "samples": [
+            {
+              "year": 2023,
+              "entry": "2023-06-05",
+              "exit": "2023-07-19",
+              "return": 0.08813453752724998,
+              "csv_returns": {
+                "close": 0.08664412659575604,
+                "adj_close": 0.08813463441733771
+              },
+              "return_differences": {
+                "close": -0.0014904109314939351,
+                "adj_close": 9.689008773072771e-08
+              }
+            },
+            {
+              "year": 2024,
+              "entry": "2024-06-03",
+              "exit": "2024-07-17",
+              "return": 0.06489470504293093,
+              "csv_returns": {
+                "close": 0.06320478410664099,
+                "adj_close": 0.06489464804812672
+              },
+              "return_differences": {
+                "close": -0.0016899209362899459,
+                "adj_close": -5.69948042095092e-08
+              }
+            },
+            {
+              "year": 2025,
+              "entry": "2025-06-03",
+              "exit": "2025-07-17",
+              "return": 0.06662437430908885,
+              "csv_returns": {
+                "close": 0.06542765180860499,
+                "adj_close": 0.06662436061135657
+              },
+              "return_differences": {
+                "close": -0.00119672250048386,
+                "adj_close": -1.3697732281769959e-08
+              }
+            }
+          ]
+        },
+        {
+          "month": 7,
+          "available_samples": 3,
+          "required_replica_samples": 11,
+          "samples": [
+            {
+              "year": 2023,
+              "entry": "2023-07-03",
+              "exit": "2023-07-18",
+              "return": 0.041723917028100965,
+              "csv_returns": {
+                "close": 0.04172400370770135,
+                "adj_close": 0.04172411017393163
+              },
+              "return_differences": {
+                "close": 8.667960038621914e-08,
+                "adj_close": 1.9314583066254443e-07
+              }
+            },
+            {
+              "year": 2024,
+              "entry": "2024-07-01",
+              "exit": "2024-07-16",
+              "return": 0.02992192777140712,
+              "csv_returns": {
+                "close": 0.029921942455952033,
+                "adj_close": 0.02992195187740876
+              },
+              "return_differences": {
+                "close": 1.4684544913379227e-08,
+                "adj_close": 2.4106001639268015e-08
+              }
+            },
+            {
+              "year": 2025,
+              "entry": "2025-07-01",
+              "exit": "2025-07-16",
+              "return": 0.01883033522800659,
+              "csv_returns": {
+                "close": 0.018830303985188923,
+                "adj_close": 0.018830337573204625
+              },
+              "return_differences": {
+                "close": -3.124281766631043e-08,
+                "adj_close": 2.345198035769158e-09
+              }
+            }
+          ]
+        },
+        {
+          "month": 8,
+          "available_samples": 3,
+          "required_replica_samples": 11,
+          "samples": [
+            {
+              "year": 2023,
+              "entry": "2023-08-07",
+              "exit": "2023-09-05",
+              "return": 0.007676419079712726,
+              "csv_returns": {
+                "close": 0.00767612373483284,
+                "adj_close": 0.007676090063235552
+              },
+              "return_differences": {
+                "close": -2.9534487988591707e-07,
+                "adj_close": -3.290164771740933e-07
+              }
+            },
+            {
+              "year": 2024,
+              "entry": "2024-08-05",
+              "exit": "2024-09-03",
+              "return": 0.06072984408508675,
+              "csv_returns": {
+                "close": 0.06072996012113663,
+                "adj_close": 0.06072992568519764
+              },
+              "return_differences": {
+                "close": 1.1603604987975302e-07,
+                "adj_close": 8.160011089053398e-08
+              }
+            },
+            {
+              "year": 2025,
+              "entry": "2025-08-05",
+              "exit": "2025-09-03",
+              "return": 0.01749166468558694,
+              "csv_returns": {
+                "close": 0.017491544168591888,
+                "adj_close": 0.01749154365997274
+              },
+              "return_differences": {
+                "close": -1.2051699505022384e-07,
+                "adj_close": -1.210256141970234e-07
+              }
+            }
+          ]
+        },
+        {
+          "month": 9,
+          "available_samples": 3,
+          "required_replica_samples": 10,
+          "samples": [
+            {
+              "year": 2023,
+              "entry": "2023-10-02",
+              "exit": "2023-11-13",
+              "return": 0.04415095749555231,
+              "csv_returns": {
+                "close": 0.044150975082464905,
+                "adj_close": 0.04415082783605939
+              },
+              "return_differences": {
+                "close": 1.7586912592904014e-08,
+                "adj_close": -1.2965949292009782e-07
+              }
+            },
+            {
+              "year": 2024,
+              "entry": "2024-09-30",
+              "exit": "2024-11-11",
+              "return": 0.05280012093806308,
+              "csv_returns": {
+                "close": 0.05279984253187542,
+                "adj_close": 0.05279983875717997
+              },
+              "return_differences": {
+                "close": -2.784061876592858e-07,
+                "adj_close": -2.8218088310438816e-07
+              }
+            },
+            {
+              "year": 2025,
+              "entry": "2025-09-30",
+              "exit": "2025-11-11",
+              "return": 0.035311627900763254,
+              "csv_returns": {
+                "close": 0.03531157849234812,
+                "adj_close": 0.035311555884695256
+              },
+              "return_differences": {
+                "close": -4.940841513700889e-08,
+                "adj_close": -7.201606799789317e-08
+              }
+            }
+          ]
+        },
+        {
+          "month": 10,
+          "available_samples": 3,
+          "required_replica_samples": 10,
+          "samples": [
+            {
+              "year": 2023,
+              "entry": "2023-10-09",
+              "exit": "2023-11-13",
+              "return": 0.029053892799139724,
+              "csv_returns": {
+                "close": 0.02905389013372095,
+                "adj_close": 0.029053969333324714
+              },
+              "return_differences": {
+                "close": -2.6654187745833724e-09,
+                "adj_close": 7.653418498954068e-08
+              }
+            },
+            {
+              "year": 2024,
+              "entry": "2024-10-07",
+              "exit": "2024-11-11",
+              "return": 0.06583718732489796,
+              "csv_returns": {
+                "close": 0.06583700549702542,
+                "adj_close": 0.06583701452840884
+              },
+              "return_differences": {
+                "close": -1.8182787253628874e-07,
+                "adj_close": -1.7279648911738832e-07
+              }
+            },
+            {
+              "year": 2025,
+              "entry": "2025-10-07",
+              "exit": "2025-11-11",
+              "return": 0.02822121561552038,
+              "csv_returns": {
+                "close": 0.028221199455751078,
+                "adj_close": 0.028221219948272536
+              },
+              "return_differences": {
+                "close": -1.615976930047225e-08,
+                "adj_close": 4.332752157054642e-09
+              }
+            }
+          ]
+        },
+        {
+          "month": 11,
+          "available_samples": 3,
+          "required_replica_samples": 10,
+          "samples": [
+            {
+              "year": 2023,
+              "entry": "2023-11-24",
+              "exit": "2024-01-09",
+              "return": 0.04432295790710339,
+              "csv_returns": {
+                "close": 0.04169338355167529,
+                "adj_close": 0.04432303886153699
+              },
+              "return_differences": {
+                "close": -0.0026295743554280993,
+                "adj_close": 8.095443360112142e-08
+              }
+            },
+            {
+              "year": 2024,
+              "entry": "2024-11-22",
+              "exit": "2025-01-08",
+              "return": 0.020385619702392388,
+              "csv_returns": {
+                "close": 0.01874297796747837,
+                "adj_close": 0.020385621318490754
+              },
+              "return_differences": {
+                "close": -0.0016426417349140188,
+                "adj_close": 1.6160983662416584e-09
+              }
+            },
+            {
+              "year": 2025,
+              "entry": "2025-11-24",
+              "exit": "2026-01-08",
+              "return": 0.026620050157367237,
+              "csv_returns": {
+                "close": 0.02529909154275356,
+                "adj_close": 0.026620084930675025
+              },
+              "return_differences": {
+                "close": -0.0013209586146136765,
+                "adj_close": 3.4773307788782404e-08
+              }
+            }
+          ]
+        },
+        {
+          "month": 12,
+          "available_samples": 3,
+          "required_replica_samples": 10,
+          "samples": [
+            {
+              "year": 2023,
+              "entry": "2023-12-21",
+              "exit": "2024-01-23",
+              "return": 0.039073174863430093,
+              "csv_returns": {
+                "close": 0.038526675321683745,
+                "adj_close": 0.03907297488891981
+              },
+              "return_differences": {
+                "close": -0.0005464995417463481,
+                "adj_close": -1.9997451028430646e-07
+              }
+            },
+            {
+              "year": 2024,
+              "entry": "2024-12-20",
+              "exit": "2025-01-23",
+              "return": 0.028610285383797285,
+              "csv_returns": {
+                "close": 0.026954155376880173,
+                "adj_close": 0.02861004976630377
+              },
+              "return_differences": {
+                "close": -0.0016561300069171114,
+                "adj_close": -2.356174935158606e-07
+              }
+            },
+            {
+              "year": 2025,
+              "entry": "2025-12-22",
+              "exit": "2026-01-22",
+              "return": 0.0025032736111527676,
+              "csv_returns": {
+                "close": 0.002503169745268208,
+                "adj_close": 0.0025031678204121555
+              },
+              "return_differences": {
+                "close": -1.0386588455979506e-07,
+                "adj_close": -1.0579074061212168e-07
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ticker": "AAPL",
+      "csv_path": "/Volumes/Extreme SSD/Investing_Researcher/market_detector/data/cache/prices/AAPL.csv",
+      "csv_sha256": "cd0b5f503eafecaade67867426404652eeccdf8d4bf7cdb8d1036a10c8d7c7bd",
+      "website_sha256": "ea6794bf89d215ffe5c32fac49b8b938959e99dfde49dd5f5caa8689d008fc0c",
+      "overlapping_dates": 598,
+      "first": "2024-01-02",
+      "last": "2026-05-20",
+      "fields": {
+        "close": {
+          "website_to_csv_ratio_min": 0.9888070505234395,
+          "website_to_csv_ratio_median": 0.9947439460166626,
+          "website_to_csv_ratio_max": 1.0000000414078418,
+          "max_absolute_price_difference": 2.1845926757812606
+        },
+        "adj_close": {
+          "website_to_csv_ratio_min": 0.9999995432069124,
+          "website_to_csv_ratio_median": 0.9999999994459083,
+          "website_to_csv_ratio_max": 1.0000004056164051,
+          "max_absolute_price_difference": 8.701171876168701e-05
+        }
+      },
+      "windows": [
+        {
+          "month": 1,
+          "available_samples": 3,
+          "required_replica_samples": 11,
+          "samples": [
+            {
+              "year": 2024,
+              "entry": "2024-01-22",
+              "exit": "2024-02-05",
+              "return": -0.03202851244368088,
+              "csv_returns": {
+                "close": -0.032028504478909925,
+                "adj_close": -0.032028442560342985
+              },
+              "return_differences": {
+                "close": 7.96477095388326e-09,
+                "adj_close": 6.988333789426093e-08
+              }
+            },
+            {
+              "year": 2025,
+              "entry": "2025-01-21",
+              "exit": "2025-02-04",
+              "return": 0.04563420492834047,
+              "csv_returns": {
+                "close": 0.045634224263215506,
+                "adj_close": 0.04563430315711403
+              },
+              "return_differences": {
+                "close": 1.9334875034360266e-08,
+                "adj_close": 9.822877355958326e-08
+              }
+            },
+            {
+              "year": 2026,
+              "entry": "2026-01-21",
+              "exit": "2026-02-04",
+              "return": 0.1164541722426562,
+              "csv_returns": {
+                "close": 0.11645466201765986,
+                "adj_close": 0.1164545346071113
+              },
+              "return_differences": {
+                "close": 4.897750036647608e-07,
+                "adj_close": 3.623644551087324e-07
+              }
+            }
+          ]
+        },
+        {
+          "month": 2,
+          "available_samples": 3,
+          "required_replica_samples": 11,
+          "samples": [
+            {
+              "year": 2024,
+              "entry": "2024-02-26",
+              "exit": "2024-04-02",
+              "return": -0.06800590318179711,
+              "csv_returns": {
+                "close": -0.06800622143504376,
+                "adj_close": -0.06800615963269518
+              },
+              "return_differences": {
+                "close": -3.182532466450283e-07,
+                "adj_close": -2.56450898072913e-07
+              }
+            },
+            {
+              "year": 2025,
+              "entry": "2025-02-25",
+              "exit": "2025-04-01",
+              "return": -0.09654327960752274,
+              "csv_returns": {
+                "close": -0.09654303551207777,
+                "adj_close": -0.09654304998367269
+              },
+              "return_differences": {
+                "close": 2.440954449678401e-07,
+                "adj_close": 2.2962385004543506e-07
+              }
+            },
+            {
+              "year": 2026,
+              "entry": "2026-02-25",
+              "exit": "2026-04-01",
+              "return": -0.06782634784741526,
+              "csv_returns": {
+                "close": -0.0678262967521922,
+                "adj_close": -0.0678263514767371
+              },
+              "return_differences": {
+                "close": 5.109522305257741e-08,
+                "adj_close": -3.6293218430571983e-09
+              }
+            }
+          ]
+        },
+        {
+          "month": 3,
+          "available_samples": 3,
+          "required_replica_samples": 11,
+          "samples": [
+            {
+              "year": 2024,
+              "entry": "2024-03-18",
+              "exit": "2024-04-02",
+              "return": -0.02809096554081869,
+              "csv_returns": {
+                "close": -0.02809120912112295,
+                "adj_close": -0.028091213404860205
+              },
+              "return_differences": {
+                "close": -2.4358030425997157e-07,
+                "adj_close": -2.4786404151377894e-07
+              }
+            },
+            {
+              "year": 2025,
+              "entry": "2025-03-18",
+              "exit": "2025-04-01",
+              "return": 0.04936756784093932,
+              "csv_returns": {
+                "close": 0.049367623675177885,
+                "adj_close": 0.049367682829773774
+              },
+              "return_differences": {
+                "close": 5.5834238565921623e-08,
+                "adj_close": 1.14988834454266e-07
+              }
+            },
+            {
+              "year": 2026,
+              "entry": "2026-03-18",
+              "exit": "2026-04-01",
+              "return": 0.022765617222224588,
+              "csv_returns": {
+                "close": 0.022765473256887603,
+                "adj_close": 0.022765426513219555
+              },
+              "return_differences": {
+                "close": -1.4396533698501912e-07,
+                "adj_close": -1.9070900503237453e-07
+              }
+            }
+          ]
+        },
+        {
+          "month": 4,
+          "available_samples": 3,
+          "required_replica_samples": 11,
+          "samples": [
+            {
+              "year": 2024,
+              "entry": "2024-04-08",
+              "exit": "2024-05-06",
+              "return": 0.07871764169061568,
+              "csv_returns": {
+                "close": 0.07871777979134809,
+                "adj_close": 0.07871778586201938
+              },
+              "return_differences": {
+                "close": 1.3810073240527743e-07,
+                "adj_close": 1.4417140370426296e-07
+              }
+            },
+            {
+              "year": 2025,
+              "entry": "2025-04-08",
+              "exit": "2025-05-07",
+              "return": 0.13820870390604134,
+              "csv_returns": {
+                "close": 0.1382090365625972,
+                "adj_close": 0.13820908203277038
+              },
+              "return_differences": {
+                "close": 3.326565558570138e-07,
+                "adj_close": 3.7812672903925204e-07
+              }
+            },
+            {
+              "year": 2026,
+              "entry": "2026-04-08",
+              "exit": "2026-05-06",
+              "return": 0.11050611667672494,
+              "csv_returns": {
+                "close": 0.11050605076715336,
+                "adj_close": 0.11050604389471896
+              },
+              "return_differences": {
+                "close": -6.590957157825983e-08,
+                "adj_close": -7.278200597760076e-08
+              }
+            }
+          ]
+        },
+        {
+          "month": 5,
+          "available_samples": 2,
+          "required_replica_samples": 11,
+          "samples": [
+            {
+              "year": 2024,
+              "entry": "2024-05-28",
+              "exit": "2024-06-04",
+              "return": 0.022948273079406167,
+              "csv_returns": {
+                "close": 0.022948578789890206,
+                "adj_close": 0.0229484079841189
+              },
+              "return_differences": {
+                "close": 3.057104840387126e-07,
+                "adj_close": 1.3490471273414073e-07
+              }
+            },
+            {
+              "year": 2025,
+              "entry": "2025-05-27",
+              "exit": "2025-06-03",
+              "return": 0.015283907392930063,
+              "csv_returns": {
+                "close": 0.015283939143796,
+                "adj_close": 0.01528397410872695
+              },
+              "return_differences": {
+                "close": 3.175086593643073e-08,
+                "adj_close": 6.67157968869958e-08
+              }
+            }
+          ]
+        },
+        {
+          "month": 6,
+          "available_samples": 2,
+          "required_replica_samples": 11,
+          "samples": [
+            {
+              "year": 2024,
+              "entry": "2024-06-03",
+              "exit": "2024-07-17",
+              "return": 0.17961132999625185,
+              "csv_returns": {
+                "close": 0.17961143288547055,
+                "adj_close": 0.17961139056909614
+              },
+              "return_differences": {
+                "close": 1.0288921870049705e-07,
+                "adj_close": 6.057284429594745e-08
+              }
+            },
+            {
+              "year": 2025,
+              "entry": "2025-06-03",
+              "exit": "2025-07-17",
+              "return": 0.03320692577746076,
+              "csv_returns": {
+                "close": 0.03320706379753102,
+                "adj_close": 0.03320714315967721
+              },
+              "return_differences": {
+                "close": 1.380200702616463e-07,
+                "adj_close": 2.173822164497352e-07
+              }
+            }
+          ]
+        },
+        {
+          "month": 7,
+          "available_samples": 2,
+          "required_replica_samples": 11,
+          "samples": [
+            {
+              "year": 2024,
+              "entry": "2024-07-01",
+              "exit": "2024-07-30",
+              "return": 0.009457928181359154,
+              "csv_returns": {
+                "close": 0.00945791488700265,
+                "adj_close": 0.00945790064358043
+              },
+              "return_differences": {
+                "close": -1.3294356504545135e-08,
+                "adj_close": -2.7537778723996098e-08
+              }
+            },
+            {
+              "year": 2025,
+              "entry": "2025-07-01",
+              "exit": "2025-07-30",
+              "return": 0.005918391797440359,
+              "csv_returns": {
+                "close": 0.005918562622414747,
+                "adj_close": 0.005918602210016388
+              },
+              "return_differences": {
+                "close": 1.708249743881396e-07,
+                "adj_close": 2.10412576029384e-07
+              }
+            }
+          ]
+        },
+        {
+          "month": 8,
+          "available_samples": 2,
+          "required_replica_samples": 11,
+          "samples": [
+            {
+              "year": 2024,
+              "entry": "2024-08-05",
+              "exit": "2024-09-03",
+              "return": 0.06574211173705669,
+              "csv_returns": {
+                "close": 0.06450996188839153,
+                "adj_close": 0.06574224264512551
+              },
+              "return_differences": {
+                "close": -0.0012321498486651539,
+                "adj_close": 1.309080688294273e-07
+              }
+            },
+            {
+              "year": 2025,
+              "entry": "2025-08-05",
+              "exit": "2025-09-03",
+              "return": 0.17652649614260185,
+              "csv_returns": {
+                "close": 0.17519221058813494,
+                "adj_close": 0.1765260100132764
+              },
+              "return_differences": {
+                "close": -0.0013342855544669074,
+                "adj_close": -4.861293254609933e-07
+              }
+            }
+          ]
+        },
+        {
+          "month": 9,
+          "available_samples": 2,
+          "required_replica_samples": 11,
+          "samples": [
+            {
+              "year": 2024,
+              "entry": "2024-09-09",
+              "exit": "2024-09-30",
+              "return": 0.05472842839962189,
+              "csv_returns": {
+                "close": 0.054728152358291426,
+                "adj_close": 0.054728178197150035
+              },
+              "return_differences": {
+                "close": -2.760413304603304e-07,
+                "adj_close": -2.502024718520346e-07
+              }
+            },
+            {
+              "year": 2025,
+              "entry": "2025-09-08",
+              "exit": "2025-09-29",
+              "return": 0.06957285329513341,
+              "csv_returns": {
+                "close": 0.06957284115208351,
+                "adj_close": 0.06957289348505102
+              },
+              "return_differences": {
+                "close": -1.214304989893833e-08,
+                "adj_close": 4.018991761611801e-08
+              }
+            }
+          ]
+        },
+        {
+          "month": 10,
+          "available_samples": 2,
+          "required_replica_samples": 10,
+          "samples": [
+            {
+              "year": 2024,
+              "entry": "2024-10-07",
+              "exit": "2024-11-18",
+              "return": 0.029684989808694162,
+              "csv_returns": {
+                "close": 0.028553393303009766,
+                "adj_close": 0.029684873219705477
+              },
+              "return_differences": {
+                "close": -0.0011315965056843957,
+                "adj_close": -1.1658898868560641e-07
+              }
+            },
+            {
+              "year": 2025,
+              "entry": "2025-10-07",
+              "exit": "2025-11-18",
+              "return": 0.04374357787331995,
+              "csv_returns": {
+                "close": 0.042732341646937844,
+                "adj_close": 0.043743022599260994
+              },
+              "return_differences": {
+                "close": -0.0010112362263821062,
+                "adj_close": -5.552740589553906e-07
+              }
+            }
+          ]
+        },
+        {
+          "month": 11,
+          "available_samples": 2,
+          "required_replica_samples": 10,
+          "samples": [
+            {
+              "year": 2024,
+              "entry": "2024-11-22",
+              "exit": "2024-12-23",
+              "return": 0.11049701261806044,
+              "csv_returns": {
+                "close": 0.11049727974425072,
+                "adj_close": 0.11049719549349657
+              },
+              "return_differences": {
+                "close": 2.671261902786881e-07,
+                "adj_close": 1.8287543612771628e-07
+              }
+            },
+            {
+              "year": 2025,
+              "entry": "2025-11-24",
+              "exit": "2025-12-23",
+              "return": -0.012902298151508229,
+              "csv_returns": {
+                "close": -0.012902391645846611,
+                "adj_close": -0.01290242727058466
+              },
+              "return_differences": {
+                "close": -9.349433838234944e-08,
+                "adj_close": -1.2911907643076148e-07
+              }
+            }
+          ]
+        },
+        {
+          "month": 12,
+          "available_samples": 2,
+          "required_replica_samples": 10,
+          "samples": [
+            {
+              "year": 2024,
+              "entry": "2024-12-06",
+              "exit": "2024-12-13",
+              "return": 0.02178382524866529,
+              "csv_returns": {
+                "close": 0.021783926143538856,
+                "adj_close": 0.021783985520933857
+              },
+              "return_differences": {
+                "close": 1.0089487356701454e-07,
+                "adj_close": 1.6027226856785148e-07
+              }
+            },
+            {
+              "year": 2025,
+              "entry": "2025-12-08",
+              "exit": "2025-12-15",
+              "return": -0.013602538371380035,
+              "csv_returns": {
+                "close": -0.013602609297268753,
+                "adj_close": -0.01360257708950352
+              },
+              "return_differences": {
+                "close": -7.092588871771e-08,
+                "adj_close": -3.871812348510417e-08
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

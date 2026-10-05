@@ -1,0 +1,78 @@
+{
+  "profile": {
+    "date_mode": "doy",
+    "roll": "next",
+    "hold_offset": 0,
+    "entry_step": 7,
+    "entry_offset": 0,
+    "objective": "win_mean",
+    "selection_history": "inclusive",
+    "holds": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30
+    ],
+    "cross_year_alignment": "leap_after_first_year"
+  },
+  "price_basis_hypothesis": [
+    {
+      "ticker": "SPY",
+      "policy": "website chart adjusted-price snapshot"
+    },
+    {
+      "ticker": "QQQ",
+      "anchor": "2026-05-20",
+      "tail_policy": "assumed raw except independent quotes",
+      "independent_quotes": 14,
+      "replacements": [
+        {
+          "date": "2026-06-16",
+          "website": 729.0588,
+          "independent_close": 729.86
+        },
+        {
+          "date": "2026-06-17",
+          "website": 721.7169,
+          "independent_close": 722.51
+        },
+        {
+          "date": "2026-06-18",
+          "website": 739.807,
+          "independent_close": 740.62
+        }
+      ],
+      "factors": [
+        {
+          "ex_date": "2026-06-22",
+          "factor": 0.9989022710701845
+        },
+        {
+          "ex_date": "2026-09-21",
+          "factor": 0.9989590408205696
+        }
+      ],
+      "full_independent_price_validation": false,
+      "source": "https://ca.finance.yahoo.com/quote/QQQ/history/",
+      "input_sha256": "3c0541fce38c491d1aa3736d4e83f99a546d198821fd2e0062748de60534c09c"
+    },
+    {
+      "ticker": "AAPL",
+      "anchor": "2026-05-20",
+      "terminal_factor": 1.0,
+      "overlap_prices": 598,
+      "max_abs_close_error": 7.913540514437045e-05,
+      "tail_prices": 93,
+      "tail_cent_aligned": 93,
+      "tail_policy": "assumed raw",
+      "full_independent_price_validation": false,
+      "actions_source": "https://investor.apple.com/dividend-history/default.aspx",
+      "actions_sha256": "92f1f875fd73cbad9f84a3eeb3f743a2a4fd8567aea73734738764cd346c303e",
+      "anchor_cache_sha256": "cd0b5f503eafecaade67867426404652eeccdf8d4bf7cdb8d1036a10c8d7c7bd"
+    }
+  ],
+  "replication_complete": false,
+  "scope": "replica research only"
+}

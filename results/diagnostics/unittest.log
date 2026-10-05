@@ -1,0 +1,101 @@
+test_chart_bounds_use_exchange_midnight_and_exclusive_end (test_acquisition.AcquisitionTests) ... ok
+test_dns_failure_has_no_http_status_or_response_headers (test_acquisition.AcquisitionTests) ... ok
+test_probe_makes_one_attempt_on_429_and_records_header (test_acquisition.AcquisitionTests) ... ok
+test_rate_limit_stops_batch_preserves_cache_and_blocks_until_retry_after (test_acquisition.AcquisitionTests) ... SPY: acquisition failed (http_429): HTTP Error 429: Too Many Requests
+Yahoo requests stopped; Retry-After='1800'; no automatic retry
+Yahoo Retry-After: wait until 2026-10-05T04:25:22.412284+00:00; download stopped, existing files preserved
+ok
+test_retry_after_delta_and_http_date_define_same_deadline (test_acquisition.AcquisitionTests) ... ok
+test_sdk_http_error_response_is_rate_limited_without_message_guessing (test_acquisition.AcquisitionTests) ... ok
+test_successful_download_keeps_close_adjusted_close_and_provenance (test_acquisition.AcquisitionTests) ... ok
+test_cli_limit_retries_after_thirty_minutes (test_auto_codex.AutoCodexTests) ... ok
+test_completion_with_unchecked_todo_keeps_working (test_auto_codex.AutoCodexTests) ... ok
+test_missing_prompt_does_not_start_cli (test_auto_codex.AutoCodexTests) ... ok
+test_missing_session_id_stops_instead_of_resuming_some_other_thread (test_auto_codex.AutoCodexTests) ... ok
+test_nonlimit_error_stops_even_if_tool_output_mentions_limit (test_auto_codex.AutoCodexTests) ... ok
+test_prompt_marker_does_not_finish_and_same_session_resumes (test_auto_codex.AutoCodexTests) ... ok
+test_stale_last_message_cannot_finish_next_run (test_auto_codex.AutoCodexTests) ... ok
+test_external_anchor_reconstruction_is_target_free (test_corporate_actions.CorporateActionTests) ... ok
+test_non_delivery_record_date_rolls_before_cycle (test_corporate_actions.CorporateActionTests) ... ok
+test_reverse_dividend_preserves_ex_date_price (test_corporate_actions.CorporateActionTests) ... ok
+test_saturday_bank_holiday_does_not_remove_friday (test_corporate_actions.CorporateActionTests) ... ok
+test_terminal_factor_is_independent_scale_anchor (test_corporate_actions.CorporateActionTests) ... ok
+test_unverified_tail_requires_explicit_hypothesis (test_corporate_actions.CorporateActionTests) ... ok
+test_internal_gap_and_short_history_are_different_quality_findings (test_existing_price_quality.ExistingPriceQualityTests) ... ok
+test_ohlc_conflict_and_missing_adjusted_close_are_preserved_as_flags (test_existing_price_quality.ExistingPriceQualityTests) ... ok
+test_conventions_agree_on_unseen_synthetic_calendar (test_independent_window_math.IndependentWindowTests) ... ok
+test_exclusive_cutoff_and_latest_completed_observation (test_independent_window_math.IndependentWindowTests) ... ok
+test_ipo_distance_and_price_scale_do_not_create_observations (test_independent_window_math.IndependentWindowTests) ... ok
+test_leap_hypothesis_is_replica_only_and_excludes_initial_year (test_independent_window_math.IndependentWindowTests) ... ok
+test_path_drawdown_distinguishes_intrahold_loss_from_final_loss (test_independent_window_math.IndependentWindowTests) ... ok
+test_display_match_does_not_relax_numerical_match (test_research.ResearchTests) ... ok
+test_month_origin_is_distinct_from_year_origin (test_research.ResearchTests) ... ok
+test_price_rounding_interval_contains_true_ratio (test_research.ResearchTests) ... ok
+test_refinement_cannot_jump_to_distant_daily_winner (test_research.ResearchTests) ... ok
+test_selection_history_excludes_current_year_from_scoring (test_research.ResearchTests) ... ok
+test_normalized_price_and_display_date_use_same_position (test_research_annual_index.AnnualIndexTests) ... ok
+test_unobserved_current_year_point_is_not_an_extra_sample (test_research_annual_index.AnnualIndexTests) ... ok
+test_completed_range_keeps_exact_period_and_excludes_current_year (test_research_completed_years.CompletedYearTests) ... ok
+test_exit_constraint_can_exclude_unfinished_year_boundary (test_research_completed_years.CompletedYearTests) ... ok
+test_calendar_mapping_does_not_implicitly_convert_leap_day_numbers (test_research_curve_candidates.CurveCandidateTests) ... ok
+test_local_minimum_uses_neighboring_month_and_first_tie (test_research_curve_candidates.CurveCandidateTests) ... ok
+test_curve_growth_is_distinct_from_mean_trade_return (test_research_curve_scores.CurveScoreTests) ... ok
+test_current_year_and_partial_ipo_year_are_excluded (test_research_daily_curve.DailyCurveTests) ... ok
+test_fractional_daily_win_is_interpolated_flag_not_cumulative_win (test_research_daily_curve.DailyCurveTests) ... ok
+test_label_floor_and_coordinate_rounding_are_explicit (test_research_daily_curve.DailyCurveTests) ... ok
+test_polynomial_smoothing_preserves_cubic_including_edges (test_research_daily_curve.DailyCurveTests) ... ok
+test_intrahold_filter_rejects_profitable_but_deep_loss_path (test_research_holding_risk.HoldingRiskTests) ... ok
+test_risk_filter_does_not_insert_dates_outside_candidate_grid (test_research_holding_risk.HoldingRiskTests) ... ok
+test_adjusted_prefix_and_raw_tail_share_action_basis (test_research_price_vintage.VintageTests) ... ok
+test_requires_independent_factor_and_explicit_tail_policy (test_research_price_vintage.VintageTests) ... ok
+test_geometric_rule_penalizes_large_losses (test_research_scores.ScoreTests) ... ok
+test_weighted_score_can_trade_win_probability_for_return (test_research_scores.ScoreTests) ... ok
+test_better_score_is_ranking_and_exact_tie_is_separate (test_research_selection_diagnosis.SelectionDiagnosisTests) ... ok
+test_holiday_alias_is_display_difference_not_absent_candidate (test_research_selection_diagnosis.SelectionDiagnosisTests) ... ok
+test_unavailable_economic_window_is_candidate_generation (test_research_selection_diagnosis.SelectionDiagnosisTests) ... ok
+test_earlier_snapshot_cannot_observe_later_price_movements (test_research_selection_vintage.SelectionVintageTests) ... ok
+test_reporting_cache_separates_cutoffs (test_research_selection_vintage.SelectionVintageTests) ... ok
+test_reporting_cache_separates_price_objects_with_same_source_hash (test_research_selection_vintage.SelectionVintageTests) ... ok
+test_display_rules_distinguish_leap_day_coordinates (test_research_stages.StageResearchTests) ... ok
+test_invalid_display_rule_is_explicit (test_research_stages.StageResearchTests) ... ok
+test_selection_uses_nominal_grid_before_display_conversion (test_research_stages.StageResearchTests) ... ok
+test_series_origin_survives_price_prefix_truncation (test_research_trading_grid.TradingGridTests) ... ok
+test_weekend_anchors_share_next_session_grid_position (test_research_trading_grid.TradingGridTests) ... ok
+test_latest_completed_can_include_current_year_unlike_calendar_history (test_research_window_smoothing.WindowHistoryTests) ... ok
+test_cross_year (test_seasonality.CalendarTests) ... ok
+test_cutoff_is_exclusive (test_seasonality.CalendarTests) ... ok
+test_exact_ten_latest_observations (test_seasonality.CalendarTests) ... ok
+test_insufficient_calendar_is_explicit (test_seasonality.CalendarTests) ... ok
+test_ipo_does_not_become_old_sample (test_seasonality.CalendarTests) ... ok
+test_leap_conventions_are_distinct (test_seasonality.CalendarTests) ... ok
+test_no_future_price_leakage (test_seasonality.CalendarTests) ... ok
+test_unfinished_excluded (test_seasonality.CalendarTests) ... ok
+test_weekend_roll_and_trading_hold (test_seasonality.CalendarTests) ... ok
+test_both_sides_cost_and_self_financing (test_seasonality.LedgerTests) ... ok
+test_duplicate_dates_rejected (test_seasonality.LedgerTests) ... ok
+test_empty_portfolio_cash (test_seasonality.LedgerTests) ... ok
+test_invalid_prices_not_silently_accepted (test_seasonality.LedgerTests) ... ok
+test_missing_held_quote_is_error (test_seasonality.LedgerTests) ... ok
+test_no_cost_return_reconciles (test_seasonality.LedgerTests) ... ok
+test_no_stop_loss (test_seasonality.LedgerTests) ... ok
+test_additions_do_not_extend_exit (test_seasonality.SelectionTests) ... ok
+test_asset_specific_win_thresholds (test_seasonality.SelectionTests) ... ok
+test_events_redistribute_then_cash (test_seasonality.SelectionTests) ... ok
+test_five_total_three_stocks (test_seasonality.SelectionTests) ... ok
+test_incumbents_not_replaced (test_seasonality.SelectionTests) ... ok
+test_median_not_mean_ranking (test_seasonality.SelectionTests) ... ok
+test_minus_ten_boundary (test_seasonality.SelectionTests) ... ok
+test_no_duplicate_ticker (test_seasonality.SelectionTests) ... ok
+test_single_asset_and_cash (test_seasonality.SelectionTests) ... ok
+test_skipped_entry_not_admitted_late (test_seasonality.SelectionTests) ... ok
+test_unknown_or_leveraged_etfs_rejected (test_seasonality.SelectionTests) ... ok
+test_zero_returns_are_not_wins (test_seasonality.SelectionTests) ... ok
+test_investment_mode_retains_true_holding_session_count (test_year_boundary_alignment.YearBoundaryTests) ... ok
+test_only_leap_year_boundary_after_initial_year_changes (test_year_boundary_alignment.YearBoundaryTests) ... ok
+test_same_year_windows_are_unchanged (test_year_boundary_alignment.YearBoundaryTests) ... ok
+
+----------------------------------------------------------------------
+Ran 92 tests in 2.209s
+
+OK
+UNSEEN: 2 daily records -> /var/folders/yx/vq8qf4_x2zz5vshxw67f44880000gn/T/seasonality-download-test-s5m223bo/UNSEEN.csv
